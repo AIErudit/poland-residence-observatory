@@ -1,0 +1,92 @@
+[
+  {
+    "id": "concluded_duration",
+    "label": "Reported mean duration of concluded proceedings",
+    "description": "Reported days from submission to first-instance resolution, grouped by year of resolution. Calendar-versus-working-day convention is not independently established for every source. Unfinished applications do not enter this average; a legal deadline or median is not being measured. Source reporting may include discontinuance and leaving an application unexamined. A reported mean does not establish a legal violation."
+  },
+  {
+    "id": "pending_stock",
+    "label": "Pending proceedings at a point in time",
+    "description": "Stock of unfinished proceedings on the explicitly stated reference date. Not applications received or decisions issued during a year. The 2026 UdSC count may have a reporting-system/scope discontinuity; source cohorts must not be spliced."
+  },
+  {
+    "id": "mswia12584_mean_ambiguous",
+    "label": "Reported mean alongside pending stock, cohort not explicit",
+    "description": "MSWiA12584 reports art.114 temporary-residence-and-work cases pending on13.10.2025 and a mean processing time. It does not explicitly establish whether this mean is elapsed age of the open stock or a mean of concluded proceedings. Kept separate from concluded-duration and waiting-age measures."
+  },
+  {
+    "id": "lodz_scope",
+    "label": "Łódź office own series, scope not separately broken down",
+    "description": "Letter SOC-III.1331.2.2026 answers temporary-residence and BlueCard questions without a separate breakdown. Its own pending counts differ from the UdSC national extraction. Keep both series; do not merge or describe the difference as an error."
+  },
+  {
+    "id": "caseworkers",
+    "label": "Caseworkers headcount",
+    "description": "Persons directly conducting residence-permit proceedings in the Łódź units described in the letter. Headcount, not funded FTE, not all department staff, and not annual output."
+  },
+  {
+    "id": "staff_headcount",
+    "label": "Reported staff headcount in the Łódź units",
+    "description": "Persons in the relevant Łódź residence/residence-and-work units. Headcount rather than FTE; includes workers not directly deciding cases."
+  },
+  {
+    "id": "stock_per_caseworker",
+    "label": "Pending stock divided by caseworker headcount",
+    "description": "Computed ratio of the office own pending stock to persons directly conducting proceedings at the matching cut-off. Not productivity, annual caseload or number of unique applicants."
+  },
+  {
+    "id": "court_6272",
+    "label": "WSA inactivity/delay cases, subject symbol6272",
+    "description": "Annual statistical movements and dispositions of inactivity/protracted-proceedings complaints under NSA subject6272 (visas, residence, settlement and expulsion in the source classification). WSA first-instance court statistics published by NSA, not NSA cassation outcomes and not a sample limited to one permit type."
+  },
+  {
+    "id": "court_opening_stock",
+    "label": "Opening court stock: Pozostało z poprzedniego okresu",
+    "description": "Cases carried over from the previous period, represented as opening stock on01.01 of the stated annual table year. Not31.12 of that year, not annual inflow. The end stock is separately dated31.12."
+  },
+  {
+    "id": "court_resolved",
+    "label": "Załatwiono, excluding administratively closed cases",
+    "description": "Sum of hearing and non-public-session dispositions. Distinct from Zamknięto and from Łącznie załatwiono including Zamknięto. Table layout changes in2023; the parser explicitly maps both layouts."
+  },
+  {
+    "id": "court_other",
+    "label": "Resolved in other ways",
+    "description": "Remainder of Załatwiono minus upheld, dismissed and rejected, matching W inny sposób where separately reported. It must not be relabelled as exclusively discontinued proceedings."
+  },
+  {
+    "id": "court_merits_denominator",
+    "label": "Upheld plus dismissed complaints",
+    "description": "Only uwzględniono+oddalono. Rejected complaints, other dispositions and administrative closure are excluded. This is not the share of all filed complaints that ultimately succeed."
+  },
+  {
+    "id": "court_rejection_denominator",
+    "label": "Resolved complaints excluding administrative closure",
+    "description": "Odrzucono divided by Załatwiono, excluding Zamknięto. Annual disposed cases may have been filed in earlier years; this is not a filing-cohort outcome probability."
+  },
+  {
+    "id": "court_blank_zero",
+    "label": "Blank numeric count in an existing official statistical row",
+    "description": "Blank count cells in existing6272 rows are treated as zero only after all16 courts sum exactly to the published national row and stock-flow identities hold. A missing sheet, row or unknown duration is never converted to zero. Shares with zero denominators are null, not0percent."
+  },
+  {
+    "id": "portal_flow",
+    "label": "UdSC portal annual applications and decisions",
+    "description": "Direct migracje.gov.pl API snapshot, national totals summed across the returned citizenship groups for caseType1(temporary residence) or3(EU long-term resident). Applications and decisions are flows in a reference year, not the pending stock; subtracting them does not reconstruct the stock without other movements.2026 is partial; API does not state a separate operational cut-off."
+  },
+  {
+    "id": "warehouse_resolutions",
+    "label": "Data warehouse all-outcome resolutions",
+    "description": "Count, mean and reported maximum of positive and negative decisions, discontinuance and leaving an application unexamined, grouped by resolution date. Different scope from portal decisions flow. Report generation date is not automatically the data cut-off.2026 Podlaski attachment cut-off is unknown because the letter says only annual/half-year reports are available."
+  },
+  {
+    "id": "positive_resolution_duration",
+    "label": "Łódź positive-decisions-only warehouse cohort",
+    "description": "Duration and count for positive decisions under the stated legal basis only. Do not compare as identical to all-outcome mean. Source validation note says duplicate application IDs were removed and certain pre01.05.2014 submission dates were replaced by registration dates."
+  },
+  {
+    "id": "scenario",
+    "label": "Scenario only, not an observed or official forecast",
+    "description": "No forecast values from Głos Migranta are imported as facts. Any scenario must carry explicit inputs and assumptions, data cut-offs and a separate scenario label. Pending/annual decisions is a workload ratio, not an identified expected waiting time."
+  }
+]

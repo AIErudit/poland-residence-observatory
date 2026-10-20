@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Residence Observatory aggregate observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "series_id", "indicator_id", "geography_id", "geography_name", "geography_level", "permit_type", "stage", "reference_period", "as_of_date", "unit", "value", "statistic", "denominator", "source_id", "source_locator", "definition_id", "quality_status", "comparability_group", "notes"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^obs_[a-f0-9]{18}$"},
+    "series_id": {"type": "string", "minLength": 1},
+    "indicator_id": {"type": "string", "minLength": 1},
+    "geography_id": {"type": "string", "minLength": 1},
+    "geography_name": {"type": "string", "minLength": 1},
+    "geography_level": {"enum": ["country", "voivodeship", "court_jurisdiction", "country_courts"]},
+    "permit_type": {"type": "string", "minLength": 1},
+    "stage": {"type": "string", "minLength": 1},
+    "reference_period": {"type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}-[0-9]{2}(/[0-9]{4}-[0-9]{2}-[0-9]{2})?)?$"},
+    "as_of_date": {"type": ["string", "null"], "format": "date"},
+    "unit": {"enum": ["cases", "days", "persons", "cases_per_person", "percent"]},
+    "value": {"type": ["number", "null"], "minimum": 0},
+    "statistic": {"enum": ["count", "mean", "max", "ratio", "share"]},
+    "denominator": {"type": ["object", "null"], "properties": {"value": {"type": "number", "minimum": 0}, "unit": {"type": "string"}, "definition_id": {"type": "string"}, "observation_ids": {"type": "array", "items": {"type": "string"}}, "numerator_observation_ids": {"type": "array", "items": {"type": "string"}}, "numerator_value": {"type": "number", "minimum": 0}}},
+    "source_id": {"type": "string", "pattern": "^src_[a-f0-9]{12}$"},
+    "source_locator": {"type": "string", "minLength": 1},
+    "definition_id": {"type": "string", "minLength": 1},
+    "quality_status": {"type": "string", "minLength": 1},
+    "comparability_group": {"type": "string", "minLength": 1},
+    "notes": {"type": "string"}
+  }
+}

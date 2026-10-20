@@ -1,0 +1,4 @@
+interface:
+  display_name: "Residence research editor"
+  short_description: "Publish citable facts and a reviewed data website"
+  default_prompt: "Use $residence-editorial-release to prepare this verified snapshot for publication."

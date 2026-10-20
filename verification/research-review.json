@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-10-20",
+  "reviewed_at": "2026-10-20T12:38:31.986964+00:00",
+  "status": "reviewed_wording_and_references_with_scoped_limits",
+  "review_kind": "separate_AI_check_not_external_audit_or_certification",
+  "file_sha256": {
+    "research/claims-audit.json": "c15826811a9ff18719625a59f8f5e707bd2f8732bba5b0a50095aebdf4a5ace4",
+    "research/source-inventory.json": "1d9c30639782f23cbe688f282688c74795e678d55bfd98cb7c2fc65d4901a1f0",
+    "research/README.md": "b43317195dc276d6775e60eaab091d105c47eb47ea6740fc545a41e9c68f1c00",
+    "research/editorial-brief.md": "e59bad925103dbe277e56fc3e57392a034656dbd2cfecf1022b0e6b218b41e99",
+    "docs-research/data-acquisition.md": "b3fd7ecf1c05d892cff09d4e4009e27ca167ff4e176acbc6ed98e955c63189ab",
+    "coverage/structured-sources.json": "c64c15bf83536ce2b9ac832cc1a052c27dccb973f54d098e13654992fb582ea1",
+    "coverage/README.md": "2892a60492f8c8f111af09d488012c94edcfae93f1f721499207699e0b1ce924",
+    "site/index.html": "ba6dd921c1448eb9abdbf499e359ddc3747d263bc8db7b5e5fad82adce826d64",
+    "site/app.js": "ca0d5d9b8c1579aa1b1986e75262dcd7dd884266400951bd45ff959dcdb16d98",
+    "scripts/build_site.py": "9bbc445ad8f6c4b876bdd05bf68590eea906babdc38f7c91dd12fa122c87f1d1"
+  },
+  "research_claim_ids": [
+    "mean-july",
+    "mean-august",
+    "stock-art114",
+    "stock-temporary",
+    "stock-comparison",
+    "mean-definition",
+    "sixty-days",
+    "art100d",
+    "travel-stamp",
+    "court2025",
+    "court2020",
+    "court-regions",
+    "court-governor",
+    "dip-response",
+    "dip-right",
+    "staff270",
+    "staff-lodz",
+    "fami-money",
+    "fami-kpi",
+    "fami-examples",
+    "kas-audit",
+    "supervision",
+    "nik-history",
+    "ud408",
+    "ud408-review",
+    "zus-ukraine",
+    "bgk",
+    "international",
+    "annual-output",
+    "clearance",
+    "forecast-stock",
+    "forecast-ltr",
+    "forecast-official",
+    "forecast-ukr",
+    "curia"
+  ],
+  "intended_public_claim_ids": [
+    "silesia-658",
+    "fifteen-regions",
+    "pending-803223",
+    "courts-merits-2025"
+  ],
+  "checks": {
+    "claims": 35,
+    "source_records": 56,
+    "missing_source_ids": [],
+    "duplicate_claim_ids": 0,
+    "duplicate_source_ids": 0,
+    "all_publication_states_draft": true,
+    "coverage_tables": 21,
+    "coverage_row_sum": 6625,
+    "coverage_declares_structure_not_fact_check": true
+  },
+  "confirmed_editorial_limits": [
+    "Historical art1142025 separate from all-temporary2026 stock",
+    "Regional means concern concluded proceedings, no personal wait prediction",
+    "Court6272 broader than residence; merits-only denominator and no individual win probability",
+    "Copies and unresolved signed-original authenticity distinguished",
+    "Forecast arithmetic explicitly conditional, not observed future facts or upper bound",
+    "KASaudit and complete equality review explicitly not_verified; campaign submissions attributed to publisher",
+    "Coverage counts are structural profiles, not all-record verification; drafts of requests and posts not sent",
+    "60-day rule conditions, MOS transition, art100d and individual judicial application preserved"
+  ],
+  "issues": [
+    {
+      "id": "R01",
+      "severity": "blocking_if_public_exact_formula_retained",
+      "location": "research/claims-audit.json#forecast-ltr;research/README.md",
+      "finding": "566658*(33235/261366)=72055.57964693189, not72056.6; approximately72k remains unchanged.",
+      "status": "resolved_and_rechecked"
+    },
+    {
+      "id": "R02",
+      "severity": "qualification_required_for_regional_copy_claim",
+      "location": "research/claims-audit.json#mean-august;research/source-inventory.json#udsc-0828",
+      "finding": "Public UdSC scan hides organ names. Regional attribution is reconstruction from order and historical means, not direct reading. Site UdSC context already states this.",
+      "status": "resolved_and_rechecked"
+    },
+    {
+      "id": "R03",
+      "severity": "terminology",
+      "location": "site/app.js courtLabels",
+      "finding": "NSA column is Zamknięto, not Zakreślono. Use original label to distinguish disposed and separately closed counts.",
+      "status": "resolved_and_rechecked"
+    },
+    {
+      "id": "R04",
+      "severity": "source_snapshot_discrepancy",
+      "location": "forecast/annual-output context",
+      "finding": "Głos Migranta forecast text gives445458; its CSV (including cached20.10.2026 11:52:19 copy) and live API both give445462. Cause of4-case text/data discrepancy unverified; an old CSV or revision is not established.",
+      "status": "resolved_and_rechecked"
+    }
+  ],
+  "limits": [
+    "Not an exhaustive independent reparse ofall research documents or catalogue URLs.",
+    "Coverage counts reconciled from profile metadata; not an independent fact check of6625records.",
+    "No private chats, full articles or raw DIP letters imported by reviewer.",
+    "Overall final release status is in release.json; these research claims retain their individual draft/status limits.",
+    "Overall release status and all1780 numeric reconciliation are recorded separately in release.json and complete-numeric-check.json; this research review is not approval of every draft as a fact card."
+  ],
+  "scope": "Links, editorial qualifiers and critical numerical claims checked; not independent authentication/reparse of every research document or publication of all research drafts as fact cards."
+}

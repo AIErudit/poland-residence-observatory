@@ -1,0 +1,3 @@
+The code is MIT licensed. Our original database arrangement, documentation and derived aggregate tables are offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribute **Residence Observatory / AIErudit**, the dataset version and the original source shown with each observation.
+
+This grant does not relicense third-party documents, text, images or websites. Facts and official documents may have different legal treatment; consult each source's licence metadata. Glos Migranta marks its own materials CC0. Full third-party articles and private correspondence are not redistributed here. Links and source hashes identify provenance, not endorsement or authentication by the original publisher.

@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-10-20T12:37:45.026660+00:00",
+  "status": "pass_static_artifact_checks",
+  "claim_ids": [
+    "silesia-658",
+    "fifteen-regions",
+    "pending-803223",
+    "courts-merits-2025"
+  ],
+  "http_checks": [
+    {
+      "route": "",
+      "status": 200
+    },
+    {
+      "route": "data/dataset.json",
+      "status": 200
+    },
+    {
+      "route": "data/observations.csv",
+      "status": 200,
+      "rows": 1780
+    },
+    {
+      "route": "facts/silesia-658/",
+      "status": 200,
+      "body_pl_present": true,
+      "caveat_pl_present": true,
+      "body_ru_present": true,
+      "caveat_ru_present": true
+    },
+    {
+      "route": "facts/fifteen-regions/",
+      "status": 200,
+      "body_pl_present": true,
+      "caveat_pl_present": true,
+      "body_ru_present": true,
+      "caveat_ru_present": true
+    },
+    {
+      "route": "facts/pending-803223/",
+      "status": 200,
+      "body_pl_present": true,
+      "caveat_pl_present": true,
+      "body_ru_present": true,
+      "caveat_ru_present": true
+    },
+    {
+      "route": "facts/courts-merits-2025/",
+      "status": 200,
+      "body_pl_present": true,
+      "caveat_pl_present": true,
+      "body_ru_present": true,
+      "caveat_ru_present": true
+    }
+  ],
+  "public_files": [
+    "docs/.nojekyll",
+    "docs/404.html",
+    "docs/assets/app.js",
+    "docs/assets/fact-courts-merits-2025.png",
+    "docs/assets/fact-fifteen-regions.png",
+    "docs/assets/fact-pending-803223.png",
+    "docs/assets/fact-silesia-658.png",
+    "docs/assets/icon.svg",
+    "docs/assets/social.png",
+    "docs/assets/style.css",
+    "docs/coverage/structured-sources.json",
+    "docs/data/claims.json",
+    "docs/data/dataset.json",
+    "docs/data/definitions.json",
+    "docs/data/geographies.json",
+    "docs/data/observations.csv",
+    "docs/data/observations.json",
+    "docs/data/sources.csv",
+    "docs/data/sources.json",
+    "docs/data/summary.json",
+    "docs/facts/courts-merits-2025/index.html",
+    "docs/facts/fifteen-regions/index.html",
+    "docs/facts/pending-803223/index.html",
+    "docs/facts/silesia-658/index.html",
+    "docs/index.html",
+    "docs/manifest.json",
+    "docs/robots.txt",
+    "docs/sitemap.xml",
+    "docs/verification/baseline.json",
+    "docs/verification/index.html",
+    "docs/verification/research-review.json",
+    "docs/verification/review.md",
+    "docs/verification/verify_primary_sources.py"
+  ],
+  "issues": [],
+  "limits": [
+    "No browser interaction/visual viewport checks in this script; editor performs UI QA.",
+    "Marker scan is not a comprehensive security or personal-data certification.",
+    "Numbers are source-reconciled separately; catalogue entries are not all fact-verified.",
+    "Overall release scope and immutable file hashes are recorded separately in release.json."
+  ]
+}

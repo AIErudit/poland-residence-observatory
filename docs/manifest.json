@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "as_of": "2026-10-20",
+  "dataset_sha256": "a3609775dc2a5e8fb85b50838f3d65faa5e938c74f98bf028931a45be625fb76",
+  "claim_ids": [
+    "silesia-658",
+    "fifteen-regions",
+    "pending-803223",
+    "courts-merits-2025"
+  ],
+  "observations": 1780,
+  "sources": 1483
+}

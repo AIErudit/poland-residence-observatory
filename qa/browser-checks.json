@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-20",
+  "version": "1.0.0",
+  "dataset_sha256": "a3609775dc2a5e8fb85b50838f3d65faa5e938c74f98bf028931a45be625fb76",
+  "method": "Manual UI automation in the in-app browser against the compiled static site; DOM values and screenshots inspected.",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 860,
+      "horizontal_document_overflow": false
+    },
+    {
+      "width": 360,
+      "height": 900,
+      "horizontal_document_overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontal_document_overflow": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "Polish/Russian toggle",
+      "result": "passed"
+    },
+    {
+      "name": "Cyrillic Warsaw search",
+      "result": "one Mazowieckie row, 2026 mean 394"
+    },
+    {
+      "name": "MSWiA / UdSC mean switch",
+      "result": "658 vs 668 for Śląskie, different cutoffs and reconstruction warning visible"
+    },
+    {
+      "name": "Pending stock and ascending sort",
+      "result": "16 regions; first Świętokrzyskie 6296"
+    },
+    {
+      "name": "Court year switch",
+      "result": "2020: 94.5% = 2179/(2179+126); 2025: 29.5% = 432/(432+1032)"
+    },
+    {
+      "name": "Copy citation",
+      "result": "success notification; citation includes permanent URL and caveat"
+    },
+    {
+      "name": "Stock-flow scenario",
+      "result": "default remaining 404886; inflow400000 gives804886 and no finite clearance; negative stock rejected; reset restores example"
+    },
+    {
+      "name": "Scenario source links",
+      "result": "UdSC stock and warehouse2025 primary-copy documents both linked"
+    },
+    {
+      "name": "Source filter/search",
+      "result": "parsed/supporting sources32; full register1483 after final refresh; 18089 search finds the Sejm source"
+    },
+    {
+      "name": "Fact page",
+      "result": "primary link and social metadata present; mobile layout has no document overflow; long provenance is collapsible"
+    },
+    {
+      "name": "Final data refresh",
+      "result": "16 regional rows, 32/1483 sources, default scenario404886"
+    }
+  ],
+  "limits": "Browser checks verify presentation and interaction; independent numerical source verification is recorded separately in verification/. Public-host checks are performed after deployment. Final metadata-only changes were refreshed; observation values and summary were unchanged."
+}

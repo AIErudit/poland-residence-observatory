@@ -1,0 +1,172 @@
+[
+  {
+    "id": "PL-DS",
+    "name": "Dolnośląskie",
+    "capital": "Wrocław"
+  },
+  {
+    "id": "PL-KP",
+    "name": "Kujawsko-pomorskie",
+    "capital": "Bydgoszcz / Toruń"
+  },
+  {
+    "id": "PL-LU",
+    "name": "Lubelskie",
+    "capital": "Lublin"
+  },
+  {
+    "id": "PL-LB",
+    "name": "Lubuskie",
+    "capital": "Gorzów Wielkopolski / Zielona Góra"
+  },
+  {
+    "id": "PL-LD",
+    "name": "Łódzkie",
+    "capital": "Łódź"
+  },
+  {
+    "id": "PL-MA",
+    "name": "Małopolskie",
+    "capital": "Kraków"
+  },
+  {
+    "id": "PL-MZ",
+    "name": "Mazowieckie",
+    "capital": "Warszawa"
+  },
+  {
+    "id": "PL-OP",
+    "name": "Opolskie",
+    "capital": "Opole"
+  },
+  {
+    "id": "PL-PK",
+    "name": "Podkarpackie",
+    "capital": "Rzeszów"
+  },
+  {
+    "id": "PL-PD",
+    "name": "Podlaskie",
+    "capital": "Białystok"
+  },
+  {
+    "id": "PL-PM",
+    "name": "Pomorskie",
+    "capital": "Gdańsk"
+  },
+  {
+    "id": "PL-SL",
+    "name": "Śląskie",
+    "capital": "Katowice"
+  },
+  {
+    "id": "PL-SK",
+    "name": "Świętokrzyskie",
+    "capital": "Kielce"
+  },
+  {
+    "id": "PL-WN",
+    "name": "Warmińsko-mazurskie",
+    "capital": "Olsztyn"
+  },
+  {
+    "id": "PL-WP",
+    "name": "Wielkopolskie",
+    "capital": "Poznań"
+  },
+  {
+    "id": "PL-ZP",
+    "name": "Zachodniopomorskie",
+    "capital": "Szczecin"
+  },
+  {
+    "id": "PL",
+    "name": "Polska",
+    "capital": "Warszawa"
+  },
+  {
+    "id": "WSA-PL",
+    "name": "Wszystkie WSA",
+    "capital": null
+  },
+  {
+    "id": "WSA-BK",
+    "name": "WSA: Białystok",
+    "capital": "Białystok"
+  },
+  {
+    "id": "WSA-BD",
+    "name": "WSA: Bydgoszcz",
+    "capital": "Bydgoszcz"
+  },
+  {
+    "id": "WSA-GD",
+    "name": "WSA: Gdańsk",
+    "capital": "Gdańsk"
+  },
+  {
+    "id": "WSA-GL",
+    "name": "WSA: Gliwice",
+    "capital": "Gliwice"
+  },
+  {
+    "id": "WSA-GW",
+    "name": "WSA: Gorzów Wielkopolski",
+    "capital": "Gorzów Wielkopolski"
+  },
+  {
+    "id": "WSA-KL",
+    "name": "WSA: Kielce",
+    "capital": "Kielce"
+  },
+  {
+    "id": "WSA-KR",
+    "name": "WSA: Kraków",
+    "capital": "Kraków"
+  },
+  {
+    "id": "WSA-LU",
+    "name": "WSA: Lublin",
+    "capital": "Lublin"
+  },
+  {
+    "id": "WSA-LD",
+    "name": "WSA: Łódź",
+    "capital": "Łódź"
+  },
+  {
+    "id": "WSA-OL",
+    "name": "WSA: Olsztyn",
+    "capital": "Olsztyn"
+  },
+  {
+    "id": "WSA-OP",
+    "name": "WSA: Opole",
+    "capital": "Opole"
+  },
+  {
+    "id": "WSA-PO",
+    "name": "WSA: Poznań",
+    "capital": "Poznań"
+  },
+  {
+    "id": "WSA-RZ",
+    "name": "WSA: Rzeszów",
+    "capital": "Rzeszów"
+  },
+  {
+    "id": "WSA-SZ",
+    "name": "WSA: Szczecin",
+    "capital": "Szczecin"
+  },
+  {
+    "id": "WSA-WA",
+    "name": "WSA: Warszawa",
+    "capital": "Warszawa"
+  },
+  {
+    "id": "WSA-WR",
+    "name": "WSA: Wrocław",
+    "capital": "Wrocław"
+  }
+]

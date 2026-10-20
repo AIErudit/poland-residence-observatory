@@ -1,0 +1,657 @@
+{
+  "as_of": "2026-10-20",
+  "scope": "All CSV download links found on /dane. Structure/completeness profile, not independent verification of every record. Raw rows remain in the external cache. ZIPs are derivative packages and are catalogued, not asserted to be independently parsed here.",
+  "tables": [
+    {
+      "url": "https://glos-migranta.eu/dane/arkusze-katalog.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "fb174f204c514ebbf95ce190eda4e1d81618e3dff13106ba8e6aac00f7c37354",
+      "retrieved_at": "2026-10-20T11:52:15+00:00",
+      "rows": 324,
+      "columns": [
+        "dokument_id",
+        "organ",
+        "znak",
+        "data",
+        "opis",
+        "arkusz",
+        "wierszy",
+        "kolumn",
+        "csv_url",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "dokument_id": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "opis": 0,
+        "arkusz": 0,
+        "wierszy": 0,
+        "kolumn": 0,
+        "csv_url": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Workbook/sheet catalogue; extraction inventory, not a homogeneous data series.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/cytaty.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "89f10a010627c3b0a526290be130dd6cbd1ee44321a1a7e671dde9e74d591d9c",
+      "retrieved_at": "2026-10-20T11:52:15+00:00",
+      "rows": 53,
+      "columns": [
+        "organ",
+        "znak",
+        "data",
+        "kategoria",
+        "cytat",
+        "kontekst",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "kategoria": 0,
+        "cytat": 0,
+        "kontekst": 0,
+        "dokument_url": 14
+      },
+      "purpose_and_limit": "Selected quotations; qualitative selection, not prevalence data. Text not republished.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/czas-mswia-18089.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "45dbab4d7dd170c156a0189ebaaeb77c856a3eaf7fc1be78099232a73ca275b1",
+      "retrieved_at": "2026-10-20T11:52:15+00:00",
+      "rows": 64,
+      "columns": [
+        "organ",
+        "rok",
+        "okres",
+        "sredni_czas_dni",
+        "zrodlo_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "rok": 0,
+        "okres": 0,
+        "sredni_czas_dni": 0,
+        "zrodlo_url": 0
+      },
+      "purpose_and_limit": "Derivative cross-check of primary MSWiA 18089; primary table normalized.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/dokumenty.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "c04b6a13eb9da9c1e743f5020e68547c128585e738ef32af8ff3e04fd7196f49",
+      "retrieved_at": "2026-10-20T11:52:15+00:00",
+      "rows": 1264,
+      "columns": [
+        "id",
+        "organ",
+        "znak",
+        "data",
+        "temat",
+        "opis",
+        "zalacznik_do",
+        "url",
+        "strony",
+        "sha256_oryginalu"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "id": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "temat": 0,
+        "opis": 0,
+        "zalacznik_do": 747,
+        "url": 0,
+        "strony": 136,
+        "sha256_oryginalu": 0
+      },
+      "purpose_and_limit": "Document catalogue; source discovery, not administrative case counts.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/fami.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "9d214850446319f3a881882077016d5cbe49d6dcf1013d411e84e18baf7732c9",
+      "retrieved_at": "2026-10-20T11:52:16+00:00",
+      "rows": 16,
+      "columns": [
+        "urzad_wojewodzki",
+        "fami_porozumienie_2024_zl",
+        "fami_wniosek_2026_zl",
+        "fami_na_sprawe_w_toku_zl"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "urzad_wojewodzki": 0,
+        "fami_porozumienie_2024_zl": 0,
+        "fami_wniosek_2026_zl": 0,
+        "fami_na_sprawe_w_toku_zl": 0
+      },
+      "purpose_and_limit": "Funding/project summary; commitments and applications are not expenditures. Reviewed separately in research/.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "b4539b027d925ff67c74f23e3e27cb4ccce4a3650ecaa8fb94222c45659d985a",
+      "retrieved_at": "2026-10-20T11:52:16+00:00",
+      "rows": 64,
+      "columns": [
+        "organ",
+        "rok",
+        "okres",
+        "liczba_decyzji",
+        "sredni_czas_dni",
+        "maksymalny_czas_dni",
+        "wygenerowano_w_hurtowni",
+        "dokument_id",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "rok": 0,
+        "okres": 0,
+        "liczba_decyzji": 0,
+        "sredni_czas_dni": 0,
+        "maksymalny_czas_dni": 0,
+        "wygenerowano_w_hurtowni": 0,
+        "dokument_id": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Warehouse aggregates; primary attachments normalized with source-period qualifications.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/niebieska-karta-czas.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "a0d7918ad30bad3e054bb5c34520473b42fd1cc680bc8419f8b24d28226dae78",
+      "retrieved_at": "2026-10-20T11:52:17+00:00",
+      "rows": 64,
+      "columns": [
+        "organ",
+        "rok",
+        "okres",
+        "sredni_czas_dni",
+        "dokument_id",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "rok": 0,
+        "okres": 0,
+        "sredni_czas_dni": 0,
+        "dokument_id": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Blue Card duration derivative; primary copy normalized separately from temporary residence.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/orzeczenia-powolane.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "130121356cf382f70c4a83ebf4d7b469c5e697cf8caae1de9f86f95204d4c692",
+      "retrieved_at": "2026-10-20T11:52:17+00:00",
+      "rows": 179,
+      "columns": [
+        "sygnatura",
+        "naglowek_cbosa",
+        "werdykt",
+        "glebokosc_kontroli",
+        "czego_dotyczy",
+        "powod_werdyktu"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "sygnatura": 0,
+        "naglowek_cbosa": 25,
+        "werdykt": 0,
+        "glebokosc_kontroli": 0,
+        "czego_dotyczy": 0,
+        "powod_werdyktu": 0
+      },
+      "purpose_and_limit": "Judgment catalogue; cited cases are not a representative sample of all judgments.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/orzeczenia-powolania.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "7d08a47cd1b8406bf3df5abe67fc040285ae7f20b7f07abea81a23125fa21179",
+      "retrieved_at": "2026-10-20T11:52:18+00:00",
+      "rows": 252,
+      "columns": [
+        "sygnatura",
+        "organ",
+        "znak",
+        "data",
+        "dokument_id",
+        "dokument_url",
+        "zdanie_organu"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "sygnatura": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "dokument_id": 0,
+        "dokument_url": 0,
+        "zdanie_organu": 0
+      },
+      "purpose_and_limit": "Citation edges between documents and judgments; not case outcomes.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "78757cc8693650f73a7e016ddb484820eb6db13c5b0dd6319c7b802e3dbcf4d6",
+      "retrieved_at": "2026-10-20T11:52:18+00:00",
+      "rows": 728,
+      "columns": [
+        "dokument_id",
+        "organ",
+        "znak",
+        "data",
+        "opis",
+        "strona",
+        "tabela",
+        "tytul_tabeli",
+        "wierszy",
+        "metoda",
+        "csv_url",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "dokument_id": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "opis": 0,
+        "strona": 0,
+        "tabela": 0,
+        "tytul_tabeli": 536,
+        "wierszy": 0,
+        "metoda": 0,
+        "csv_url": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "PDF table extraction catalogue; table presence is not verification of its contents.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "7aeb935ada42de11462276eb03c8039200f0ef2f838d251ac23f7a792b3e1c48",
+      "retrieved_at": "2026-10-20T11:52:19+00:00",
+      "rows": 52,
+      "columns": [
+        "rodzaj_sprawy",
+        "rok",
+        "miara",
+        "wszyscy",
+        "bialorus",
+        "ukraina",
+        "okres",
+        "zrodlo_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "rodzaj_sprawy": 0,
+        "rok": 0,
+        "miara": 0,
+        "wszyscy": 0,
+        "bialorus": 0,
+        "ukraina": 0,
+        "okres": 0,
+        "zrodlo_url": 0
+      },
+      "purpose_and_limit": "API-derived applications/decisions; live snapshots normalized, historical revisions recorded.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/ranking-kody.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "8d162a407811cc8f076e2f1d576ae772514487369b62bf6845c1070d0fe9276d",
+      "retrieved_at": "2026-10-20T11:52:20+00:00",
+      "rows": 18,
+      "columns": [
+        "kod",
+        "waga",
+        "znaczenie"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "kod": 0,
+        "waga": 0,
+        "znaczenie": 0
+      },
+      "purpose_and_limit": "Coding dictionary for the campaign ranking.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/ranking.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "dabc64a0db8230b9cffbb23065a6e8b2f3c7a303f5d046b955abad353740c7bb",
+      "retrieved_at": "2026-10-20T11:52:20+00:00",
+      "rows": 19,
+      "columns": [
+        "organ",
+        "miejsce",
+        "wynik",
+        "n_spraw",
+        "zdarzen",
+        "miejsce_rowne_wagi",
+        "wynik_rowne_wagi",
+        "miejsce_ostrozny",
+        "wynik_ostrozny",
+        "spornych",
+        "nasze_bledy",
+        "kody"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "miejsce": 0,
+        "wynik": 0,
+        "n_spraw": 0,
+        "zdarzen": 0,
+        "miejsce_rowne_wagi": 0,
+        "wynik_rowne_wagi": 0,
+        "miejsce_ostrozny": 0,
+        "wynik_ostrozny": 0,
+        "spornych": 0,
+        "nasze_bledy": 0,
+        "kody": 0
+      },
+      "purpose_and_limit": "Campaign-derived response ranking; inspect coding and request selection before comparisons.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/sady-skargi-2026.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "d55de7d9af5251a49f80bb8f9ce131c2c14c15bd3e6f39bb4170de7f1d3d6eea",
+      "retrieved_at": "2026-10-20T11:52:20+00:00",
+      "rows": 16,
+      "columns": [
+        "wsa",
+        "skargi_6272_od_2026_01_01",
+        "stan_na_2026"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "wsa": 0,
+        "skargi_6272_od_2026_01_01": 0,
+        "stan_na_2026": 0
+      },
+      "purpose_and_limit": "Partial-year court/registry extracts; not pooled with full-year NSA disposition statistics.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/skany-tabele-katalog.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "47dc3c78e5bc9edff6c4ea7227a60c6899859a832aa6ea1b1e1fdaaa5586b8b3",
+      "retrieved_at": "2026-10-20T11:52:20+00:00",
+      "rows": 1240,
+      "columns": [
+        "dokument_id",
+        "organ",
+        "znak",
+        "data",
+        "opis",
+        "strona",
+        "tabela",
+        "tytul_tabeli",
+        "wierszy",
+        "metoda",
+        "csv_url",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "dokument_id": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "opis": 0,
+        "strona": 0,
+        "tabela": 0,
+        "tytul_tabeli": 473,
+        "wierszy": 0,
+        "metoda": 0,
+        "csv_url": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Scan/OCR extraction catalogue; human checks required before treating OCR cells as facts.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/sprawy-kroki.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "785777489050091569a21776f2a68bf2abfb681e7ac17acd4c42a1032f892ebd",
+      "retrieved_at": "2026-10-20T11:52:21+00:00",
+      "rows": 677,
+      "columns": [
+        "sprawa_id",
+        "organ",
+        "krok_nr",
+        "data",
+        "kto",
+        "typ",
+        "tytul",
+        "dni_od_wniosku",
+        "dokument_id",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "sprawa_id": 0,
+        "organ": 0,
+        "krok_nr": 0,
+        "data": 0,
+        "kto": 0,
+        "typ": 0,
+        "tytul": 0,
+        "dni_od_wniosku": 0,
+        "dokument_id": 39,
+        "dokument_url": 47
+      },
+      "purpose_and_limit": "Campaign procedural steps; request-level observations, not residence applicants.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/sprawy-w-toku.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "d49f2dc37db07daa1739d5ac6f8790a114bb4b087c76b9d4baf35bdc123782f4",
+      "retrieved_at": "2026-10-20T11:52:21+00:00",
+      "rows": 64,
+      "columns": [
+        "organ",
+        "stan_na",
+        "sprawy_w_toku",
+        "dokument_id",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "organ": 0,
+        "stan_na": 0,
+        "sprawy_w_toku": 0,
+        "dokument_id": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Derivative UdSC stock table; primary numeric transcription normalized with regional-label caveat.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/sprawy.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "36dbc5f1fdcb6ca0b5206adc1bcbe242bd6bbabc507e86a4ef13044c86d0e3f4",
+      "retrieved_at": "2026-10-20T11:52:22+00:00",
+      "rows": 148,
+      "columns": [
+        "id",
+        "organ",
+        "wniosek_nr",
+        "pytanie",
+        "znaki_spraw",
+        "data_wniosku",
+        "stan",
+        "stan_opis",
+        "liczba_krokow",
+        "data_ostatniego_kroku"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "id": 0,
+        "organ": 0,
+        "wniosek_nr": 0,
+        "pytanie": 0,
+        "znaki_spraw": 14,
+        "data_wniosku": 0,
+        "stan": 0,
+        "stan_opis": 0,
+        "liczba_krokow": 0,
+        "data_ostatniego_kroku": 0
+      },
+      "purpose_and_limit": "Campaign public-information requests; not a representative sample of all proceedings.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/teksty-indeks.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "87857f8fb1dfc20c1eeecef79fc98a0cf7553cbd5d1e9941e8a736fda86f6451",
+      "retrieved_at": "2026-10-20T11:52:23+00:00",
+      "rows": 1264,
+      "columns": [
+        "dokument_id",
+        "organ",
+        "znak",
+        "data",
+        "temat",
+        "opis",
+        "zrodlo_tekstu",
+        "znakow",
+        "tekst_url",
+        "dokument_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "dokument_id": 0,
+        "organ": 0,
+        "znak": 0,
+        "data": 0,
+        "temat": 0,
+        "opis": 0,
+        "zrodlo_tekstu": 0,
+        "znakow": 0,
+        "tekst_url": 0,
+        "dokument_url": 0
+      },
+      "purpose_and_limit": "Full-text extraction index; document coverage, not a statistical series.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/wojewodztwa.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "01333b9c02ff7e5fd5bc7be20f185b433fa8d277a689c57dd82c0a103b86e5b2",
+      "retrieved_at": "2026-10-20T11:52:23+00:00",
+      "rows": 16,
+      "columns": [
+        "wojewodztwo",
+        "czas_2023_dni",
+        "czas_2026_dni",
+        "zmiana_dni",
+        "spraw_w_toku_2026_07_01",
+        "skargi_wsa_2025",
+        "miejsce_w_rankingu"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "wojewodztwo": 0,
+        "czas_2023_dni": 0,
+        "czas_2026_dni": 0,
+        "zmiana_dni": 0,
+        "spraw_w_toku_2026_07_01": 0,
+        "skargi_wsa_2025": 0,
+        "miejsce_w_rankingu": 0
+      },
+      "purpose_and_limit": "Regional summary with heterogeneous dates and definitions; primary sources normalized separately.",
+      "redistributed_rows": false
+    },
+    {
+      "url": "https://glos-migranta.eu/dane/zrodla-zewnetrzne-katalog.csv",
+      "status": "profiled_not_all_rows_fact_verified",
+      "sha256": "6acd1cc0bd5deccf66bef57f8d91947e51d464f87a06bb3694f222acaea5dc6c",
+      "retrieved_at": "2026-10-20T11:52:23+00:00",
+      "rows": 103,
+      "columns": [
+        "zrodlo",
+        "zrodlo_url",
+        "strona",
+        "nr_tabeli",
+        "tytul_tabeli",
+        "jednostka",
+        "wierszy",
+        "wiersze_zweryfikowane",
+        "csv_url"
+      ],
+      "width_mismatch_rows": 0,
+      "duplicate_full_rows": 0,
+      "blank_cells_by_column": {
+        "zrodlo": 0,
+        "zrodlo_url": 0,
+        "strona": 2,
+        "nr_tabeli": 7,
+        "tytul_tabeli": 2,
+        "jednostka": 45,
+        "wierszy": 0,
+        "wiersze_zweryfikowane": 0,
+        "csv_url": 0
+      },
+      "purpose_and_limit": "External source catalogue; a link does not establish authority or comparability.",
+      "redistributed_rows": false
+    }
+  ],
+  "summary": {
+    "csv_links": 21,
+    "profiled": 21,
+    "total_rows_profiled": 6625,
+    "width_mismatches": 0
+  }
+}

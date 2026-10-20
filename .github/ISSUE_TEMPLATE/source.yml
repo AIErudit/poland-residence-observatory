@@ -1,0 +1,22 @@
+name: Source or correction
+description: Propose evidence, a definition change, or a correction.
+title: "[Evidence] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original source URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and affected claim
+      description: Include page/cell, date, unit, population, definition and the proposed correction. Do not include personal case files.
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparability and limitations
+      description: Is this a pending stock, incoming flow or concluded-case statistic? Does the cutoff or definition differ?

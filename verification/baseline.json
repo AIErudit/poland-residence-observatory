@@ -1,0 +1,2078 @@
+{
+  "as_of": "2026-10-20",
+  "review_kind": "separate_AI_source_check_not_external_certification",
+  "stage": "source_baseline_complete",
+  "scope": {
+    "pages": [
+      "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach",
+      "https://glos-migranta.eu/dane",
+      "https://glos-migranta.eu/fakty",
+      "https://glos-migranta.eu/raporty/prognoza"
+    ],
+    "article": "THEWARSAW175788",
+    "limits": "Key numerical and legal framing checks, not exhaustive audit of every claim in four publications or independent authentication of DIP originals. No legal-service or absolute-lawfulness certification."
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "status": "confirmed_official",
+      "claim": "MSWiA 2026 mean range 242–658 days; Śląskie 658, Pomorskie 598, Lubuskie 555; 15 of 16 exceed 2023.",
+      "source_ids": [
+        "MSWIA-18089"
+      ],
+      "period": "2026 year to 2026-07-06; reply 2026-07-27",
+      "caveat": "Arithmetic means for temporary residence proceedings; not maxima, median, live queue waits or plastic-card production times. 2026 is partial; no national mean can be obtained by averaging regional means without weights."
+    },
+    {
+      "id": "C02",
+      "status": "confirmed_in_copy_with_attribution_limit",
+      "claim": "UdSC copy gives Śląskie row 668 days at 12.08.2026, a different cut-off from MSWiA's 658.",
+      "source_ids": [
+        "UDSC-COPY"
+      ],
+      "caveat": "Region name is inferred because public scan organ labels are blacked out. Copy not independently matched to signed original or agency website."
+    },
+    {
+      "id": "C03",
+      "status": "confirmed_sum_in_copy",
+      "claim": "Sum of 16 pending temporary-residence rows: 387312,484201,646232,803223.",
+      "source_ids": [
+        "UDSC-COPY"
+      ],
+      "periods": [
+        "2023-12-31",
+        "2024-12-31",
+        "2025-12-31",
+        "2026-07-01"
+      ],
+      "caveat": "Own sum, not printed national total; cases, not unique people. Source does not establish cause of counting changes; MOS/CUKR explanations are hypotheses, not confirmed findings."
+    },
+    {
+      "id": "C04",
+      "status": "confirmed_official_but_article_temporal_error",
+      "claim": "463487 pending temporary-residence-and-work cases under art.114; accompanying 341-day mean.",
+      "source_ids": [
+        "MSWIA-12584"
+      ],
+      "period": "2025-10-13; reply 2025-10-22",
+      "caveat": "Not current October2026 data, not all temporary residence, not comparable as one time series with803223. TheWarsaw20.10.2026 calls it current; do not repeat that framing."
+    },
+    {
+      "id": "C05",
+      "status": "confirmed_official_calculation",
+      "claim": "2025 merits-only grant share29.5%=432/(432+1032);2020=94.5%=2179/(2179+126).",
+      "source_ids": [
+        "NSA-2020",
+        "NSA-2025"
+      ],
+      "caveat": "Symbol6272 is broader than temporary residence: includes visas, residence and expulsion. Procedural rejections and other disposals are excluded; not individual win probability or a causal ranking of courts."
+    },
+    {
+      "id": "C06",
+      "status": "confirmed_in_warehouse_copies",
+      "claim": "Outcome totals437687(2023),396808(2024),398337(2025).",
+      "source_ids": [
+        "WAREHOUSE-2023-COPY",
+        "WAREHOUSE-2024-COPY",
+        "WAREHOUSE-2025-COPY"
+      ],
+      "caveat": "All reported outcomes, not just positive permits. Third-party copies of authority-provided reports, not independently agency-published originals. Głos Migranta forecast text445458 differs by4 from both its CSV and the queried API445462; cause unverified. No old CSV snapshot or revision is established. Both differ materially from warehouse scope398337."
+    },
+    {
+      "id": "C07",
+      "status": "arithmetic_confirmed_scenario_only",
+      "claim": "Linear extrapolation gives960214 at end2026 and1274196 at end2027; stock/annual-outcomes gives736 or658 days.",
+      "source_ids": [
+        "UDSC-COPY",
+        "WAREHOUSE-2025-COPY",
+        "PORTAL-decisions-2025-1"
+      ],
+      "caveat": "Conditional stock-clearance scenario, not observed future backlog or individual waiting time. No unique-applicant probability or forecast accuracy claim."
+    },
+    {
+      "id": "C08",
+      "status": "arithmetic_confirmed_eligibility_unverified",
+      "claim": "Applying33235/261366 to lagged2021–2023 temporary-residence applications gives approximately47k,62k,72k long-term-resident applications in2026–2028.",
+      "source_ids": [
+        "PORTAL-applications-2020-1",
+        "PORTAL-applications-2021-1",
+        "PORTAL-applications-2022-1",
+        "PORTAL-applications-2023-1",
+        "PORTAL-applications-2025-3"
+      ],
+      "caveat": "Illustrative lag scenario only; an application is not date of arrival or start of qualifying residence, and totals contain repeat applicants. UKR eligibility scenarios require separate legal verification."
+    },
+    {
+      "id": "C09",
+      "status": "legal_qualification_required",
+      "claim": "Art112a provides60 days for the decision under statutory start conditions; art100d suspends applicable voivode deadlines through4.03.2027; courts may refuse its application.",
+      "source_ids": [
+        "FOREIGNERS-ACT",
+        "UKRAINE-ACT",
+        "AMENDMENT-2026-203",
+        "NSA-II-OSK-2038-25"
+      ],
+      "caveat": "Do not describe every elapsed period beyond60 days from filing as a proven violation. MOS reform changed start conditions; transition depends on filing date/mode. Case-law refusal is not general repeal and outcomes vary; card production is separate."
+    },
+    {
+      "id": "C10",
+      "status": "source_classification_only",
+      "claim": "Głos Migranta /dane publishes derivative CSVs and declaresCC0; primary law and agency statistics must remain individually cited.",
+      "source_ids": [
+        "GM-MSWIA-CSV"
+      ],
+      "caveat": "Third-party license declaration is not independent clearance of third-party documents, articles or personal data. No full article/private chat text is included in this audit output."
+    }
+  ],
+  "tables": {
+    "mswia18089_means_days": [
+      {
+        "organ": "Wojewoda Dolnośląski",
+        "2023": 401,
+        "2024": 472,
+        "2025": 273,
+        "2026": 303
+      },
+      {
+        "organ": "Wojewoda Kujawsko-Pomorski",
+        "2023": 464,
+        "2024": 517,
+        "2025": 545,
+        "2026": 541
+      },
+      {
+        "organ": "Wojewoda Lubelski",
+        "2023": 211,
+        "2024": 243,
+        "2025": 233,
+        "2026": 386
+      },
+      {
+        "organ": "Wojewoda Lubuski",
+        "2023": 398,
+        "2024": 407,
+        "2025": 494,
+        "2026": 555
+      },
+      {
+        "organ": "Wojewoda Łódzki",
+        "2023": 336,
+        "2024": 284,
+        "2025": 336,
+        "2026": 386
+      },
+      {
+        "organ": "Wojewoda Małopolski",
+        "2023": 128,
+        "2024": 145,
+        "2025": 183,
+        "2026": 242
+      },
+      {
+        "organ": "Wojewoda Mazowiecki",
+        "2023": 153,
+        "2024": 200,
+        "2025": 271,
+        "2026": 394
+      },
+      {
+        "organ": "Wojewoda Opolski",
+        "2023": 425,
+        "2024": 578,
+        "2025": 604,
+        "2026": 510
+      },
+      {
+        "organ": "Wojewoda Podkarpacki",
+        "2023": 135,
+        "2024": 189,
+        "2025": 246,
+        "2026": 302
+      },
+      {
+        "organ": "Wojewoda Podlaski",
+        "2023": 184,
+        "2024": 203,
+        "2025": 290,
+        "2026": 447
+      },
+      {
+        "organ": "Wojewoda Pomorski",
+        "2023": 314,
+        "2024": 383,
+        "2025": 544,
+        "2026": 598
+      },
+      {
+        "organ": "Wojewoda Śląski",
+        "2023": 427,
+        "2024": 481,
+        "2025": 637,
+        "2026": 658
+      },
+      {
+        "organ": "Wojewoda Świętokrzyski",
+        "2023": 172,
+        "2024": 223,
+        "2025": 276,
+        "2026": 325
+      },
+      {
+        "organ": "Wojewoda Warmińsko-Mazurski",
+        "2023": 134,
+        "2024": 176,
+        "2025": 211,
+        "2026": 273
+      },
+      {
+        "organ": "Wojewoda Wielkopolski",
+        "2023": 329,
+        "2024": 302,
+        "2025": 344,
+        "2026": 339
+      },
+      {
+        "organ": "Wojewoda Zachodniopomorski",
+        "2023": 452,
+        "2024": 472,
+        "2025": 465,
+        "2026": 465
+      }
+    ],
+    "udsc_copy_rows": [
+      {
+        "row": 1,
+        "inferred_organ": "Wojewoda Dolnośląski",
+        "mean2026": 313,
+        "pending": {
+          "2023-12-31": 45648,
+          "2024-12-31": 50901,
+          "2025-12-31": 55049,
+          "2026-07-01": 56687
+        }
+      },
+      {
+        "row": 2,
+        "inferred_organ": "Wojewoda Kujawsko-Pomorski",
+        "mean2026": 536,
+        "pending": {
+          "2023-12-31": 16836,
+          "2024-12-31": 18721,
+          "2025-12-31": 20646,
+          "2026-07-01": 23517
+        }
+      },
+      {
+        "row": 3,
+        "inferred_organ": "Wojewoda Lubelski",
+        "mean2026": 386,
+        "pending": {
+          "2023-12-31": 9774,
+          "2024-12-31": 9430,
+          "2025-12-31": 10198,
+          "2026-07-01": 17177
+        }
+      },
+      {
+        "row": 4,
+        "inferred_organ": "Wojewoda Lubuski",
+        "mean2026": 537,
+        "pending": {
+          "2023-12-31": 14001,
+          "2024-12-31": 22369,
+          "2025-12-31": 27615,
+          "2026-07-01": 36772
+        }
+      },
+      {
+        "row": 5,
+        "inferred_organ": "Wojewoda Łódzki",
+        "mean2026": 385,
+        "pending": {
+          "2023-12-31": 25843,
+          "2024-12-31": 26342,
+          "2025-12-31": 32908,
+          "2026-07-01": 47194
+        }
+      },
+      {
+        "row": 6,
+        "inferred_organ": "Wojewoda Małopolski",
+        "mean2026": 244,
+        "pending": {
+          "2023-12-31": 15873,
+          "2024-12-31": 20315,
+          "2025-12-31": 35606,
+          "2026-07-01": 49772
+        }
+      },
+      {
+        "row": 7,
+        "inferred_organ": "Wojewoda Mazowiecki",
+        "mean2026": 408,
+        "pending": {
+          "2023-12-31": 68121,
+          "2024-12-31": 114903,
+          "2025-12-31": 159872,
+          "2026-07-01": 202187
+        }
+      },
+      {
+        "row": 8,
+        "inferred_organ": "Wojewoda Opolski",
+        "mean2026": 504,
+        "pending": {
+          "2023-12-31": 14939,
+          "2024-12-31": 17125,
+          "2025-12-31": 19561,
+          "2026-07-01": 22179
+        }
+      },
+      {
+        "row": 9,
+        "inferred_organ": "Wojewoda Podkarpacki",
+        "mean2026": 305,
+        "pending": {
+          "2023-12-31": 4928,
+          "2024-12-31": 5841,
+          "2025-12-31": 7737,
+          "2026-07-01": 11420
+        }
+      },
+      {
+        "row": 10,
+        "inferred_organ": "Wojewoda Podlaski",
+        "mean2026": 457,
+        "pending": {
+          "2023-12-31": 4805,
+          "2024-12-31": 8172,
+          "2025-12-31": 16834,
+          "2026-07-01": 21208
+        }
+      },
+      {
+        "row": 11,
+        "inferred_organ": "Wojewoda Pomorski",
+        "mean2026": 610,
+        "pending": {
+          "2023-12-31": 33022,
+          "2024-12-31": 39937,
+          "2025-12-31": 68806,
+          "2026-07-01": 92054
+        }
+      },
+      {
+        "row": 12,
+        "inferred_organ": "Wojewoda Śląski",
+        "mean2026": 668,
+        "pending": {
+          "2023-12-31": 49604,
+          "2024-12-31": 65710,
+          "2025-12-31": 75510,
+          "2026-07-01": 86059
+        }
+      },
+      {
+        "row": 13,
+        "inferred_organ": "Wojewoda Świętokrzyski",
+        "mean2026": 327,
+        "pending": {
+          "2023-12-31": 2572,
+          "2024-12-31": 4184,
+          "2025-12-31": 5395,
+          "2026-07-01": 6296
+        }
+      },
+      {
+        "row": 14,
+        "inferred_organ": "Wojewoda Warmińsko-Mazurski",
+        "mean2026": 271,
+        "pending": {
+          "2023-12-31": 4346,
+          "2024-12-31": 5387,
+          "2025-12-31": 7500,
+          "2026-07-01": 9365
+        }
+      },
+      {
+        "row": 15,
+        "inferred_organ": "Wojewoda Wielkopolski",
+        "mean2026": 341,
+        "pending": {
+          "2023-12-31": 45884,
+          "2024-12-31": 53328,
+          "2025-12-31": 66790,
+          "2026-07-01": 74752
+        }
+      },
+      {
+        "row": 16,
+        "inferred_organ": "Wojewoda Zachodniopomorski",
+        "mean2026": 459,
+        "pending": {
+          "2023-12-31": 31116,
+          "2024-12-31": 21536,
+          "2025-12-31": 36205,
+          "2026-07-01": 46584
+        }
+      }
+    ],
+    "pending_totals": {
+      "2023-12-31": 387312,
+      "2024-12-31": 484201,
+      "2025-12-31": 646232,
+      "2026-07-01": 803223
+    },
+    "nsa_6272_annual": [
+      {
+        "year": 2020,
+        "source_id": "NSA-2020",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "BD",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "GD",
+            "granted": 12,
+            "dismissed_merits": 1,
+            "rejected_procedural": 24,
+            "disposed": 117,
+            "incoming": 189,
+            "merits_denominator": 13,
+            "merits_granted_pct": 92.307692
+          },
+          {
+            "sheet": "GL",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 2,
+            "incoming": 1,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "GW",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 5,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 5,
+            "incoming": 1,
+            "merits_denominator": 5,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "LU",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "LD",
+            "granted": 2,
+            "dismissed_merits": 0,
+            "rejected_procedural": 1,
+            "disposed": 5,
+            "incoming": 6,
+            "merits_denominator": 2,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OL",
+            "granted": 1,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 1,
+            "merits_denominator": 1,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OP",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 2,
+            "incoming": 2,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "PO",
+            "granted": 44,
+            "dismissed_merits": 1,
+            "rejected_procedural": 8,
+            "disposed": 55,
+            "incoming": 57,
+            "merits_denominator": 45,
+            "merits_granted_pct": 97.777778
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "SZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "WA",
+            "granted": 715,
+            "dismissed_merits": 81,
+            "rejected_procedural": 301,
+            "disposed": 1110,
+            "incoming": 1116,
+            "merits_denominator": 796,
+            "merits_granted_pct": 89.824121
+          },
+          {
+            "sheet": "WR",
+            "granted": 1400,
+            "dismissed_merits": 42,
+            "rejected_procedural": 193,
+            "disposed": 1824,
+            "incoming": 2956,
+            "merits_denominator": 1442,
+            "merits_granted_pct": 97.087379
+          }
+        ],
+        "national": {
+          "granted": 2179,
+          "dismissed_merits": 126,
+          "rejected_procedural": 527,
+          "disposed": 3121,
+          "incoming": 4329,
+          "merits_denominator": 2305,
+          "merits_granted_pct": 94.533623
+        }
+      },
+      {
+        "year": 2021,
+        "source_id": "NSA-2021",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "BD",
+            "granted": 1,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 4,
+            "merits_denominator": 1,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "GD",
+            "granted": 34,
+            "dismissed_merits": 2,
+            "rejected_procedural": 74,
+            "disposed": 116,
+            "incoming": 62,
+            "merits_denominator": 36,
+            "merits_granted_pct": 94.444444
+          },
+          {
+            "sheet": "GL",
+            "granted": 7,
+            "dismissed_merits": 0,
+            "rejected_procedural": 2,
+            "disposed": 9,
+            "incoming": 13,
+            "merits_denominator": 7,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "GW",
+            "granted": 9,
+            "dismissed_merits": 0,
+            "rejected_procedural": 1,
+            "disposed": 10,
+            "incoming": 12,
+            "merits_denominator": 9,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 1,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 2,
+            "incoming": 2,
+            "merits_denominator": 2,
+            "merits_granted_pct": 50.0
+          },
+          {
+            "sheet": "LU",
+            "granted": 1,
+            "dismissed_merits": 0,
+            "rejected_procedural": 4,
+            "disposed": 7,
+            "incoming": 9,
+            "merits_denominator": 1,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "LD",
+            "granted": 17,
+            "dismissed_merits": 0,
+            "rejected_procedural": 8,
+            "disposed": 26,
+            "incoming": 38,
+            "merits_denominator": 17,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OL",
+            "granted": 2,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 2,
+            "incoming": 2,
+            "merits_denominator": 2,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OP",
+            "granted": 2,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 3,
+            "incoming": 3,
+            "merits_denominator": 3,
+            "merits_granted_pct": 66.666667
+          },
+          {
+            "sheet": "PO",
+            "granted": 42,
+            "dismissed_merits": 6,
+            "rejected_procedural": 18,
+            "disposed": 68,
+            "incoming": 89,
+            "merits_denominator": 48,
+            "merits_granted_pct": 87.5
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 1,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "SZ",
+            "granted": 7,
+            "dismissed_merits": 1,
+            "rejected_procedural": 10,
+            "disposed": 19,
+            "incoming": 30,
+            "merits_denominator": 8,
+            "merits_granted_pct": 87.5
+          },
+          {
+            "sheet": "WA",
+            "granted": 1062,
+            "dismissed_merits": 67,
+            "rejected_procedural": 537,
+            "disposed": 1689,
+            "incoming": 1611,
+            "merits_denominator": 1129,
+            "merits_granted_pct": 94.065545
+          },
+          {
+            "sheet": "WR",
+            "granted": 3570,
+            "dismissed_merits": 22,
+            "rejected_procedural": 830,
+            "disposed": 5623,
+            "incoming": 9228,
+            "merits_denominator": 3592,
+            "merits_granted_pct": 99.387528
+          }
+        ],
+        "national": {
+          "granted": 4755,
+          "dismissed_merits": 101,
+          "rejected_procedural": 1484,
+          "disposed": 7576,
+          "incoming": 11104,
+          "merits_denominator": 4856,
+          "merits_granted_pct": 97.920099
+        }
+      },
+      {
+        "year": 2022,
+        "source_id": "NSA-2022",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "BD",
+            "granted": 5,
+            "dismissed_merits": 3,
+            "rejected_procedural": 3,
+            "disposed": 12,
+            "incoming": 17,
+            "merits_denominator": 8,
+            "merits_granted_pct": 62.5
+          },
+          {
+            "sheet": "GD",
+            "granted": 42,
+            "dismissed_merits": 1,
+            "rejected_procedural": 1,
+            "disposed": 45,
+            "incoming": 32,
+            "merits_denominator": 43,
+            "merits_granted_pct": 97.674419
+          },
+          {
+            "sheet": "GL",
+            "granted": 10,
+            "dismissed_merits": 1,
+            "rejected_procedural": 5,
+            "disposed": 17,
+            "incoming": 20,
+            "merits_denominator": 11,
+            "merits_granted_pct": 90.909091
+          },
+          {
+            "sheet": "GW",
+            "granted": 3,
+            "dismissed_merits": 0,
+            "rejected_procedural": 11,
+            "disposed": 15,
+            "incoming": 14,
+            "merits_denominator": 3,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 2,
+            "disposed": 2,
+            "incoming": 2,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "LU",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 3,
+            "disposed": 5,
+            "incoming": 7,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "LD",
+            "granted": 53,
+            "dismissed_merits": 4,
+            "rejected_procedural": 7,
+            "disposed": 67,
+            "incoming": 78,
+            "merits_denominator": 57,
+            "merits_granted_pct": 92.982456
+          },
+          {
+            "sheet": "OL",
+            "granted": 12,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 12,
+            "incoming": 12,
+            "merits_denominator": 12,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OP",
+            "granted": 3,
+            "dismissed_merits": 2,
+            "rejected_procedural": 4,
+            "disposed": 9,
+            "incoming": 9,
+            "merits_denominator": 5,
+            "merits_granted_pct": 60.0
+          },
+          {
+            "sheet": "PO",
+            "granted": 66,
+            "dismissed_merits": 7,
+            "rejected_procedural": 18,
+            "disposed": 94,
+            "incoming": 74,
+            "merits_denominator": 73,
+            "merits_granted_pct": 90.410959
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 7,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "SZ",
+            "granted": 24,
+            "dismissed_merits": 16,
+            "rejected_procedural": 16,
+            "disposed": 56,
+            "incoming": 49,
+            "merits_denominator": 40,
+            "merits_granted_pct": 60.0
+          },
+          {
+            "sheet": "WA",
+            "granted": 267,
+            "dismissed_merits": 16,
+            "rejected_procedural": 207,
+            "disposed": 494,
+            "incoming": 344,
+            "merits_denominator": 283,
+            "merits_granted_pct": 94.34629
+          },
+          {
+            "sheet": "WR",
+            "granted": 3670,
+            "dismissed_merits": 17,
+            "rejected_procedural": 2526,
+            "disposed": 7123,
+            "incoming": 5261,
+            "merits_denominator": 3687,
+            "merits_granted_pct": 99.538921
+          }
+        ],
+        "national": {
+          "granted": 4155,
+          "dismissed_merits": 67,
+          "rejected_procedural": 2803,
+          "disposed": 7952,
+          "incoming": 5926,
+          "merits_denominator": 4222,
+          "merits_granted_pct": 98.413074
+        }
+      },
+      {
+        "year": 2023,
+        "source_id": "NSA-2023",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "BD",
+            "granted": 1,
+            "dismissed_merits": 13,
+            "rejected_procedural": 7,
+            "disposed": 22,
+            "incoming": 28,
+            "merits_denominator": 14,
+            "merits_granted_pct": 7.142857
+          },
+          {
+            "sheet": "GD",
+            "granted": 28,
+            "dismissed_merits": 4,
+            "rejected_procedural": 5,
+            "disposed": 38,
+            "incoming": 50,
+            "merits_denominator": 32,
+            "merits_granted_pct": 87.5
+          },
+          {
+            "sheet": "GL",
+            "granted": 10,
+            "dismissed_merits": 6,
+            "rejected_procedural": 8,
+            "disposed": 26,
+            "incoming": 28,
+            "merits_denominator": 16,
+            "merits_granted_pct": 62.5
+          },
+          {
+            "sheet": "GW",
+            "granted": 4,
+            "dismissed_merits": 0,
+            "rejected_procedural": 9,
+            "disposed": 13,
+            "incoming": 13,
+            "merits_denominator": 4,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 4,
+            "incoming": 5,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "LU",
+            "granted": 0,
+            "dismissed_merits": 5,
+            "rejected_procedural": 11,
+            "disposed": 17,
+            "incoming": 13,
+            "merits_denominator": 5,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "LD",
+            "granted": 158,
+            "dismissed_merits": 11,
+            "rejected_procedural": 36,
+            "disposed": 210,
+            "incoming": 234,
+            "merits_denominator": 169,
+            "merits_granted_pct": 93.491124
+          },
+          {
+            "sheet": "OL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "OP",
+            "granted": 4,
+            "dismissed_merits": 0,
+            "rejected_procedural": 1,
+            "disposed": 9,
+            "incoming": 12,
+            "merits_denominator": 4,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "PO",
+            "granted": 26,
+            "dismissed_merits": 24,
+            "rejected_procedural": 34,
+            "disposed": 101,
+            "incoming": 121,
+            "merits_denominator": 50,
+            "merits_granted_pct": 52.0
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 6,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "SZ",
+            "granted": 4,
+            "dismissed_merits": 2,
+            "rejected_procedural": 6,
+            "disposed": 13,
+            "incoming": 10,
+            "merits_denominator": 6,
+            "merits_granted_pct": 66.666667
+          },
+          {
+            "sheet": "WA",
+            "granted": 65,
+            "dismissed_merits": 11,
+            "rejected_procedural": 92,
+            "disposed": 174,
+            "incoming": 143,
+            "merits_denominator": 76,
+            "merits_granted_pct": 85.526316
+          },
+          {
+            "sheet": "WR",
+            "granted": 1092,
+            "dismissed_merits": 161,
+            "rejected_procedural": 992,
+            "disposed": 2352,
+            "incoming": 1646,
+            "merits_denominator": 1253,
+            "merits_granted_pct": 87.150838
+          }
+        ],
+        "national": {
+          "granted": 1392,
+          "dismissed_merits": 238,
+          "rejected_procedural": 1201,
+          "disposed": 2985,
+          "incoming": 2303,
+          "merits_denominator": 1630,
+          "merits_granted_pct": 85.398773
+        }
+      },
+      {
+        "year": 2024,
+        "source_id": "NSA-2024",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 1,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "BD",
+            "granted": 3,
+            "dismissed_merits": 7,
+            "rejected_procedural": 24,
+            "disposed": 36,
+            "incoming": 28,
+            "merits_denominator": 10,
+            "merits_granted_pct": 30.0
+          },
+          {
+            "sheet": "GD",
+            "granted": 46,
+            "dismissed_merits": 2,
+            "rejected_procedural": 43,
+            "disposed": 111,
+            "incoming": 150,
+            "merits_denominator": 48,
+            "merits_granted_pct": 95.833333
+          },
+          {
+            "sheet": "GL",
+            "granted": 35,
+            "dismissed_merits": 43,
+            "rejected_procedural": 29,
+            "disposed": 108,
+            "incoming": 133,
+            "merits_denominator": 78,
+            "merits_granted_pct": 44.871795
+          },
+          {
+            "sheet": "GW",
+            "granted": 1,
+            "dismissed_merits": 19,
+            "rejected_procedural": 1,
+            "disposed": 22,
+            "incoming": 36,
+            "merits_denominator": 20,
+            "merits_granted_pct": 5.0
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 0,
+            "dismissed_merits": 3,
+            "rejected_procedural": 2,
+            "disposed": 6,
+            "incoming": 5,
+            "merits_denominator": 3,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "LU",
+            "granted": 0,
+            "dismissed_merits": 3,
+            "rejected_procedural": 0,
+            "disposed": 3,
+            "incoming": 3,
+            "merits_denominator": 3,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "LD",
+            "granted": 20,
+            "dismissed_merits": 2,
+            "rejected_procedural": 38,
+            "disposed": 60,
+            "incoming": 16,
+            "merits_denominator": 22,
+            "merits_granted_pct": 90.909091
+          },
+          {
+            "sheet": "OL",
+            "granted": 1,
+            "dismissed_merits": 0,
+            "rejected_procedural": 1,
+            "disposed": 2,
+            "incoming": 3,
+            "merits_denominator": 1,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "OP",
+            "granted": 2,
+            "dismissed_merits": 7,
+            "rejected_procedural": 9,
+            "disposed": 21,
+            "incoming": 23,
+            "merits_denominator": 9,
+            "merits_granted_pct": 22.222222
+          },
+          {
+            "sheet": "PO",
+            "granted": 63,
+            "dismissed_merits": 58,
+            "rejected_procedural": 33,
+            "disposed": 160,
+            "incoming": 152,
+            "merits_denominator": 121,
+            "merits_granted_pct": 52.066116
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 2,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "SZ",
+            "granted": 1,
+            "dismissed_merits": 0,
+            "rejected_procedural": 2,
+            "disposed": 3,
+            "incoming": 4,
+            "merits_denominator": 1,
+            "merits_granted_pct": 100.0
+          },
+          {
+            "sheet": "WA",
+            "granted": 22,
+            "dismissed_merits": 80,
+            "rejected_procedural": 127,
+            "disposed": 232,
+            "incoming": 260,
+            "merits_denominator": 102,
+            "merits_granted_pct": 21.568627
+          },
+          {
+            "sheet": "WR",
+            "granted": 630,
+            "dismissed_merits": 890,
+            "rejected_procedural": 689,
+            "disposed": 2302,
+            "incoming": 2371,
+            "merits_denominator": 1520,
+            "merits_granted_pct": 41.447368
+          }
+        ],
+        "national": {
+          "granted": 824,
+          "dismissed_merits": 1115,
+          "rejected_procedural": 998,
+          "disposed": 3067,
+          "incoming": 3187,
+          "merits_denominator": 1939,
+          "merits_granted_pct": 42.496132
+        }
+      },
+      {
+        "year": 2025,
+        "source_id": "NSA-2025",
+        "symbol": 6272,
+        "row_1_based": 249,
+        "courts": [
+          {
+            "sheet": "BK",
+            "granted": 3,
+            "dismissed_merits": 2,
+            "rejected_procedural": 2,
+            "disposed": 8,
+            "incoming": 11,
+            "merits_denominator": 5,
+            "merits_granted_pct": 60.0
+          },
+          {
+            "sheet": "BD",
+            "granted": 3,
+            "dismissed_merits": 4,
+            "rejected_procedural": 7,
+            "disposed": 15,
+            "incoming": 12,
+            "merits_denominator": 7,
+            "merits_granted_pct": 42.857143
+          },
+          {
+            "sheet": "GD",
+            "granted": 100,
+            "dismissed_merits": 6,
+            "rejected_procedural": 113,
+            "disposed": 254,
+            "incoming": 275,
+            "merits_denominator": 106,
+            "merits_granted_pct": 94.339623
+          },
+          {
+            "sheet": "GL",
+            "granted": 16,
+            "dismissed_merits": 42,
+            "rejected_procedural": 35,
+            "disposed": 95,
+            "incoming": 111,
+            "merits_denominator": 58,
+            "merits_granted_pct": 27.586207
+          },
+          {
+            "sheet": "GW",
+            "granted": 2,
+            "dismissed_merits": 18,
+            "rejected_procedural": 8,
+            "disposed": 28,
+            "incoming": 20,
+            "merits_denominator": 20,
+            "merits_granted_pct": 10.0
+          },
+          {
+            "sheet": "KL",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 0,
+            "disposed": 0,
+            "incoming": 0,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "KR",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 2,
+            "disposed": 4,
+            "incoming": 8,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "LU",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 4,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "LD",
+            "granted": 1,
+            "dismissed_merits": 1,
+            "rejected_procedural": 5,
+            "disposed": 8,
+            "incoming": 17,
+            "merits_denominator": 2,
+            "merits_granted_pct": 50.0
+          },
+          {
+            "sheet": "OL",
+            "granted": 0,
+            "dismissed_merits": 1,
+            "rejected_procedural": 0,
+            "disposed": 1,
+            "incoming": 0,
+            "merits_denominator": 1,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "OP",
+            "granted": 2,
+            "dismissed_merits": 5,
+            "rejected_procedural": 8,
+            "disposed": 17,
+            "incoming": 19,
+            "merits_denominator": 7,
+            "merits_granted_pct": 28.571429
+          },
+          {
+            "sheet": "PO",
+            "granted": 14,
+            "dismissed_merits": 70,
+            "rejected_procedural": 16,
+            "disposed": 106,
+            "incoming": 110,
+            "merits_denominator": 84,
+            "merits_granted_pct": 16.666667
+          },
+          {
+            "sheet": "RZ",
+            "granted": 0,
+            "dismissed_merits": 0,
+            "rejected_procedural": 3,
+            "disposed": 3,
+            "incoming": 2,
+            "merits_denominator": 0,
+            "merits_granted_pct": null
+          },
+          {
+            "sheet": "SZ",
+            "granted": 0,
+            "dismissed_merits": 18,
+            "rejected_procedural": 3,
+            "disposed": 23,
+            "incoming": 25,
+            "merits_denominator": 18,
+            "merits_granted_pct": 0.0
+          },
+          {
+            "sheet": "WA",
+            "granted": 29,
+            "dismissed_merits": 36,
+            "rejected_procedural": 186,
+            "disposed": 262,
+            "incoming": 497,
+            "merits_denominator": 65,
+            "merits_granted_pct": 44.615385
+          },
+          {
+            "sheet": "WR",
+            "granted": 262,
+            "dismissed_merits": 828,
+            "rejected_procedural": 1485,
+            "disposed": 2754,
+            "incoming": 2448,
+            "merits_denominator": 1090,
+            "merits_granted_pct": 24.036697
+          }
+        ],
+        "national": {
+          "granted": 432,
+          "dismissed_merits": 1032,
+          "rejected_procedural": 1873,
+          "disposed": 3579,
+          "incoming": 3559,
+          "merits_denominator": 1464,
+          "merits_granted_pct": 29.508197
+        }
+      }
+    ],
+    "warehouse_copy_outcomes": [
+      {
+        "year": 2023,
+        "source_id": "WAREHOUSE-2023-COPY",
+        "total_outcomes": 437687,
+        "rows": [
+          {
+            "organ": "WOJEWODA DOLNOŚLĄSKI",
+            "outcomes": 57384,
+            "mean_days": 401
+          },
+          {
+            "organ": "WOJEWODA KUJAWSKO-POMORSKI",
+            "outcomes": 9318,
+            "mean_days": 464
+          },
+          {
+            "organ": "WOJEWODA LUBELSKI",
+            "outcomes": 8673,
+            "mean_days": 211
+          },
+          {
+            "organ": "WOJEWODA LUBUSKI",
+            "outcomes": 15528,
+            "mean_days": 398
+          },
+          {
+            "organ": "WOJEWODA ŁÓDZKI",
+            "outcomes": 28486,
+            "mean_days": 336
+          },
+          {
+            "organ": "WOJEWODA MAŁOPOLSKI",
+            "outcomes": 35281,
+            "mean_days": 128
+          },
+          {
+            "organ": "WOJEWODA MAZOWIECKI",
+            "outcomes": 113514,
+            "mean_days": 153
+          },
+          {
+            "organ": "WOJEWODA OPOLSKI",
+            "outcomes": 5610,
+            "mean_days": 425
+          },
+          {
+            "organ": "WOJEWODA PODKARPACKI",
+            "outcomes": 5883,
+            "mean_days": 135
+          },
+          {
+            "organ": "WOJEWODA PODLASKI",
+            "outcomes": 8400,
+            "mean_days": 184
+          },
+          {
+            "organ": "WOJEWODA POMORSKI",
+            "outcomes": 34037,
+            "mean_days": 314
+          },
+          {
+            "organ": "WOJEWODA ŚLĄSKI",
+            "outcomes": 24343,
+            "mean_days": 427
+          },
+          {
+            "organ": "WOJEWODA ŚWIĘTOKRZYSKI",
+            "outcomes": 4204,
+            "mean_days": 172
+          },
+          {
+            "organ": "WOJEWODA WARMIŃSKO-MAZURSKI",
+            "outcomes": 5145,
+            "mean_days": 134
+          },
+          {
+            "organ": "WOJEWODA WIELKOPOLSKI",
+            "outcomes": 59618,
+            "mean_days": 329
+          },
+          {
+            "organ": "WOJEWODA ZACHODNIOPOMORSKI",
+            "outcomes": 22263,
+            "mean_days": 452
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "source_id": "WAREHOUSE-2024-COPY",
+        "total_outcomes": 396808,
+        "rows": [
+          {
+            "organ": "WOJEWODA DOLNOŚLĄSKI",
+            "outcomes": 36094,
+            "mean_days": 472
+          },
+          {
+            "organ": "WOJEWODA KUJAWSKO-POMORSKI",
+            "outcomes": 8933,
+            "mean_days": 517
+          },
+          {
+            "organ": "WOJEWODA LUBELSKI",
+            "outcomes": 10858,
+            "mean_days": 243
+          },
+          {
+            "organ": "WOJEWODA LUBUSKI",
+            "outcomes": 9552,
+            "mean_days": 406
+          },
+          {
+            "organ": "WOJEWODA ŁÓDZKI",
+            "outcomes": 29310,
+            "mean_days": 284
+          },
+          {
+            "organ": "WOJEWODA MAŁOPOLSKI",
+            "outcomes": 39800,
+            "mean_days": 145
+          },
+          {
+            "organ": "WOJEWODA MAZOWIECKI",
+            "outcomes": 109637,
+            "mean_days": 200
+          },
+          {
+            "organ": "WOJEWODA OPOLSKI",
+            "outcomes": 5528,
+            "mean_days": 578
+          },
+          {
+            "organ": "WOJEWODA PODKARPACKI",
+            "outcomes": 5928,
+            "mean_days": 189
+          },
+          {
+            "organ": "WOJEWODA PODLASKI",
+            "outcomes": 6535,
+            "mean_days": 203
+          },
+          {
+            "organ": "WOJEWODA POMORSKI",
+            "outcomes": 25274,
+            "mean_days": 383
+          },
+          {
+            "organ": "WOJEWODA ŚLĄSKI",
+            "outcomes": 25460,
+            "mean_days": 481
+          },
+          {
+            "organ": "WOJEWODA ŚWIĘTOKRZYSKI",
+            "outcomes": 3720,
+            "mean_days": 223
+          },
+          {
+            "organ": "WOJEWODA WARMIŃSKO-MAZURSKI",
+            "outcomes": 6104,
+            "mean_days": 176
+          },
+          {
+            "organ": "WOJEWODA WIELKOPOLSKI",
+            "outcomes": 49177,
+            "mean_days": 302
+          },
+          {
+            "organ": "WOJEWODA ZACHODNIOPOMORSKI",
+            "outcomes": 24898,
+            "mean_days": 471
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "source_id": "WAREHOUSE-2025-COPY",
+        "total_outcomes": 398337,
+        "rows": [
+          {
+            "organ": "WOJEWODA DOLNOŚLĄSKI",
+            "outcomes": 59920,
+            "mean_days": 273
+          },
+          {
+            "organ": "WOJEWODA KUJAWSKO-POMORSKI",
+            "outcomes": 9359,
+            "mean_days": 545
+          },
+          {
+            "organ": "WOJEWODA LUBELSKI",
+            "outcomes": 9874,
+            "mean_days": 233
+          },
+          {
+            "organ": "WOJEWODA LUBUSKI",
+            "outcomes": 11319,
+            "mean_days": 494
+          },
+          {
+            "organ": "WOJEWODA ŁÓDZKI",
+            "outcomes": 25690,
+            "mean_days": 336
+          },
+          {
+            "organ": "WOJEWODA MAŁOPOLSKI",
+            "outcomes": 36942,
+            "mean_days": 183
+          },
+          {
+            "organ": "WOJEWODA MAZOWIECKI",
+            "outcomes": 91964,
+            "mean_days": 271
+          },
+          {
+            "organ": "WOJEWODA OPOLSKI",
+            "outcomes": 6751,
+            "mean_days": 604
+          },
+          {
+            "organ": "WOJEWODA PODKARPACKI",
+            "outcomes": 6039,
+            "mean_days": 246
+          },
+          {
+            "organ": "WOJEWODA PODLASKI",
+            "outcomes": 4471,
+            "mean_days": 290
+          },
+          {
+            "organ": "WOJEWODA POMORSKI",
+            "outcomes": 25911,
+            "mean_days": 544
+          },
+          {
+            "organ": "WOJEWODA ŚLĄSKI",
+            "outcomes": 25692,
+            "mean_days": 637
+          },
+          {
+            "organ": "WOJEWODA ŚWIĘTOKRZYSKI",
+            "outcomes": 5367,
+            "mean_days": 276
+          },
+          {
+            "organ": "WOJEWODA WARMIŃSKO-MAZURSKI",
+            "outcomes": 5563,
+            "mean_days": 211
+          },
+          {
+            "organ": "WOJEWODA WIELKOPOLSKI",
+            "outcomes": 53312,
+            "mean_days": 344
+          },
+          {
+            "organ": "WOJEWODA ZACHODNIOPOMORSKI",
+            "outcomes": 20163,
+            "mean_days": 465
+          }
+        ]
+      }
+    ],
+    "portal_api_totals": [
+      {
+        "measure": "applications",
+        "year": 2020,
+        "case_type": 1,
+        "total": 261366,
+        "belarus_country_id_241": 8191,
+        "ukraine_country_id_215": 193033
+      },
+      {
+        "measure": "applications",
+        "year": 2021,
+        "case_type": 1,
+        "total": 367751,
+        "belarus_country_id_241": 19941,
+        "ukraine_country_id_215": 260401
+      },
+      {
+        "measure": "applications",
+        "year": 2022,
+        "case_type": 1,
+        "total": 485594,
+        "belarus_country_id_241": 49883,
+        "ukraine_country_id_215": 297026
+      },
+      {
+        "measure": "applications",
+        "year": 2023,
+        "case_type": 1,
+        "total": 566658,
+        "belarus_country_id_241": 70791,
+        "ukraine_country_id_215": 307078
+      },
+      {
+        "measure": "applications",
+        "year": 2025,
+        "case_type": 3,
+        "total": 33235,
+        "belarus_country_id_241": 1458,
+        "ukraine_country_id_215": 28406
+      },
+      {
+        "measure": "decisions",
+        "year": 2025,
+        "case_type": 1,
+        "total": 445462,
+        "belarus_country_id_241": 36500,
+        "ukraine_country_id_215": 247615
+      },
+      {
+        "measure": "decisions",
+        "year": 2025,
+        "case_type": 3,
+        "total": 25613,
+        "belarus_country_id_241": 947,
+        "ukraine_country_id_215": 21349
+      }
+    ],
+    "portal_reconciliation": {
+      "gm_forecast_text_2025_decisions": 445458,
+      "gm_csv_2025_decisions": 445462,
+      "live_total": 445462,
+      "difference": 4,
+      "status": "unresolved_publication_text_vs_csv_api_difference",
+      "csv_sha256": "7aeb935ada42de11462276eb03c8039200f0ef2f838d251ac23f7a792b3e1c48",
+      "cached_csv_retrieved_at": "2026-10-20T11:52:19+00:00",
+      "old_csv_revision_established": false
+    }
+  },
+  "calculations": {
+    "mswia_csv_rows": 64,
+    "mswia_csv_mismatches": [],
+    "regions_slower_than_2023": 15,
+    "forecast": {
+      "type": "conditional_scenario_not_observation",
+      "backlog_growth_2026_H1": 156991,
+      "linear_2026_year_end": 960214,
+      "linear_2027_year_end": 1274196,
+      "warehouse_clearance_days": 736.0009112886827,
+      "portal_live_clearance_days": 658.1400770436087,
+      "portal_live_2025_decisions": 445462,
+      "portal_live_difference": 4,
+      "formula": "snapshot pending / prior annual outcomes * 365; end-2027 = B(1 July 2026) + 3 * H1 growth",
+      "resident_ratio_2025_to_2020": 0.12715885004170396,
+      "resident_scenario_2026": 46762.79426168668,
+      "resident_scenario_2027": 61747.574627151196,
+      "resident_scenario_2028": 72055.57964693189,
+      "caveats": [
+        "Stock/flow arithmetic is not an observed wait, an expected individual wait, or a predictive probability.",
+        "Requires comparable scope, constant throughput and counting, no priority effects and a defined queue order. Dynamic arrivals, rework, category changes and MOS can invalidate it.",
+        "Calling pending counts an upper bound is not established: a possible counting problem does not prove its direction.",
+        "Five-year lag of application totals is not a longitudinal cohort model: repeats, departures, legal-residence periods and eligibility are unobserved.",
+        "No confidence interval, probability calibration or validation of forecast accuracy."
+      ],
+      "gm_forecast_text_2025_decisions": 445458,
+      "gm_forecast_text_clearance_days": 658.1459868270409
+    }
+  },
+  "sources": [
+    {
+      "id": "AMENDMENT-2026-203",
+      "url": "https://eli.gov.pl/api/acts/DU/2026/203/text/T/D20260203L.pdf",
+      "tier": "official_legal_text",
+      "locator": "art17(50)",
+      "note": "Extends art100d to4March2027."
+    },
+    {
+      "id": "FOREIGNERS-ACT",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf",
+      "tier": "official_legal_text",
+      "locator": "art112a, PDF p141–142; text updated2026-04-07",
+      "note": "Shows MOS-related amendments and commencement by ministerial announcement; precise transitional application not exhaustively audited here."
+    },
+    {
+      "id": "GM-MSWIA-CSV",
+      "url": "https://glos-migranta.eu/dane/czas-mswia-18089.csv",
+      "tier": "derivative_dataset",
+      "http_status": 200,
+      "sha256": "45dbab4d7dd170c156a0189ebaaeb77c856a3eaf7fc1be78099232a73ca275b1",
+      "retrieved_at": "2026-10-20T11:59:21.781930+00:00",
+      "note": ""
+    },
+    {
+      "id": "MSWIA-12584",
+      "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/12584/reply/DMQHGV/body",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "394792272253220d3f3fba47b0a39bb027dbad8e60f155888f76fec777285858",
+      "retrieved_at": "2026-10-20T11:59:20.312353+00:00",
+      "note": ""
+    },
+    {
+      "id": "MSWIA-18089",
+      "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "80fc97b00c1d41581a67bcee723eca91b998fcdeb9ee7880a09aa49e8345836a",
+      "retrieved_at": "2026-10-20T11:59:15.181737+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2020",
+      "url": "https://www.nsa.gov.pl/media/foejxbq4/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2020.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "a41e39beb95170330b8cf21ae6d0514cfa562ba20c2b9b699c9ed2d58974e545",
+      "retrieved_at": "2026-10-20T11:59:22.954499+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2021",
+      "url": "https://www.nsa.gov.pl/media/zxwcc1uq/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2021.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "c995993f1ba71f33ad4c126c6e4d2b8b95b7f9c7c328086df969e104bc7c8fcb",
+      "retrieved_at": "2026-10-20T11:59:23.693584+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2022",
+      "url": "https://www.nsa.gov.pl/media/es1bldwx/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2022.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "49d77a4a0f8d7c8e0c1691dac71978d51307e898d4bbfb35fee17cdc501a4399",
+      "retrieved_at": "2026-10-20T11:59:24.394788+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2023",
+      "url": "https://www.nsa.gov.pl/media/wazp5vzz/7-skargi-na-bezczynność-i-przewlekłość-2023.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "3584a053884ab5bfdc0ebe33ba3a56ba8baab30d72621f158208c9f99adad878",
+      "retrieved_at": "2026-10-20T11:59:25.176410+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2024",
+      "url": "https://www.nsa.gov.pl/media/m5ccfdz2/7-skargi-na-bezczynność-i-przewlekłość-2024.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "0c87a4302891b8b505cc7bebafe1a73f0bbe8c5046253292ed64f1633f697ac5",
+      "retrieved_at": "2026-10-20T11:59:26.021346+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-2025",
+      "url": "https://www.nsa.gov.pl/media/1bbn0phd/7-skargi-na-bezczynność-i-przewlekłość-2025.xls",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "571e77cdba13d8bb50f1da80e47ce510ee6592746f75c9e4918637eec8ac61d7",
+      "retrieved_at": "2026-10-20T11:59:26.781895+00:00",
+      "note": ""
+    },
+    {
+      "id": "NSA-II-OSK-2038-25",
+      "url": "https://orzeczenia.nsa.gov.pl/doc/953FE35D2F",
+      "tier": "official_case_law",
+      "date": "2026-04-09",
+      "note": "Official indexed text checked; direct requests may fail TLS. Illustrates refusal of extension after30June2024, not general repeal."
+    },
+    {
+      "id": "NSA-INDEX",
+      "url": "https://www.nsa.gov.pl/dokumenty/statystyki-wsa/",
+      "tier": "official_publication",
+      "http_status": 200,
+      "sha256": "77d3c994014e80c3e462078f5f3a99a4aff64091e9e9c870ded18b4089fee103",
+      "retrieved_at": "2026-10-20T11:59:22.375855+00:00",
+      "note": ""
+    },
+    {
+      "id": "PORTAL-applications-2020-1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2020&caseType=1&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "9a77a667a7017cdf90c223e5dfc6e46d4d17f603811576abdee7220fc21fbe64",
+      "retrieved_at": "2026-10-20T11:59:30.217096+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-applications-2021-1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2021&caseType=1&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "83f3ee6b169bc768070357bffff1b850585ac450f848405095ba83cfd8aa814a",
+      "retrieved_at": "2026-10-20T11:59:31.448631+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-applications-2022-1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2022&caseType=1&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "c38c272a102f8d78b05eff0d27f43c260291c1ad4247d72dac2149f1aaee0b4c",
+      "retrieved_at": "2026-10-20T11:59:32.528771+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-applications-2023-1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "1b547ff7e095f103e1abf305fae81185d43706f57f71fb1f5ec2e0a09ddd4830",
+      "retrieved_at": "2026-10-20T11:59:33.960635+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-applications-2025-3",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "e6f8d4d5074ac50b7bb112502dc542c5eb85c17f3d339fd95934b8169f86a5d7",
+      "retrieved_at": "2026-10-20T11:59:35.273993+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-decisions-2025-1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "583e5dad196a44e5658a6e99160d4ad420133794dbb0476c4db2b8d60aca6c46",
+      "retrieved_at": "2026-10-20T11:59:36.396423+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "PORTAL-decisions-2025-3",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "tier": "official_live_api",
+      "http_status": 200,
+      "sha256": "4812766bc0715ceac0822d7b824f435df66b2f84a1ecc4a0b8940d8238f72050",
+      "retrieved_at": "2026-10-20T11:59:38.132629+00:00",
+      "note": "Live API snapshot; historical values can be revised. Application counts are not arrival cohorts or counts of unique persons."
+    },
+    {
+      "id": "THEWARSAW175788",
+      "url": "https://www.the-warsaw.pl/175788/v-polshe-reshenija-po-karte-pobytu-zhdut-do-658-dnej-vmesto-dvuh-mesjacev-po-zakonu-v-uzhondah-pochti-polmilliona-del-zhaloba-doshla-do-evropejskoj-komissii/",
+      "tier": "secondary_article",
+      "date": "2026-10-20",
+      "note": "Direct requests403; browser-visible article capture supplied by parent read for verification only, not republished. Claims outside this baseline require separate review."
+    },
+    {
+      "id": "UDSC-COPY",
+      "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+      "tier": "agency_response_copy_on_third_party_site",
+      "http_status": 200,
+      "sha256": "b2d81db630197c78b5b5c4231da0c315acfbd222548fef677118694f9bc12c73",
+      "retrieved_at": "2026-10-20T11:59:21.085877+00:00",
+      "note": "BSZ.WAiSM.0361.16.2026/DH, 28.08.2026; original signed document and agency-hosted publication not independently verified. Organ labels are blacked out; row mapping is inferred from ordering and historical values, not read directly."
+    },
+    {
+      "id": "UKRAINE-ACT",
+      "url": "https://eli.gov.pl/api/acts/DU/2025/337/text/U/D20250337Lj.pdf",
+      "tier": "official_legal_text",
+      "locator": "art100d",
+      "note": "Current official consolidation; not a constitutional-validity ruling."
+    },
+    {
+      "id": "WAREHOUSE-2023-COPY",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-04-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "tier": "agency_response_copy_on_third_party_site",
+      "http_status": 200,
+      "sha256": "3607e835bfb5fbd31782c0c6c33caa23be2edddc9902aab343b29aa4fe3ec73c",
+      "retrieved_at": "2026-10-20T11:59:27.590860+00:00",
+      "note": "OB-II.1331.16.2026.PT, 09.09.2026; signed original and authority-hosted publication not verified. Includes positive, negative, discontinued and unexamined outcomes by issue date."
+    },
+    {
+      "id": "WAREHOUSE-2024-COPY",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-02-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "tier": "agency_response_copy_on_third_party_site",
+      "http_status": 200,
+      "sha256": "d866b6e6cdd9537fbe864ae4d9dceee66a207455df97619c5ac1162a558c75a0",
+      "retrieved_at": "2026-10-20T11:59:28.188244+00:00",
+      "note": "OB-II.1331.16.2026.PT, 09.09.2026; signed original and authority-hosted publication not verified. Includes positive, negative, discontinued and unexamined outcomes by issue date."
+    },
+    {
+      "id": "WAREHOUSE-2025-COPY",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-01-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "tier": "agency_response_copy_on_third_party_site",
+      "http_status": 200,
+      "sha256": "32d33787bbe832564a17900157714d29ece170ceadd34867a306629a991bfda9",
+      "retrieved_at": "2026-10-20T11:59:28.846491+00:00",
+      "note": "OB-II.1331.16.2026.PT, 09.09.2026; signed original and authority-hosted publication not verified. Includes positive, negative, discontinued and unexamined outcomes by issue date."
+    }
+  ],
+  "current_release_status_file": "release.json"
+}

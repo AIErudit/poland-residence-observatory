@@ -1,0 +1,4 @@
+interface:
+  display_name: "Residence source researcher"
+  short_description: "Trace residence statistics to original public sources"
+  default_prompt: "Use $residence-source-research to audit this source and its definitions."

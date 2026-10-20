@@ -1,0 +1,521 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-20",
+  "purpose": "Public aggregate evidence review; not cryptographic authentication of correspondence or legal certification",
+  "sources_file": "source-inventory.json",
+  "scope": {
+    "checked": [
+      "TheWarsaw browser text",
+      "GłosMigranta requested pages plus/sady,/fami,/wykorzystanie",
+      "Sejm18089and12584",
+      "NSA2025primaryworkbook",
+      "Podlaski2023–2026reports",
+      "UdSC0828publiccopy",
+      "COPEtwoXLSXand48pageKPIcopy",
+      "ZUS2025primaryreport",
+      "UdSCBY/UAmonthlyDOCX"
+    ],
+    "not_completed": [
+      "signed-original authentication",
+      "row-by-row recount of all3courtregisters",
+      "NSA2020recalculation",
+      "KASauditprimarysource",
+      "allUD408consultationattachments",
+      "independent institutional confirmation of private international submissions"
+    ],
+    "catalogue_is_not_verification": "Counts of links or documents in upstream archive are inventory only,not claims that every page or every cell was checked."
+  },
+  "claims": [
+    {
+      "id": "mean-july",
+      "status": "confirmed_primary",
+      "claim_summary": "Диапазон средних 242–658 дней; рост в 15 из 16 регионов",
+      "evidence": "Таблица MSWiA 18089: 242 Małopolskie, 658 Śląskie. Только Dolnośląskie ниже 2023: 401→303.",
+      "recommended_public_wording": "В таблице MSWiA со срезом 06.07.2026 средняя продолжительность завершённых временных производств составляет 242–658 дней по воеводствам. В 15 из 16 показатель выше 2023.",
+      "source_ids": [
+        "mswia-18089"
+      ],
+      "limitations": "2026 неполный. 658 — среднее, не максимальное ожидание. Не прогноз новой подачи, не изготовление пластика.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "mean-august",
+      "status": "confirmed_copy",
+      "claim_summary": "668 в Śląskie не противоречит июльским 658",
+      "evidence": "UdSC, таблица 1, срез 12.08.2026: в восстановленной привязке строк Śląskie — 668, Pomorskie — 610, Lubuskie — 537; Małopolskie — 244, Warmińsko-Mazurskie — 271, Podkarpackie — 305 дней.",
+      "recommended_public_wording": "В таблице UdSC со срезом 12.08.2026 значение 668 дней относится к Śląskie при восстановленной по алфавиту и таблице MSWiA привязке строк. Июльские 658 дней относятся к другому срезу.",
+      "source_ids": [
+        "udsc-0828",
+        "mswia-18089"
+      ],
+      "limitations": "В опубликованной копии UdSC названия регионов скрыты. Привязка строк восстановлена по алфавитному порядку и сопоставлению с предыдущей таблицей MSWiA; это реконструкция, а не непосредственно прочитанные названия. Национальная сумма не зависит от этой привязки. Подписанный оригинал независимо не аутентифицирован. Между срезами может меняться состав завершений.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "stock-art114",
+      "status": "needs_qualification",
+      "claim_summary": "463487 дел и 341 день — не текущая общая очередь",
+      "evidence": "Ответ 12584: art.114, срез 13.10.2025, 463487 незавершённых дел; средний срок 341 день.",
+      "recommended_public_wording": "На 13.10.2025 MSWiA сообщало о 463487 незавершённых делах о временном пребывании и работе по art.114. Это отдельная категория и исторический срез.",
+      "source_ids": [
+        "mswia-12584"
+      ],
+      "limitations": "Материал от 20.10.2026 упрощает дату словом «сейчас». Не все временные разрешения, не все ВНЖ.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "stock-temporary",
+      "status": "confirmed_copy_and_sum",
+      "claim_summary": "803223 производства о временном пребывании на 01.07.2026",
+      "evidence": "Суммы 16 строк UdSC: 387312 на конец 2023; 484201 на конец 2024; 646232 на конец 2025; 803223 на 01.07.2026.",
+      "recommended_public_wording": "Сумма региональных строк UdSC даёт 803223 дела о временном пребывании в работе на 01.07.2026. Число не равно количеству людей.",
+      "source_ids": [
+        "udsc-0828"
+      ],
+      "limitations": "Сумма вычислена нами и проверяется без названий регионов: они скрыты в опубликованной копии UdSC. Региональная привязка восстановлена по алфавиту и предыдущей таблице MSWiA. Дедупликация, незакрытые записи, MOS/CUKR требуют разъяснения. «Верхняя граница» не доказана.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "stock-comparison",
+      "status": "unsupported",
+      "claim_summary": "463487→803223 как один ряд роста",
+      "evidence": "Art.114-only и весь pobyt czasowy; даты также различаются.",
+      "recommended_public_wording": "463487 и 803223 относятся к разным категориям и датам. Их нельзя склеивать в один временной ряд.",
+      "source_ids": [
+        "mswia-12584",
+        "udsc-0828"
+      ],
+      "limitations": "",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "mean-definition",
+      "status": "confirmed_copy",
+      "claim_summary": "Средняя длительность не измеряет всех ожидающих",
+      "evidence": "Hurtownia и A1 листов Łódź включают положительные, отрицательные, umorzenia и оставление без рассмотрения по дате завершения. UdSC считает от подачи до решения I инстанции.",
+      "recommended_public_wording": "Среднее описывает завершённые производства; незавершённые дела ещё не вошли в него.",
+      "source_ids": [
+        "lodz-method",
+        "hurtownia-2025",
+        "udsc-0828"
+      ],
+      "limitations": "Общие и validated art. 114/art. 127 отчёты различаются фильтрами и удалением дубликатов; нельзя считать их взаимозаменяемыми.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "sixty-days",
+      "status": "needs_qualification",
+      "claim_summary": "Базовые 60 дней не всегда отсчитываются от подачи",
+      "evidence": "Art. 112a: условия полноты и представления документов; переходные различия старых и новых MOS дел; art. 100d.",
+      "recommended_public_wording": "Базовый срок временного разрешения — 60 дней при предусмотренных законом условиях. Для охваченных art.100d производств действует особый режим до 04.03.2027. Календарное ожидание от подачи не равно юридическому сроку.",
+      "source_ids": [
+        "foreigners-law",
+        "mos-amendment",
+        "mos-launch",
+        "special-law",
+        "special-extension"
+      ],
+      "limitations": "Не называть каждое дело на 658 дней автоматически одинаковым нарушением 60 дневного срока без хронологии.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "art100d",
+      "status": "needs_qualification",
+      "claim_summary": "Art. 100d не отменяет все сроки навсегда",
+      "evidence": "Закрытый перечень воеводских производств; формальное действие до 04.03.2027; часть судов не применяет продления в конкретных делах.",
+      "recommended_public_wording": "Особый режим art.100d ограничен видами производств и сроком до 04.03.2027. Судебный исход требует индивидуальной оценки.",
+      "source_ids": [
+        "special-law",
+        "special-extension",
+        "rpo-100d",
+        "nsa-100d"
+      ],
+      "limitations": "Обычная физическая карта после решения, её замена, PDPC и апелляции у Szef UdSC не перечислены. Специальная CUKR проверяется отдельно. Решение NSA не отменяет норму erga omnes.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "travel-stamp",
+      "status": "needs_qualification",
+      "claim_summary": "Справка не единственный возможный документ каждого ожидающего",
+      "evidence": "Законность ожидания связана со своевременностью/формальными условиями. Штамп сам не даёт права на поездки/возврат.",
+      "recommended_public_wording": "Штамп или справка о подаче сами по себе не дают права ездить по Шенгену или возвращаться в Польшу. Возможности зависят от других действующих документов и правовых оснований.",
+      "source_ids": [
+        "foreigners-law"
+      ],
+      "limitations": "У части ожидающих есть действующая карта, виза или другое основание. Нельзя утверждать общий запрет выезда.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "court2025",
+      "status": "confirmed_primary_and_calculation",
+      "claim_summary": "29,5% среди решений по существу в 2025",
+      "evidence": "NSA 2025, WSA SAB Symbole, Excel 249/Lp 217: 432 удовлетворены; 1032 отказано; 1873 отклонено; 242 иное; 3559 поступило.",
+      "recommended_public_wording": "В статистике WSA за 2025 по символу 6272 удовлетворены 432 из 1464 жалоб, завершённых удовлетворением или отказом: 29,5%. Процессуальные отклонения считаются отдельно.",
+      "source_ids": [
+        "nsa-2025"
+      ],
+      "limitations": "Символ 6272 включает визы, пребывание и высылку. Исходы 2025 не равны когорте входа 2025. Только I инстанция. Не индивидуальная вероятность.",
+      "calculation": "432/(432+1032)*100=29.5081967213",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "court2020",
+      "status": "partially_verified",
+      "claim_summary": "94,5% в 2020 требует отдельного пересчёта",
+      "evidence": "94,5% и 4329 входящих цитирует GM; официальный файл 2020 в этот проход не пересчитывался.",
+      "recommended_public_wording": "Для публикации изменения 94,5%→29,5% нужно повторить расчёт по официальному файлу 2020 с тем же знаменателем.",
+      "source_ids": [
+        "nsa-series",
+        "gm-sixteen"
+      ],
+      "limitations": "Не маркировать весь исторический ряд как независимо пересчитанный.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "court-regions",
+      "status": "confirmed_primary_and_calculation",
+      "claim_summary": "Гданьск 94,3%; Вроцлав 24,0%; Познань 16,7%",
+      "evidence": "NSA 2025: GD 100/(100+6); WR 262/(262+828); PO 14/(14+70).",
+      "recommended_public_wording": "Среди решений по существу по символу 6272 в 2025 доли удовлетворений составили 94,3% в Гданьске,24,0% во Вроцлаве,16,7% в Познани.",
+      "source_ids": [
+        "nsa-2025"
+      ],
+      "limitations": "Отклонения имеют иной знаменатель: GD 113/254; WA 186/262; WR 1485/2754. Разные составы дел и учёт; не рейтинг гарантий.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "court-governor",
+      "status": "publisher_calculation_not_fully_recounted",
+      "claim_summary": "10198 из 10349 дел против воевод",
+      "evidence": "Опубликованные подсчёты: WR 6743/6753, WA 2612/2752, GD 843/844; арифметика 98,54%.",
+      "recommended_public_wording": "По подсчёту Głos Migranta, в реестрах трёх выбранных WSA воевода указан органом в 10198 из 10349 дел, или 98,5%.",
+      "source_ids": [
+        "gm-sady",
+        "wsa-wa"
+      ],
+      "limitations": "Смешанная выборка 2024–2026 с разными конечными датами. Не национальный итог, не только 2026. Все строки трёх реестров здесь не пересчитаны.",
+      "calculation": "(6743+2612+843)/(6753+2752+844)*100=98.5409218282",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "dip-response",
+      "status": "needs_qualification",
+      "claim_summary": "31/31 и 28/118 — выборка кампании и первые ответы",
+      "evidence": "Методика GM считает первую хотя бы частичную содержательную бумагу/ссылку; медиана 6 дней.",
+      "recommended_public_wording": "В серии запросов Głos Migranta 16 WSA дали первый ответ с данными или ссылкой в 14 дней по 31 из 31 запроса. Для воевод показатель в выборке — 28 из 118.",
+      "source_ids": [
+        "gm-sady"
+      ],
+      "limitations": "Нерандомная выборка одного инициатора; вопросы судам проще. Дата письма, не вручения. Первый ответ не обязательно полный; часть требовала исправлений.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "dip-right",
+      "status": "confirmed_primary_law",
+      "claim_summary": "DIP доступен независимо от гражданства",
+      "evidence": "Art. 2 право каждого; art. 13≤14 дней, мотивированное уведомление о продлении≤2 месяцев; art. 3 переработанная информация требует особой общественной значимости.",
+      "recommended_public_wording": "Публичную информацию может запрашивать любой, без требования польского гражданства. Лучше запрашивать существующие отчёты и определения.",
+      "source_ids": [
+        "dip-law"
+      ],
+      "limitations": "Запросы от имени пользователя не отправлялись. DIP отличается от петиции и доступа стороны к своему делу.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "staff270",
+      "status": "needs_qualification",
+      "claim_summary": "270 ставок не равно 270 решающих инспекторов",
+      "evidence": "MSWiA говорит о выполнении задач легализации в рамках 270 etatów.",
+      "recommended_public_wording": "В ответе MSWiA указаны 270 ставок для задач легализации пребывания в Mazowiecki UW. Число принимающих решения инспекторов и фактическая занятость из этого не следуют.",
+      "source_ids": [
+        "mswia-18089"
+      ],
+      "limitations": "",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "staff-lodz",
+      "status": "regional_evidence_only",
+      "claim_summary": "Почти неизменные кадры нельзя распространять на всю страну",
+      "evidence": "Łódź сообщает 37,38,36,38 работников, ведущих производства, за 2023–2026.",
+      "recommended_public_wording": "В Łódzki UW сообщали о 38 работниках, ведущих производства, в 2026 против 37 в 2023. Общенациональный вывод требует сопоставимого ряда всех 16 управлений.",
+      "source_ids": [
+        "lodz-staff"
+      ],
+      "limitations": "",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "fami-money",
+      "status": "confirmed_copy_needs_status",
+      "claim_summary": "246,91 млн — соглашения и заявки, не расходы",
+      "evidence": "2024: FAMI 133912150.53; 2026: заявки FAMI 112998434.79; итог 246910585.32.",
+      "recommended_public_wording": "В опубликованных списках COPE указано 246,91 млн zł FAMI: 133,91 млн по соглашениям 2024 и 113,00 млн в заявках 2026. Это не подтверждённые расходы.",
+      "source_ids": [
+        "cope-2024",
+        "cope-2026"
+      ],
+      "limitations": "Статус заявок на 20.10 нужно обновить. Другой ответ MSWiA даёт иную сумму 2024; причина не установлена. Не вся программа FAMI.",
+      "calculation": "133912150.53+112998434.79=246910585.32PLN",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "fami-kpi",
+      "status": "confirmed_copy",
+      "claim_summary": "138 KPI; показатель срока производства не обнаружен",
+      "evidence": "В 48-страничном PDF 138 блоков Rodzaj wskaźnika: 134 Produktu+4 Rezultatu. Метрики длительности производства/ожидания решения не обнаружены.",
+      "recommended_public_wording": "В опубликованной выгрузке 16 проектов FAMI 2024 есть 138 индикаторов; среди них не обнаружен показатель длительности производства или ожидания решения.",
+      "source_ids": [
+        "cope-kpi"
+      ],
+      "limitations": "Ограничено версией 01.09.2026. Не доказывает отсутствия любой оценки программы или бесполезности инфраструктуры.",
+      "calculation": "134+4=138",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "fami-examples",
+      "status": "confirmed_copy",
+      "claim_summary": "120 радиороликов; 65 единицмебели; 123 субботы — планы",
+      "evidence": "PDF содержит цели 120 радиороликов,65 единиц оснащения Łódź,123 информационные субботы Mazowieckie; лифт/солнцезащита тоже присутствуют.",
+      "recommended_public_wording": "Среди плановых показателей —120 радиороликов,65 единиц мебельного оснащения и 123 информационные субботы. Это не подтверждённые результаты закупок/мероприятий.",
+      "source_ids": [
+        "cope-kpi"
+      ],
+      "limitations": "Не доказательство растраты или отсутствия косвенного эффекта.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "kas-audit",
+      "status": "not_verified",
+      "claim_summary": "Утверждение об октябрьском аудите KAS",
+      "evidence": "В просмотренных/fakty и/fami первичный отчёт об этом аудите не идентифицирован. MF BMI1.0123.3707.2026 касается резервов/зарплат.",
+      "recommended_public_wording": "Утверждение об аудите KAS требует номера, даты и самого отчёта; до проверки оно не используется как факт-карточка.",
+      "source_ids": [
+        "the-warsaw",
+        "gm-fakty",
+        "gm-fami",
+        "mf-reserves"
+      ],
+      "limitations": "Отсутствие найденного документа не доказывает отсутствия аудита.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "supervision",
+      "status": "confirmed_copy_with_scope",
+      "claim_summary": "Отсутствие надзора только в запрошенном объёме",
+      "evidence": "Копия 02.10 Ad1: в 2024–2026 не предпринимались действия по art. 8 ust3 в запрошенном объёме сроков легализации.",
+      "recommended_public_wording": "В опубликованной копии ответа MSWiA от 02.10.2026 министерство сообщает, что не предпринимало в 2024–2026 надзорных действий в запрошенном объёме по срокам легализации пребывания.",
+      "source_ids": [
+        "mswia-supervision"
+      ],
+      "limitations": "Не расширять на все виды контроля и все сферы. Подлинность подписанного оригинала независимо не проверена.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "nik-history",
+      "status": "confirmed_primary",
+      "claim_summary": "Проблемы документировались до 2022",
+      "evidence": "NIK 2019: 64 дня 2014→206 в 2018; 187/264 дел с нарушениями; отдельное 1259 дней.",
+      "recommended_public_wording": "NIK фиксировала серьёзные задержки ещё в 2019: в проверенной выборке нарушения найдены в 187 из 264 дел; одно продолжалось 1259 дней.",
+      "source_ids": [
+        "nik-2019"
+      ],
+      "limitations": "Выборка разных производств, включая разрешения на работу и документы. Не репрезентативный показатель нынешних ВНЖ.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "ud408",
+      "status": "confirmed_proposal_context",
+      "claim_summary": "1,1–1,2% — историческая доля групп из проекта",
+      "evidence": "RPO 27.07: указанные в обосновании UD408 группы составляли 1,1–1,2% заявлений 2023–2025. RCL на 20.10: проект otwarty.",
+      "recommended_public_wording": "По оценке RPO, группы из обоснования проекта UD408 составляли в 2023–2025 около 1,1–1,2% заявлений. Проект ещё не действующий закон.",
+      "source_ids": [
+        "rpo-ud408",
+        "rcl-ud408",
+        "kprm-ud408"
+      ],
+      "limitations": "Будущий список стран, редакция и состав заявлений могут измениться. Не судебное установление неконституционности.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "ud408-review",
+      "status": "not_verified",
+      "claim_summary": "Отсутствие всех проверок равенства не установлено",
+      "evidence": "Не проверено полное досье RCL, MSZ, KSE/OSR и все последующие документы.",
+      "recommended_public_wording": "Замечания к равенству и ответы министерства нужно связывать с точным документом. Здесь отсутствие всех анализов не установлено.",
+      "source_ids": [
+        "the-warsaw",
+        "rcl-ud408"
+      ],
+      "limitations": "Нельзя превращать отсутствие анализа в одном ответе в вывод обо всём проекте.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "zus-ukraine",
+      "status": "confirmed_primary_with_date",
+      "claim_summary": "857100 — округление на конец 2025",
+      "evidence": "ZUS с. 9 табл. 1: 857058; текстс. 7: 857,1 тыс.; срез 31.12.2025.",
+      "recommended_public_wording": "На 31.12.2025 в пенсионном и рентном страховании ZUS зарегистрированы 857058 граждан Украины —около 857,1 тыс.",
+      "source_ids": [
+        "zus-2025"
+      ],
+      "limitations": "Не текущий счётчик 2026, не все налогоплательщики и не сумма взносов.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "bgk",
+      "status": "needs_qualification",
+      "claim_summary": "15,1 млрд против 2,8 млрд не полный бюджетный баланс",
+      "evidence": "BGK с. 19: оценка PIT/взносов/VAT2024; 2,8 млрд только 800+; названы другие расходы и допущения.",
+      "recommended_public_wording": "BGK оценивал налоговые и страховые поступления от мигрантов Украины за 2024 примерно в 15,1 млрд zł. Расходы 2,8 млрд zł относятся только к 800+; это сопоставление отдельных потоков.",
+      "source_ids": [
+        "bgk-2025"
+      ],
+      "limitations": "Оценочная модель, не аудит всех доходов/образования/медицины/пособий.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "international",
+      "status": "publisher_statement_only",
+      "claim_summary": "Жалоба KE, EP2170/2026, ECRI не означают установления нарушения",
+      "evidence": "Кампания публикует сведения об исходящих обращениях CPLT(2026)02766, EP2170/2026, ECRI; публичная институциональная карточка/решение здесь не установлены.",
+      "recommended_public_wording": "Głos Migranta сообщает о подаче жалобы Еврокомиссии, петиции 2170/2026 и материалов ECRI. Это действия кампании, а не решение о нарушении.",
+      "source_ids": [
+        "gm-use"
+      ],
+      "limitations": "Не равнять жалобу KE с formal infringementprocedure или делом TSUE. Частные письма и контакты не публикуются.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "annual-output",
+      "status": "confirmed_copy_and_sum",
+      "claim_summary": "Около 400 тыс завершений 2024–2025",
+      "evidence": "Hurtownia: 437687 за 2023; 396808 за 2024; 398337 за 2025, суммы 16 воеводств.",
+      "recommended_public_wording": "Отчёты Hurtownia дают 398337 завершений временных производств в 2025 против 396808 в 2024. Это не число выданных пластиковых карт.",
+      "source_ids": [
+        "hurtownia-2023",
+        "hurtownia-2024",
+        "hurtownia-2025",
+        "portal-decisions-20261020",
+        "gm-forecast",
+        "gm-portal-csv"
+      ],
+      "limitations": "Включены неположительные завершения. Текст прогноза Głos Migranta указывает 445458 завершений за 2025 год: на 47121 больше, чем 398337 в Hurtownia. Проверенные CSV и JSON Głos Migranta и прямой запрос UdSC API от 20.10.2026 содержат 445462: на 47125 больше Hurtownia. Причина расхождения текста прогноза с CSV/API в 4 дела не установлена. Старый CSV с 445458 и пересмотр данных не установлены; эти объяснения не предполагаются.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "clearance",
+      "status": "scenario_not_wait_estimate",
+      "claim_summary": "658–736 дней — время очистки запаса, не среднее новой подачи",
+      "evidence": "803223 / 398337 × 365 = 736,0 дня. Подстановка значения 445458 из текста прогноза Głos Migranta даёт 658,1 дня. Проверенные CSV/JSON Głos Migranta и прямой UdSC API от 20.10.2026 дают 445462 завершения за 2025 год: условный результат также 658,1 дня. Подлясье: 21208 / 4471 × 365 ≈ 1731 день.",
+      "recommended_public_wording": "Условное отношение запаса на 01.07.2026 к годовому выпуску 2025 составляет около 658–736 дней. Это время очистки запаса без новых заявлений при заданной производительности.",
+      "source_ids": [
+        "udsc-0828",
+        "hurtownia-2025",
+        "gm-forecast",
+        "portal-decisions-20261020",
+        "gm-portal-csv"
+      ],
+      "limitations": "FIFO, постоянство выпуска и одинаковый охват не доказаны. Не прогноз срока нового дела; нет обоснованной верхней границы. Значение 445458 встречается в тексте прогноза, тогда как проверенные CSV/JSON Głos Migranta и API дают 445462. Причина расхождения в 4 дела не установлена; старый CSV или пересмотр данных не установлены.",
+      "calculation": "warehouse:803223/398337*365=736.0009113;gm_forecast_text:803223/445458*365=658.1459868;gm_csv_and_udsc_api_2026-10-20:803223/445462*365=658.1400770436",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "forecast-stock",
+      "status": "arithmetic_scenario",
+      "claim_summary": "1,27 млн кконцу 2027 — линейная экстраполяция",
+      "evidence": "Прирост 803223−646232=156991; 960214 кконцу 2026; 1274196 кконцу 2027.",
+      "recommended_public_wording": "Линейный сценарий продолжения прироста I полугодия 2026 даёт около 1,27 млндел кконцу 2027. Это не наблюдение и не официальный прогноз.",
+      "source_ids": [
+        "udsc-0828",
+        "gm-forecast"
+      ],
+      "limitations": "Разрыв учёта MOS/CUKR, изменения заявлений и выпуска не учтены. Направление чистого прироста без сопоставимости не доказано.",
+      "calculation": "803223+3*(803223-646232)=1274196",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "forecast-ltr",
+      "status": "arithmetic_scenario",
+      "claim_summary": "Около 72 тыс. заявлений LTR в 2028 году — коэффициент заявлений, а не когортная модель",
+      "evidence": "566658 × (33235 / 261366) = 72055,5796469, то есть около 72056. Повторён коэффициент 2025 года для заявлений, поданных пятью годами ранее.",
+      "recommended_public_wording": "При сохранении коэффициента 2025 года расчёт даёт около 72 тыс. заявлений LTR в 2028 году. Это иллюстративный сценарий, а не модель людей, достигающих права на этот статус.",
+      "source_ids": [
+        "gm-forecast",
+        "gm-data",
+        "portal"
+      ],
+      "limitations": "Заявления не равны людям; дата подачи не равна началу учитываемого пребывания. Выезды, учёба, UKR, язык и доход, двойные подачи не отслежены. Нет проверки на прошлых периодах и анализа чувствительности. «Консервативность» сценария не доказана.",
+      "calculation": "566658*(33235/261366)=72055.57964693189; rounded_1dp=72055.6; rounded_integer=72056",
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "forecast-official",
+      "status": "official_forecast_not_fact",
+      "claim_summary": "UdSC действительно прогнозирует 400–600% роста LTR Беларуси",
+      "evidence": "DOCX 01.09 и 01.10 содержат 400–600% против среднего 2022–2025(<1000/год), для 2026–2028.",
+      "recommended_public_wording": "Отчёты UdSC содержат прогноз роста белорусских заявлений LTR на 400–600% против среднего 2022–2025. Это прогноз ведомства, а не уже наступивший рост.",
+      "source_ids": [
+        "udsc-by-202609",
+        "udsc-by-202610"
+      ],
+      "limitations": "Методика ошибки/интервалы не раскрыты; не подтверждает автоматически частный прогноз 12600.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "forecast-ukr",
+      "status": "legal_scenario_only",
+      "claim_summary": "Зачёт UKR и волна споров не установлены",
+      "evidence": "Позиция UdSC: UKR не включается, CUKR от получения. Авторы предлагают иную интерпретацию art. 212/213 без обязательного решения по этому вопросу.",
+      "recommended_public_wording": "Можно обсуждать альтернативные сценарии нагрузки, но опубликованная позиция UdSC не засчитывает период UKR. Предполагаемая волна споров не измерена.",
+      "source_ids": [
+        "foreigners-law",
+        "udsc-cukr",
+        "gm-forecast",
+        "udsc-ua-202610"
+      ],
+      "limitations": "Не право на LTR в 2027. 10%от UKR — произвольная иллюстрация. Более свежий отчёт 01.10 даёт 856 тыс UKR против 951 тыс в августовском источнике; меняются статусы и учёт.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    },
+    {
+      "id": "curia",
+      "status": "confirmed_schedule_only",
+      "claim_summary": "12.11.2026 — запланированное событие C-254/25",
+      "evidence": "Официальная карточка: pending; opinion 16.04.2026; delivery 12.11.2026.",
+      "recommended_public_wording": "В официальном расписании TSUE решение C-254/25 запланировано на 12.11.2026. На 20.10.2026 решения ещё нет, исход неизвестен.",
+      "source_ids": [
+        "curia-254"
+      ],
+      "limitations": "Расписание может измениться; мнение генерального адвоката и решение разные акты.",
+      "calculation": null,
+      "publication_state": "research_draft_requires_observation_ids_and_independent_review"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "observations": 1780,
+  "sources": 1483,
+  "sources_parsed": 32,
+  "sources_catalog_only": 1451,
+  "series_counts": {
+    "mswia_18089_concluded_mean_days": 64,
+    "mswia_12584_pending_count": 2,
+    "mswia_12584_reported_mean_days": 2,
+    "udsc_20260828_concluded_mean_days": 64,
+    "udsc_20260828_blue_card_mean_days": 64,
+    "udsc_20260828_pending_stock": 64,
+    "lodz_pending_stock": 4,
+    "lodz_caseworkers": 4,
+    "lodz_staff_headcount": 4,
+    "lodz_pending_per_caseworker": 4,
+    "warehouse_all_outcomes": 192,
+    "lodz_warehouse_all_outcomes": 27,
+    "lodz_warehouse_positive_decisions": 45,
+    "nsa_wsa_6272_annual": 1224,
+    "udsc_portal_temporary_applications": 4,
+    "udsc_portal_temporary_decisions": 4,
+    "udsc_portal_eu_long_term_applications": 4,
+    "udsc_portal_eu_long_term_decisions": 4
+  },
+  "no_personal_cases": true,
+  "no_forecast_facts": true,
+  "expected_checks": [
+    {
+      "check": "MSWiA18089:16voivodeships*4periods",
+      "expected": 64,
+      "actual": 64
+    },
+    {
+      "check": "UdSC pending2026 sum16",
+      "expected": 803223,
+      "actual": 803223
+    },
+    {
+      "check": "WSA6272 inflow2025",
+      "expected": 3559,
+      "actual": 3559
+    },
+    {
+      "check": "WSA6272 upheld2025",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "check": "Warehouse all-outcome concluded2025 sum16",
+      "expected": 398337,
+      "actual": 398337
+    }
+  ],
+  "udsc_pending_totals": [
+    {
+      "as_of_date": "2023-12-31",
+      "value": 387312,
+      "unit": "cases",
+      "calculation": "sum of16 voivodeships; own calculation, not a published national total",
+      "source_id": "src_3aebb28a24e1"
+    },
+    {
+      "as_of_date": "2024-12-31",
+      "value": 484201,
+      "unit": "cases",
+      "calculation": "sum of16 voivodeships; own calculation, not a published national total",
+      "source_id": "src_3aebb28a24e1"
+    },
+    {
+      "as_of_date": "2025-12-31",
+      "value": 646232,
+      "unit": "cases",
+      "calculation": "sum of16 voivodeships; own calculation, not a published national total",
+      "source_id": "src_3aebb28a24e1"
+    },
+    {
+      "as_of_date": "2026-07-01",
+      "value": 803223,
+      "unit": "cases",
+      "calculation": "sum of16 voivodeships; own calculation, not a published national total",
+      "source_id": "src_3aebb28a24e1"
+    }
+  ],
+  "court_national_annual": [
+    {
+      "year": "2020",
+      "court_inflow": 4329,
+      "court_pending_start": 769,
+      "court_resolved": 3121,
+      "court_upheld": 2179,
+      "court_dismissed": 126,
+      "court_rejected": 527,
+      "court_other_resolved": 289,
+      "court_closed": 325,
+      "court_resolved_including_closed": 3446,
+      "court_pending_end": 1652,
+      "court_upheld_merits_pct": 94.533623,
+      "court_rejected_resolved_pct": 16.885614
+    },
+    {
+      "year": "2021",
+      "court_inflow": 11104,
+      "court_pending_start": 1652,
+      "court_resolved": 7576,
+      "court_upheld": 4755,
+      "court_dismissed": 101,
+      "court_rejected": 1484,
+      "court_other_resolved": 1236,
+      "court_closed": 1570,
+      "court_resolved_including_closed": 9146,
+      "court_pending_end": 3610,
+      "court_upheld_merits_pct": 97.920099,
+      "court_rejected_resolved_pct": 19.588173
+    },
+    {
+      "year": "2022",
+      "court_inflow": 5926,
+      "court_pending_start": 3610,
+      "court_resolved": 7952,
+      "court_upheld": 4155,
+      "court_dismissed": 67,
+      "court_rejected": 2803,
+      "court_other_resolved": 927,
+      "court_closed": 67,
+      "court_resolved_including_closed": 8019,
+      "court_pending_end": 1517,
+      "court_upheld_merits_pct": 98.413074,
+      "court_rejected_resolved_pct": 35.248994
+    },
+    {
+      "year": "2023",
+      "court_inflow": 2303,
+      "court_pending_start": 1517,
+      "court_resolved": 2985,
+      "court_upheld": 1392,
+      "court_dismissed": 238,
+      "court_rejected": 1201,
+      "court_other_resolved": 154,
+      "court_closed": 15,
+      "court_resolved_including_closed": 3000,
+      "court_pending_end": 820,
+      "court_upheld_merits_pct": 85.398773,
+      "court_rejected_resolved_pct": 40.234506
+    },
+    {
+      "year": "2024",
+      "court_inflow": 3187,
+      "court_pending_start": 821,
+      "court_resolved": 3067,
+      "court_upheld": 824,
+      "court_dismissed": 1115,
+      "court_rejected": 998,
+      "court_other_resolved": 130,
+      "court_closed": 11,
+      "court_resolved_including_closed": 3078,
+      "court_pending_end": 930,
+      "court_upheld_merits_pct": 42.496132,
+      "court_rejected_resolved_pct": 32.539941
+    },
+    {
+      "year": "2025",
+      "court_inflow": 3559,
+      "court_pending_start": 929,
+      "court_resolved": 3579,
+      "court_upheld": 432,
+      "court_dismissed": 1032,
+      "court_rejected": 1873,
+      "court_other_resolved": 242,
+      "court_closed": 11,
+      "court_resolved_including_closed": 3590,
+      "court_pending_end": 898,
+      "court_upheld_merits_pct": 29.508197,
+      "court_rejected_resolved_pct": 52.333054
+    }
+  ],
+  "warehouse_concluded_totals": [
+    {
+      "reference_period": "2023",
+      "value": 437687,
+      "unit": "cases",
+      "calculation": "sum of16 all-outcome counts, not portal decisions"
+    },
+    {
+      "reference_period": "2024",
+      "value": 396808,
+      "unit": "cases",
+      "calculation": "sum of16 all-outcome counts, not portal decisions"
+    },
+    {
+      "reference_period": "2025",
+      "value": 398337,
+      "unit": "cases",
+      "calculation": "sum of16 all-outcome counts, not portal decisions"
+    }
+  ],
+  "mswia_2023_2026_change": [
+    {
+      "geography_id": "PL-DS",
+      "days_2023": 401,
+      "days_2026": 303,
+      "change_days": -98
+    },
+    {
+      "geography_id": "PL-KP",
+      "days_2023": 464,
+      "days_2026": 541,
+      "change_days": 77
+    },
+    {
+      "geography_id": "PL-LU",
+      "days_2023": 211,
+      "days_2026": 386,
+      "change_days": 175
+    },
+    {
+      "geography_id": "PL-LB",
+      "days_2023": 398,
+      "days_2026": 555,
+      "change_days": 157
+    },
+    {
+      "geography_id": "PL-LD",
+      "days_2023": 336,
+      "days_2026": 386,
+      "change_days": 50
+    },
+    {
+      "geography_id": "PL-MA",
+      "days_2023": 128,
+      "days_2026": 242,
+      "change_days": 114
+    },
+    {
+      "geography_id": "PL-MZ",
+      "days_2023": 153,
+      "days_2026": 394,
+      "change_days": 241
+    },
+    {
+      "geography_id": "PL-OP",
+      "days_2023": 425,
+      "days_2026": 510,
+      "change_days": 85
+    },
+    {
+      "geography_id": "PL-PK",
+      "days_2023": 135,
+      "days_2026": 302,
+      "change_days": 167
+    },
+    {
+      "geography_id": "PL-PD",
+      "days_2023": 184,
+      "days_2026": 447,
+      "change_days": 263
+    },
+    {
+      "geography_id": "PL-PM",
+      "days_2023": 314,
+      "days_2026": 598,
+      "change_days": 284
+    },
+    {
+      "geography_id": "PL-SL",
+      "days_2023": 427,
+      "days_2026": 658,
+      "change_days": 231
+    },
+    {
+      "geography_id": "PL-SK",
+      "days_2023": 172,
+      "days_2026": 325,
+      "change_days": 153
+    },
+    {
+      "geography_id": "PL-WN",
+      "days_2023": 134,
+      "days_2026": 273,
+      "change_days": 139
+    },
+    {
+      "geography_id": "PL-WP",
+      "days_2023": 329,
+      "days_2026": 339,
+      "change_days": 10
+    },
+    {
+      "geography_id": "PL-ZP",
+      "days_2023": 452,
+      "days_2026": 465,
+      "change_days": 13
+    }
+  ],
+  "limitations": [
+    "Concluded-duration means exclude ongoing cases; means are not medians or individual forecasts.",
+    "Administrative regions and WSA court jurisdictions are different geography levels.",
+    "Stock, flow, staff headcount and disposition shares must not be plotted as one interchangeable series.",
+    "MSWiA12584 mean has an ambiguous cohort; no pending-age interpretation is asserted.",
+    "UdSC regional labels are redacted or not directly legible: geographic assignment is reconstructed, while the sum of16 numeric rows is independent of those labels.",
+    "UdSC2026 pending stocks may have a reporting/scope discontinuity; Łódź own-office counts have a different cut-off and incompletely specified scope.",
+    "All2026 periods are partial; full-year2025 is not a like-for-like annual flow comparator.",
+    "Warehouse2026 cut-off is unknown: as_of_date=null, period_ambiguous; excluded from annual scenario baselines.",
+    "NSA symbol6272 includes visas/residence/settlement/expulsion; WSA disposition outcomes are not NSA cassation outcomes.",
+    "No forecast from the secondary reports is treated as fact. No chat messages, personal cases, raw correspondence, PDF/XLS binaries or secrets are published."
+  ]
+}

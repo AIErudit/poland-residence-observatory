@@ -1,0 +1,28 @@
+name: Verify evidence and site
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install extraction and validation libraries
+        run: python -m pip install -r requirements.txt
+      - name: Dataset reconciliation
+        run: python -m unittest discover -s tests -v
+      - name: JavaScript syntax
+        run: node --check site/app.js
+      - name: Build public snapshot
+        run: python scripts/build_site.py
+      - name: Verify independent review and public links
+        run: python scripts/validate_site.py --release
+      - name: Check committed build is current
+        run: git diff --exit-code -- docs site/claims.json

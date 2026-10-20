@@ -1,0 +1,4 @@
+interface:
+  display_name: "Residence data engineer"
+  short_description: "Normalize and reconcile residence proceeding datasets"
+  default_prompt: "Use $residence-data-refresh to stage and validate this data update."

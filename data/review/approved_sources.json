@@ -1,0 +1,226 @@
+{
+  "src_9ec673b3725c": {
+    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/12584/reply/DMQHGV/body",
+    "content_sha256": "394792272253220d3f3fba47b0a39bb027dbad8e60f155888f76fec777285858",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Reviewed national/Opole stock table and surrounding wording. Mean cohort is ambiguous and is kept separate from concluded-duration measures."
+  },
+  "src_dab9bf75dd09": {
+    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body",
+    "content_sha256": "80fc97b00c1d41581a67bcee723eca91b998fcdeb9ee7880a09aa49e8345836a",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Reviewed native HTML table:16 regions x4 periods, dated27.07.2026 with cut-off06.07.2026; no national weighted average inferred."
+  },
+  "src_cd066283fa9a": {
+    "url": "https://glos-migranta.eu/dokumenty/lodzki-soc-iii-1331-2-2026-08-25.pdf",
+    "content_sha256": "e13f40c4137a2887fa11bcdcda77d33c13e49654deb7a6a560ad664054919b49",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Reviewed letter pages2-3:4 own-stock counts, direct caseworker and total staff headcounts. No FTE interpretation."
+  },
+  "src_8e1be42183d6": {
+    "url": "https://glos-migranta.eu/dokumenty/lodzki-soc-iv-1331-11-hurtownia-raporty.xlsx",
+    "content_sha256": "22fbdb1a83d61c77886ae75d2c069ed4871e9fb5e30c494e90e8d2f618672145",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Reviewed workbook24 sheets and A1/G3 definitions. All-outcome vs positive-only and permit/legal-basis cohorts kept separate;2026 through31.08 explicit."
+  },
+  "src_b34097e5a54c": {
+    "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-01-sredni-czas-postepowania-legalizacja-pod.pdf",
+    "content_sha256": "32d33787bbe832564a17900157714d29ece170ceadd34867a306629a991bfda9",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Native PDF16 labelled regions: counts, means and maxima extracted.2025 pages1-2 visually checked. Attachment/year mapping reviewed;2026 unknown cut-off retained as null and excluded from current baselines."
+  },
+  "src_ab6931527e0e": {
+    "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-02-sredni-czas-postepowania-legalizacja-pod.pdf",
+    "content_sha256": "d866b6e6cdd9537fbe864ae4d9dceee66a207455df97619c5ac1162a558c75a0",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Native PDF16 labelled regions: counts, means and maxima extracted.2025 pages1-2 visually checked. Attachment/year mapping reviewed;2026 unknown cut-off retained as null and excluded from current baselines."
+  },
+  "src_a8e9ff0bc5cd": {
+    "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-03-sredni-czas-postepowania-legalizacja-pod.pdf",
+    "content_sha256": "7ec6b84eaa03cebfcf1d5b6f5e98f7fec7fc10fb19865c2cf83af21c67b40c8f",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Native PDF16 labelled regions: counts, means and maxima extracted.2025 pages1-2 visually checked. Attachment/year mapping reviewed;2026 unknown cut-off retained as null and excluded from current baselines."
+  },
+  "src_e8a26fb8e812": {
+    "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-04-sredni-czas-postepowania-legalizacja-pod.pdf",
+    "content_sha256": "3607e835bfb5fbd31782c0c6c33caa23be2edddc9902aab343b29aa4fe3ec73c",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Native PDF16 labelled regions: counts, means and maxima extracted.2025 pages1-2 visually checked. Attachment/year mapping reviewed;2026 unknown cut-off retained as null and excluded from current baselines."
+  },
+  "src_5b28e0695496": {
+    "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja.pdf",
+    "content_sha256": "cf73075082a61b21463fc0b328a65a7fa1088cb9108a5526726b95f13683ec90",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Reviewed supporting cover letter page2: source reporting period limitations; no case-level correspondence published."
+  },
+  "src_3aebb28a24e1": {
+    "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+    "content_sha256": "b2d81db630197c78b5b5c4231da0c315acfbd222548fef677118694f9bc12c73",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "All192 numeric cells on PDF pages3-4 visually reviewed against extraction; redacted geographic labels explicitly reconstructed. Reviewed transcription hash pinned."
+  },
+  "src_a13608abc4e9": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "1b547ff7e095f103e1abf305fae81185d43706f57f71fb1f5ec2e0a09ddd4830",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_6ece024bd7a8": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "8a4fa6d412c3815b0c16d680dde09f9247a37a21e60eaa6ab07537b6ffe610cb",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_0967cf458c80": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "7fd936fa933bd22105be3d16fa1e6d3d65218a7c28697b1417a8c755cc940471",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_cc5cc7575ee2": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "07fbc2f67a1a9c20630a26271b1decda6c8f860855200272c4299933f5cd3871",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_40d6dc517e4f": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "a83c8757b14ac2380e483e981295050cf0e79347870f50b7cf0524d74a82caaa",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_e1296be50eb1": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "e6f8d4d5074ac50b7bb112502dc542c5eb85c17f3d339fd95934b8169f86a5d7",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_18ecdde3fe7c": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "29ee12158b47fe86703a9a30180386523a0b9bf11a98e1368b7b6280222cadf6",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_07cf745a747f": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "30dc7161e7ab2a8ef459e6e4f1c3afc79b96f5c7a2aed46ba0569e60c5cb95d1",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_179c34e6cc2c": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "ff6b426cab5f1ca8c68ced877adcc53dbee782f5bcaec04f6ba72d5e54bd9ffe",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_7f4780ea5cff": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "bed620ce3d2d24f92db32338df0fcd4d9db60d40d43e3c142a94c914402b6db9",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_43675f089fec": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "2ecb9a1b2fce02dd4ca02251b109b2965eb466df89fe593935bf3647e9a6e2cf",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_39b8cc2face8": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "1fa4b8679b5bf93a870400d8b17608b89fec7de3fa2588576d7205beb7bb2ecc",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_066ec000b001": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "583e5dad196a44e5658a6e99160d4ad420133794dbb0476c4db2b8d60aca6c46",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_2a16b820dd8a": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "4812766bc0715ceac0822d7b824f435df66b2f84a1ecc4a0b8940d8238f72050",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_305c0baa12a6": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+    "content_sha256": "4cc20fe820679b14fd86eced26a3f28de19608b63612de6172bc5306d41462c4",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_c135d2dddbe8": {
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+    "content_sha256": "55f8c6cae47fa042971d4d7d859300edc92a106bd135f29f9224b715a1230c6c",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Direct official API JSON: URL year/caseType/measure checked; sum(total) across citizenship groups. Kept separate from warehouse all-outcome counts."
+  },
+  "src_7734abe934b3": {
+    "url": "https://www.nsa.gov.pl/media/1bbn0phd/7-skargi-na-bezczynność-i-przewlekłość-2025.xls",
+    "content_sha256": "571e77cdba13d8bb50f1da80e47ce510ee6592746f75c9e4918637eec8ac61d7",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  },
+  "src_c27ab6872d30": {
+    "url": "https://www.nsa.gov.pl/media/es1bldwx/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2022.xls",
+    "content_sha256": "49d77a4a0f8d7c8e0c1691dac71978d51307e898d4bbfb35fee17cdc501a4399",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  },
+  "src_68ce466a081c": {
+    "url": "https://www.nsa.gov.pl/media/foejxbq4/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2020.xls",
+    "content_sha256": "a41e39beb95170330b8cf21ae6d0514cfa562ba20c2b9b699c9ed2d58974e545",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  },
+  "src_5dd2be926a66": {
+    "url": "https://www.nsa.gov.pl/media/m5ccfdz2/7-skargi-na-bezczynność-i-przewlekłość-2024.xls",
+    "content_sha256": "0c87a4302891b8b505cc7bebafe1a73f0bbe8c5046253292ed64f1633f697ac5",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  },
+  "src_920edcb12a4f": {
+    "url": "https://www.nsa.gov.pl/media/wazp5vzz/7-skargi-na-bezczynność-i-przewlekłość-2023.xls",
+    "content_sha256": "3584a053884ab5bfdc0ebe33ba3a56ba8baab30d72621f158208c9f99adad878",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  },
+  "src_98d7eb497d68": {
+    "url": "https://www.nsa.gov.pl/media/zxwcc1uq/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2021.xls",
+    "content_sha256": "c995993f1ba71f33ad4c126c6e4d2b8b95b7f9c7c328086df969e104bc7c8fcb",
+    "reviewed_at": "2026-10-20",
+    "reviewer": "initial data-engineering review",
+    "review_notes": "Official annual XLS6272: reviewed2020-2022/2023-2025 column layouts, hearing plus non-public outcomes; all16 regional sums and stock-flow identities verified. WSA first instance, broad immigration symbol, not NSA cassation."
+  }
+}

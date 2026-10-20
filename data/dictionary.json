@@ -1,0 +1,580 @@
+{
+  "series": [
+    {
+      "id": "mswia_18089_concluded_mean_days",
+      "indicator_id": "processing_duration_mean_days",
+      "unit": "days",
+      "stage": "concluded",
+      "indicator_ids": [
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "days"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "mswia_12584_pending_count",
+      "indicator_id": "pending_cases",
+      "unit": "cases",
+      "stage": "pending",
+      "indicator_ids": [
+        "pending_cases"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "temporary_residence_and_work_art114"
+      ],
+      "geography_levels": [
+        "country",
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "mswia_12584_reported_mean_days",
+      "indicator_id": "reported_processing_mean_days_ambiguous_cohort",
+      "unit": "days",
+      "stage": "reported_with_pending_stock",
+      "indicator_ids": [
+        "reported_processing_mean_days_ambiguous_cohort"
+      ],
+      "units": [
+        "days"
+      ],
+      "permit_types": [
+        "temporary_residence_and_work_art114"
+      ],
+      "geography_levels": [
+        "country",
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "udsc_20260828_concluded_mean_days",
+      "indicator_id": "processing_duration_mean_days",
+      "unit": "days",
+      "stage": "concluded",
+      "indicator_ids": [
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "days"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "udsc_20260828_blue_card_mean_days",
+      "indicator_id": "processing_duration_mean_days",
+      "unit": "days",
+      "stage": "concluded",
+      "indicator_ids": [
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "days"
+      ],
+      "permit_types": [
+        "blue_card"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "udsc_20260828_pending_stock",
+      "indicator_id": "pending_cases",
+      "unit": "cases",
+      "stage": "pending",
+      "indicator_ids": [
+        "pending_cases"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_pending_stock",
+      "indicator_id": "pending_cases",
+      "unit": "cases",
+      "stage": "pending",
+      "indicator_ids": [
+        "pending_cases"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "temporary_and_blue_card_undifferentiated"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_caseworkers",
+      "indicator_id": "caseworkers",
+      "unit": "persons",
+      "stage": "staff",
+      "indicator_ids": [
+        "caseworkers"
+      ],
+      "units": [
+        "persons"
+      ],
+      "permit_types": [
+        "residence_all_reported"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_staff_headcount",
+      "indicator_id": "staff_headcount",
+      "unit": "persons",
+      "stage": "staff",
+      "indicator_ids": [
+        "staff_headcount"
+      ],
+      "units": [
+        "persons"
+      ],
+      "permit_types": [
+        "residence_all_reported"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_pending_per_caseworker",
+      "indicator_id": "pending_per_caseworker",
+      "unit": "cases_per_person",
+      "stage": "pending",
+      "indicator_ids": [
+        "pending_per_caseworker"
+      ],
+      "units": [
+        "cases_per_person"
+      ],
+      "permit_types": [
+        "temporary_and_blue_card_undifferentiated"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "warehouse_all_outcomes",
+      "indicator_id": "concluded_resolutions / processing_duration_mean_days / processing_duration_max_days",
+      "unit": "cases or days",
+      "stage": "concluded",
+      "indicator_ids": [
+        "concluded_resolutions",
+        "processing_duration_max_days",
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "cases",
+        "days"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_warehouse_all_outcomes",
+      "indicator_id": "concluded_resolutions / processing_duration_mean_days / processing_duration_max_days",
+      "unit": "cases or days",
+      "stage": "concluded",
+      "indicator_ids": [
+        "concluded_resolutions",
+        "processing_duration_max_days",
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "cases",
+        "days"
+      ],
+      "permit_types": [
+        "eu_long_term_resident",
+        "permanent_residence",
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "lodz_warehouse_positive_decisions",
+      "indicator_id": "concluded_resolutions / processing_duration_mean_days / processing_duration_max_days",
+      "unit": "cases or days",
+      "stage": "concluded_positive",
+      "indicator_ids": [
+        "concluded_resolutions",
+        "processing_duration_max_days",
+        "processing_duration_mean_days"
+      ],
+      "units": [
+        "cases",
+        "days"
+      ],
+      "permit_types": [
+        "blue_card_art127",
+        "temporary_business_art142",
+        "temporary_family_art158",
+        "temporary_study_art144",
+        "temporary_work_art114"
+      ],
+      "geography_levels": [
+        "voivodeship"
+      ]
+    },
+    {
+      "id": "nsa_wsa_6272_annual",
+      "indicator_id": "multiple court indicators",
+      "unit": "cases or percent",
+      "stage": "court_inflow/court_resolved/court_stock",
+      "indicator_ids": [
+        "court_closed",
+        "court_dismissed",
+        "court_inflow",
+        "court_other_resolved",
+        "court_pending_end",
+        "court_pending_start",
+        "court_rejected",
+        "court_rejected_resolved_pct",
+        "court_resolved",
+        "court_resolved_including_closed",
+        "court_upheld",
+        "court_upheld_merits_pct"
+      ],
+      "units": [
+        "cases",
+        "percent"
+      ],
+      "permit_types": [
+        "immigration_symbol_6272"
+      ],
+      "geography_levels": [
+        "country",
+        "court_jurisdiction"
+      ]
+    },
+    {
+      "id": "udsc_portal_temporary_applications",
+      "indicator_id": "applications_received",
+      "unit": "cases",
+      "stage": "applications_received",
+      "indicator_ids": [
+        "applications_received"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "country"
+      ]
+    },
+    {
+      "id": "udsc_portal_temporary_decisions",
+      "indicator_id": "decisions_issued",
+      "unit": "cases",
+      "stage": "decisions_issued",
+      "indicator_ids": [
+        "decisions_issued"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "temporary_residence"
+      ],
+      "geography_levels": [
+        "country"
+      ]
+    },
+    {
+      "id": "udsc_portal_eu_long_term_applications",
+      "indicator_id": "applications_received",
+      "unit": "cases",
+      "stage": "applications_received",
+      "indicator_ids": [
+        "applications_received"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "eu_long_term_resident"
+      ],
+      "geography_levels": [
+        "country"
+      ]
+    },
+    {
+      "id": "udsc_portal_eu_long_term_decisions",
+      "indicator_id": "decisions_issued",
+      "unit": "cases",
+      "stage": "decisions_issued",
+      "indicator_ids": [
+        "decisions_issued"
+      ],
+      "units": [
+        "cases"
+      ],
+      "permit_types": [
+        "eu_long_term_resident"
+      ],
+      "geography_levels": [
+        "country"
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "id": "applications_received",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "caseworkers",
+      "units": [
+        "persons"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "concluded_resolutions",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_closed",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_dismissed",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_inflow",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_other_resolved",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_pending_end",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_pending_start",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_rejected",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_rejected_resolved_pct",
+      "units": [
+        "percent"
+      ],
+      "statistics": [
+        "share"
+      ]
+    },
+    {
+      "id": "court_resolved",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_resolved_including_closed",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_upheld",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "court_upheld_merits_pct",
+      "units": [
+        "percent"
+      ],
+      "statistics": [
+        "share"
+      ]
+    },
+    {
+      "id": "decisions_issued",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "pending_cases",
+      "units": [
+        "cases"
+      ],
+      "statistics": [
+        "count"
+      ]
+    },
+    {
+      "id": "pending_per_caseworker",
+      "units": [
+        "cases_per_person"
+      ],
+      "statistics": [
+        "ratio"
+      ]
+    },
+    {
+      "id": "processing_duration_max_days",
+      "units": [
+        "days"
+      ],
+      "statistics": [
+        "max"
+      ]
+    },
+    {
+      "id": "processing_duration_mean_days",
+      "units": [
+        "days"
+      ],
+      "statistics": [
+        "mean"
+      ]
+    },
+    {
+      "id": "reported_processing_mean_days_ambiguous_cohort",
+      "units": [
+        "days"
+      ],
+      "statistics": [
+        "mean"
+      ]
+    },
+    {
+      "id": "staff_headcount",
+      "units": [
+        "persons"
+      ],
+      "statistics": [
+        "count"
+      ]
+    }
+  ],
+  "court_indicators": [
+    "court_inflow",
+    "court_pending_start",
+    "court_pending_end",
+    "court_resolved",
+    "court_upheld",
+    "court_dismissed",
+    "court_rejected",
+    "court_other_resolved",
+    "court_closed",
+    "court_resolved_including_closed",
+    "court_upheld_merits_pct",
+    "court_rejected_resolved_pct"
+  ],
+  "source_keys": {
+    "mswia18089": "src_dab9bf75dd09",
+    "mswia12584": "src_9ec673b3725c",
+    "udsc20260828": "src_3aebb28a24e1",
+    "lodz20260825": "src_cd066283fa9a",
+    "lodzWarehouse": "src_8e1be42183d6",
+    "warehouseCover": "src_5b28e0695496"
+  }
+}

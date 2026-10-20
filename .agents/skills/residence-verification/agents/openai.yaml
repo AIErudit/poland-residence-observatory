@@ -1,0 +1,4 @@
+interface:
+  display_name: "Residence independent verifier"
+  short_description: "Check source values, denominators and public claims"
+  default_prompt: "Use $residence-verification to independently review this evidence release."

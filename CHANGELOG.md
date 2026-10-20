@@ -1,5 +1,9 @@
 # Changes
 
+## 2026-10-20 — deletion-receipt reset protection
+
+Prevented New case / reset from reopening the form while a deletion receipt remains on this device. The control is disabled and its handler independently refuses the reset; the receipt must first be explicitly cleared through the existing control. Eight isolated Chromium/WebKit checks compare the published baseline with the fix at mobile and desktop widths, using a synthetic receipt and sending no submissions or deletions. Administrative observations and the running backend are unchanged.
+
 ## 2026-10-20 — v1.1.0, second research round
 
 Replaced the Russian interface with Belarusian and added English; PL/BE/EN now cover main data, fact pages, survey and privacy. Added office trends, source-linked tables, separately reviewed Eurostat first-permit context, explicit Głos Migranta provenance and comparison, banking analysis for Millennium/PKO BP/Bank Pekao, and practical complaint/help routes.

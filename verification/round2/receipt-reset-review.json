@@ -1,0 +1,24 @@
+{
+  "reviewedAt": "2026-10-20",
+  "status": "pass",
+  "scope": "Legacy receipt-reset guard, generated survey asset/cache reference, and dated maintenance changelog entry only; no numeric re-review.",
+  "reviewedFiles": {
+    "site/survey.js": "6d1e874b52c8474964218c734559e561759f96a3d88bda48fe939f75cc26d537",
+    "docs/assets/survey.js": "6d1e874b52c8474964218c734559e561759f96a3d88bda48fe939f75cc26d537",
+    "docs/survey/index.html": "7196b8642c4e37134aa1e0977b4031e173ff777958970d0b65af52151f76ced0",
+    "CHANGELOG.md": "024808679391fef83bd2b08abda50c52a575e792cc2e55b3c37bbda454f558d8"
+  },
+  "checks": {
+    "diff": "Only the new-case disabled condition and resetForm early-return guard changed in the client; generated survey.js matches source bytes; survey HTML changes only the survey.js cache hash.",
+    "browserEvidence": "source-cache/residence-legacy-fix-browser.json",
+    "browserMatrix": "Chromium and WebKit at 360px and 1440px; baseline demonstrates reset, fixed build blocks user and programmatic reset with a synthetic restored receipt; zero POSTs.",
+    "changelog": "Dated entry accurately describes eight isolated fixture cases (two engines × two widths × baseline/fixed), synthetic receipt, zero POSTs/deletions, and no backend/data source edits in this worktree; live backend state was not queried."
+  },
+  "limits": [
+    "Synthetic localStorage receipt only; no real submission or deletion.",
+    "No claim about numeric, privacy, legal, backend or deployment readiness.",
+    "Browser fixture does not prove production publication or live Worker behavior.",
+    "No live backend state was queried; “backend unchanged” is supported only as unchanged files/config in this maintenance diff."
+  ],
+  "blockingFindings": []
+}

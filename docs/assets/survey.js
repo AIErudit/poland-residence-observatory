@@ -122,7 +122,7 @@
     $('delete-submit').disabled = !state.endpoint || state.deleting || state.busy;
     $('receipt-clear').disabled = !state.receipt || !(state.receiptFinal || state.phase === 'restored' && !state.attempt) || state.busy || state.deleting;
     $('delete-submit').textContent = tr(state.deleting ? 'deleting' : 'deleteSend');
-    $('new-case').disabled = state.busy;
+    $('new-case').disabled = state.busy || Boolean(state.receipt);
     $('collection-status').textContent = tr(state.config === null ? 'loading' : available ? 'ready' : state.notice === 'configFailed' ? 'configFailed' : 'unavailable');
     $('submission-status').textContent = state.submission ? tr(state.submission) : '';
     $('verification-status').textContent = state.verification ? tr(state.verification) : '';
@@ -273,7 +273,7 @@
     render();
   }
   function resetForm() {
-    if (state.busy) return;
+    if (state.busy || state.receipt) return;
     removeWidget(); $('survey-form').reset(); state.phase = 'editing'; state.attempt = null; state.accepted = false; state.receiptFinal = false; state.receiptCleared = false; state.submission = 'resetNotice'; state.verification = '';
     $('survey-form').querySelectorAll('input,select').forEach(x => x.setCustomValidity('')); render();
   }

@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-20T13:38:11+00:00",
+  "deployed": true,
+  "collection_enabled": true,
+  "backend_sha256": "60bb06396b710bd3eb97191a6213f2986c42b3cd84c3767323d6d93d2b407837",
+  "secret_binding_names": [
+    "ADMIN_TOKEN",
+    "CONTACT_KEY",
+    "RATE_SECRET",
+    "TURNSTILE_SECRET"
+  ],
+  "isolated_d1_binding_matches": true,
+  "observability_requested_enabled": false,
+  "observability_readback": null,
+  "observability_readback_interpretation": "API did not report a configured observability object; not treated as literal enabled=false",
+  "cpu_limit_ms": null,
+  "health": {
+    "status": "ok",
+    "schema_version": 1,
+    "collection_enabled": true,
+    "privacy_version": "2026-10-20"
+  }
+}

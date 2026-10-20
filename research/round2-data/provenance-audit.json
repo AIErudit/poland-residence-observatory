@@ -1,0 +1,533 @@
+{
+  "as_of": "2026-10-20",
+  "dataset_sha256": "a3609775dc2a5e8fb85b50838f3d65faa5e938c74f98bf028931a45be625fb76",
+  "counts": {
+    "observations": 1780,
+    "catalog_urls": 1483,
+    "parsed_or_definition_supporting_sources": 32,
+    "catalog_only_sources": 1451,
+    "current_Glos_pages_fetched": 4,
+    "current_Glos_CSVs_fetched": 21,
+    "new_primary_observations_claimed": 0,
+    "explicitly_derived_observations": 310
+  },
+  "credit": {
+    "pl": "Podstawowy zbiór powstał dzięki dokumentom i odnośnikom zebranym przez Głos Migranta. Nasz wkład to weryfikacja, normalizacja, definicje, odtwarzalny kod i wizualizacja; nie nowy niezależny zbiór spraw.",
+    "be": "Аснову складаюць дакументы і спасылкі, сабраныя Głos Migranta. Наш унёсак — праверка, нармалізацыя, азначэнні, аднаўляльны код і візуалізацыя; гэта не новы незалежны збор спраў.",
+    "en": "The core dataset builds on documents and links collected by Głos Migranta. Our contribution is verification, normalization, definitions, reproducible code and visualization, not a new independent collection of cases."
+  },
+  "source_routes": [
+    {
+      "source_id": "src_9ec673b3725c",
+      "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/12584/reply/DMQHGV/body",
+      "authority": "MSWiA",
+      "access": "primary_publisher_snapshot",
+      "observations": 4,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_dab9bf75dd09",
+      "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body",
+      "authority": "MSWiA",
+      "access": "primary_publisher_snapshot",
+      "observations": 64,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_cd066283fa9a",
+      "url": "https://glos-migranta.eu/dokumenty/lodzki-soc-iii-1331-2-2026-08-25.pdf",
+      "authority": "Wojewoda Łódzki",
+      "access": "primary_document_copy_snapshot",
+      "observations": 16,
+      "derived_observations": 4,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/sprawy-kroki.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/fakty",
+        "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_8e1be42183d6",
+      "url": "https://glos-migranta.eu/dokumenty/lodzki-soc-iv-1331-11-hurtownia-raporty.xlsx",
+      "authority": "Wojewoda Łódzki",
+      "access": "primary_document_copy_snapshot",
+      "observations": 72,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/arkusze-katalog.csv",
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_b34097e5a54c",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-01-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "authority": "Wojewoda Podlaski",
+      "access": "primary_document_copy_snapshot",
+      "observations": 48,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+        "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/prognoza"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_ab6931527e0e",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-02-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "authority": "Wojewoda Podlaski",
+      "access": "primary_document_copy_snapshot",
+      "observations": 48,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+        "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/prognoza"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_a8e9ff0bc5cd",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-03-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "authority": "Wojewoda Podlaski",
+      "access": "primary_document_copy_snapshot",
+      "observations": 48,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+        "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/prognoza"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_e8a26fb8e812",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-04-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "authority": "Wojewoda Podlaski",
+      "access": "primary_document_copy_snapshot",
+      "observations": 48,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+        "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/prognoza"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_5b28e0695496",
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja.pdf",
+      "authority": "Wojewoda Podlaski",
+      "access": "primary_document_copy_snapshot",
+      "observations": 0,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/orzeczenia-powolania.csv",
+        "https://glos-migranta.eu/dane/sprawy-kroki.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/raporty/prognoza"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_3aebb28a24e1",
+      "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+      "authority": "Szef Urzędu do Spraw Cudzoziemców",
+      "access": "primary_document_copy_snapshot",
+      "observations": 192,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/niebieska-karta-czas.csv",
+        "https://glos-migranta.eu/dane/skany-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/sprawy-kroki.csv",
+        "https://glos-migranta.eu/dane/sprawy-w-toku.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/fakty",
+        "https://glos-migranta.eu/raporty/prognoza",
+        "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_a13608abc4e9",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_6ece024bd7a8",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_0967cf458c80",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_cc5cc7575ee2",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_40d6dc517e4f",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_e1296be50eb1",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_18ecdde3fe7c",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_07cf745a747f",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_179c34e6cc2c",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_7f4780ea5cff",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_43675f089fec",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_39b8cc2face8",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_066ec000b001",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_2a16b820dd8a",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_305c0baa12a6",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_c135d2dddbe8",
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+      "authority": "Urząd do Spraw Cudzoziemców",
+      "access": "primary_publisher_snapshot",
+      "observations": 1,
+      "derived_observations": 0,
+      "acquisition_route": "explicit_Glos_page_or_download_index_link",
+      "link_evidence": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_7734abe934b3",
+      "url": "https://www.nsa.gov.pl/media/1bbn0phd/7-skargi-na-bezczynność-i-przewlekłość-2025.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_c27ab6872d30",
+      "url": "https://www.nsa.gov.pl/media/es1bldwx/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2022.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_68ce466a081c",
+      "url": "https://www.nsa.gov.pl/media/foejxbq4/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2020.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_5dd2be926a66",
+      "url": "https://www.nsa.gov.pl/media/m5ccfdz2/7-skargi-na-bezczynność-i-przewlekłość-2024.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_920edcb12a4f",
+      "url": "https://www.nsa.gov.pl/media/wazp5vzz/7-skargi-na-bezczynność-i-przewlekłość-2023.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    },
+    {
+      "source_id": "src_98d7eb497d68",
+      "url": "https://www.nsa.gov.pl/media/zxwcc1uq/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2021.xls",
+      "authority": "Naczelny Sąd Administracyjny",
+      "access": "primary_publisher_snapshot",
+      "observations": 204,
+      "derived_observations": 51,
+      "acquisition_route": "official_workbook_retrieved_via_NSA_index_linked_by_Glos",
+      "link_evidence": [],
+      "new_primary_data_collected_by_this_project": false
+    }
+  ],
+  "current_page_snapshots": [
+    {
+      "url": "https://glos-migranta.eu/dane",
+      "status": 200,
+      "retrieved_at": "2026-10-20T12:56:15+00:00",
+      "sha256": "c83dbf70e437dfd79c1cbe38a6aa941e79261c756197768568c40a59a9f8487f",
+      "bytes": 48291,
+      "title": "Otwarte dane CSV (CC0) | glos-migranta.eu",
+      "text_characters": 12883,
+      "csv_links": [
+        "https://glos-migranta.eu/dane/arkusze-katalog.csv",
+        "https://glos-migranta.eu/dane/cytaty.csv",
+        "https://glos-migranta.eu/dane/czas-mswia-18089.csv",
+        "https://glos-migranta.eu/dane/dokumenty.csv",
+        "https://glos-migranta.eu/dane/fami.csv",
+        "https://glos-migranta.eu/dane/hurtownia-wojewodowie.csv",
+        "https://glos-migranta.eu/dane/niebieska-karta-czas.csv",
+        "https://glos-migranta.eu/dane/orzeczenia-powolane.csv",
+        "https://glos-migranta.eu/dane/orzeczenia-powolania.csv",
+        "https://glos-migranta.eu/dane/pdf-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv",
+        "https://glos-migranta.eu/dane/ranking-kody.csv",
+        "https://glos-migranta.eu/dane/ranking.csv",
+        "https://glos-migranta.eu/dane/sady-skargi-2026.csv",
+        "https://glos-migranta.eu/dane/skany-tabele-katalog.csv",
+        "https://glos-migranta.eu/dane/sprawy-kroki.csv",
+        "https://glos-migranta.eu/dane/sprawy-w-toku.csv",
+        "https://glos-migranta.eu/dane/sprawy.csv",
+        "https://glos-migranta.eu/dane/teksty-indeks.csv",
+        "https://glos-migranta.eu/dane/wojewodztwa.csv",
+        "https://glos-migranta.eu/dane/zrodla-zewnetrzne-katalog.csv"
+      ]
+    },
+    {
+      "url": "https://glos-migranta.eu/fakty",
+      "status": 200,
+      "retrieved_at": "2026-10-20T12:56:15+00:00",
+      "sha256": "60945bf30ea363249b359848e0e82caf98a922327780bcf4b3bc1186f6e72bdb",
+      "bytes": 143393,
+      "title": "Fakty i źródła - przewlekłość legalizacji pobytu | glos-migranta.eu",
+      "text_characters": 71418,
+      "csv_links": []
+    },
+    {
+      "url": "https://glos-migranta.eu/raporty/szesnascie-urzedow-w-liczbach",
+      "status": 200,
+      "retrieved_at": "2026-10-20T12:56:15+00:00",
+      "sha256": "879677fa6da640ed6d84bffaa79fdaad9616552ca8d7828f8892f6567d1ffd34",
+      "bytes": 59313,
+      "title": "Szesnaście urzędów w liczbach: ile spraw, ile dni, dokąd to zmierza | glos-migranta.eu",
+      "text_characters": 13685,
+      "csv_links": []
+    },
+    {
+      "url": "https://glos-migranta.eu/raporty/prognoza",
+      "status": 200,
+      "retrieved_at": "2026-10-20T12:56:15+00:00",
+      "sha256": "8e55436b395bacc796b4d3f3c9bfd911d845010ed5ae0686f536ff0b1530cd7e",
+      "bytes": 74689,
+      "title": "Prognoza: co będzie, jeśli nic się nie zmieni | glos-migranta.eu",
+      "text_characters": 24829,
+      "csv_links": [
+        "https://glos-migranta.eu/dane/portal-czasowy-rezydent.csv"
+      ]
+    }
+  ],
+  "limits": [
+    "1483 URLs are a catalog, not1483 independently verified datasets.",
+    "Primary official API downloads can still have been discovered through a secondary collector; publisher and discovery credit are different fields.",
+    "An independent HTTP retrieval is not an independent administrative measurement.",
+    "This audit was coded separately but not performed by a different person/agent from the original data engineer.",
+    "No survey or chat sample supports national representativeness."
+  ]
+}

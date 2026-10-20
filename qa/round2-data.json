@@ -1,0 +1,24 @@
+{
+  "audit_date": "2026-10-20",
+  "dataset_sha256": "a3609775dc2a5e8fb85b50838f3d65faa5e938c74f98bf028931a45be625fb76",
+  "dataset_version": "1.0.0",
+  "observations": 1780,
+  "recomputed": 1780,
+  "numeric_mismatches": [],
+  "methods": {
+    "native_sejm_html_table": 68,
+    "pdf_coordinate_grid_plus_two_visual_OCR_corrections": 192,
+    "independent_full_line_letter_extraction_with_golden_series": 16,
+    "native_warehouse_PDF_independent_line_parser": 192,
+    "source_XLSX_labelled_row_and_indicator_column": 72,
+    "official_XLS_6272_native_outcome_partition_and_regional_reconciliation": 1224,
+    "direct_official_API_sum_citizenship_total": 16
+  },
+  "source_snapshots_hash_checked": 32,
+  "reviewer_independence": "Independent audit code, but same engineer authored original pipeline; not an independent-person sign-off. Separate verifier required.",
+  "geographic_limit": "192 UdSC numeric cells match source; regional labels are reconstructed, not independently legible.",
+  "notes": [
+    "UdSC192 numeric cells checked against the PDF independently of verified transcription;2OCR cells visually corrected. All regional identities remain reconstructed, because the ORGAN column is redacted. This pass does not independently authenticate those geographic labels."
+  ],
+  "status": "numeric_reproduction_pass_with_provenance_and_definition_limits"
+}

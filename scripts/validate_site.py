@@ -31,7 +31,7 @@ def main():
     for c in claims:
         if not c['observation_ids'] or not set(c['observation_ids'])<=known:failures.append('Invalid observation references: '+c['id'])
         if not set(c['source_ids'])<=sources:failures.append('Invalid source references: '+c['id'])
-        for lang in ['pl','ru']:
+        for lang in ['pl','be','en']:
             for key in ['title','body','caveat']:
                 if not c.get(key+'_'+lang):failures.append('Missing claim copy: '+c['id'])
     pages=list(OUT.rglob('*.html'))
@@ -58,7 +58,7 @@ def main():
             text=path.read_text(encoding='utf-8')
             if any(token in text for token in ['C:\\Users\\','D:\\residence permit\\Chats','ghp_','github_pat_']):failures.append('Private path/credential marker in '+str(path))
     if args.release:
-        release_path=ROOT/'verification/release.json'
+        release_path=ROOT/'verification/round2/release.json'
         if not release_path.exists():failures.append('Independent release review is missing')
         else:
             release=json.loads(release_path.read_text(encoding='utf-8'))

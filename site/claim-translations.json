@@ -1,0 +1,43 @@
+{
+ "silesia-658": {
+  "title_be":"658 дзён: сярэдняя працягласць завершаных спраў у Сілезіі",
+  "title_en":"658 days: mean duration of concluded proceedings in Śląskie",
+  "body_be":"MSWiA паведамляе 658 дзён для часовага побыту ў Сілезскім ваяводстве за частку 2026 года, да 6 ліпеня. Гэта найбольшае сярэдняе ў табліцы 16 ваяводстваў.",
+  "body_en":"MSWiA reports 658 days for temporary residence in Śląskie for the part of 2026 ending on 6 July. This is the highest mean in its table of 16 voivodeships.",
+  "caveat_be":"Сярэдняе па завершаных справах, не максімум і не прагноз чакання новай заявы. Крыніца не падае памераў кагорт і дакладнага пачатку адліку дзён.",
+  "caveat_en":"A mean for concluded cases, not a maximum or a forecast for a new application. The source does not provide cohort sizes or the exact starting event for counting days.",
+  "metric_label_be":"ЧАСОВЫ ПОБЫТ · ДА 06.07.2026","metric_label_en":"TEMPORARY RESIDENCE · TO 6 JUL 2026",
+  "metric_copy_be":"сярэдняя працягласць завершаных спраў у Сілезіі паводле MSWiA. Не прагноз для новай заявы.",
+  "metric_copy_en":"mean duration of concluded proceedings in Śląskie, reported by MSWiA. Not a new applicant’s forecast."
+ },
+ "fifteen-regions": {
+  "title_be":"У 15 з 16 ваяводстваў сярэдняе за частку 2026 вышэй за 2023",
+  "title_en":"15 of 16 voivodeships have a higher partial-2026 mean than in 2023",
+  "body_be":"У адной табліцы MSWiA 15 ваяводстваў маюць вышэйшую сярэднюю працягласць завершаных спраў часовага побыту за 2026 да 6 ліпеня, чым за поўны 2023 год. Выключэнне — Ніжнесілезскае: 401 → 303 дні.",
+  "body_en":"In the same MSWiA table, 15 voivodeships have a higher mean duration for concluded temporary-residence cases in 2026 to 6 July than in full-year 2023. The exception is Dolnośląskie: 401 → 303 days.",
+  "caveat_be":"Параўноўваюцца сярэднія розных кагорт і поўнага з няпоўным годам. Гэта не доказ штогадовага пагаршэння, прычыны затрымак або чакання кожнага заяўніка.",
+  "caveat_en":"Different concluded cohorts and a full versus partial year are compared. This does not establish deterioration every year, the cause of delays or each applicant’s wait."
+ },
+ "pending-803223": {
+  "title_be":"803 223 справы часовага побыту ў працы на 1 ліпеня 2026",
+  "title_en":"803,223 temporary-residence cases pending on 1 July 2026",
+  "body_be":"Сума 16 радкоў табліцы UdSC у лісце ад 28 жніўня 2026: 803 223 незавершаныя справы на 01.07.2026.",
+  "body_en":"The 16 rows in the UdSC table in its letter of 28 August 2026 sum to 803,223 unfinished cases on 1 July 2026.",
+  "caveat_be":"Справы, не ўнікальныя людзі. Крыніца — копія ў Głos Migranta без незалежнага пацвярджэння арыгінала ў органе. Назвы рэгіёнаў схаваныя; для сумы яны не патрэбныя. Магчымы разрыў супастаўнасці MOS/CUKR у 2026.",
+  "caveat_en":"Cases, not unique people. The source is a copy hosted by Głos Migranta, without independent authentication by the agency. Regional labels are redacted but are not needed for this sum. A MOS/CUKR comparability break is possible in 2026.",
+  "metric_label_be":"ЧАСОВЫ ПОБЫТ · 01.07.2026","metric_label_en":"TEMPORARY RESIDENCE · 1 JUL 2026",
+  "metric_copy_be":"спраў у працы — сума табліцы ў копіі ліста UdSC. Не колькасць мігрантаў.",
+  "metric_copy_en":"pending cases, summed from the UdSC letter copy. Not a count of migrants."
+ },
+ "courts-merits-2025": {
+  "title_be":"29,5% задаволеных — толькі сярод рашэнняў па сутнасці",
+  "title_en":"29.5% upheld — among merits rulings only",
+  "body_be":"WSA, 2025, бяздзейнасць і зацягванне, катэгорыя 6272: 432 задаволеныя скаргі і 1 032 адмовы па сутнасці. 432 / (432 + 1 032) = 29,5%. Катэгорыя ўключае візы, побыт, выдварэнне і іншыя справы іншаземцаў.",
+  "body_en":"WSA, 2025, inactivity and delay, category 6272: 432 upheld and 1,032 dismissed complaints. 432 / (432 + 1,032) = 29.5%. The category includes visas, residence, expulsion and other foreigner cases.",
+  "caveat_be":"Па-за гэтым назоўнікам — у тым ліку 1 873 працэсуальныя адхіленні. Гэта не доля новых скаргаў і не верагоднасць поспеху канкрэтнага чалавека.",
+  "caveat_en":"The denominator excludes, among other outcomes, 1,873 procedural rejections. This is neither a share of new filings nor an individual’s probability of success.",
+  "metric_label_be":"WSA · КАТЭГОРЫЯ 6272 · 2025","metric_label_en":"WSA · CATEGORY 6272 · 2025",
+  "metric_copy_be":"задаволена сярод рашэнняў па сутнасці. Працэсуальныя адхіленні па-за назоўнікам.",
+  "metric_copy_en":"upheld among merits rulings. Procedural rejections are outside this denominator."
+ }
+}

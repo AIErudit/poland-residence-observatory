@@ -1,0 +1,435 @@
+{
+  "as_of": "2026-10-20",
+  "checked_at": "2026-10-20T13:44:18.967714+00:00",
+  "status": "completed_scoped_review_v1.1.0",
+  "release_approval": true,
+  "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
+  "role": "Separate AI source and claim review; not external certification, authentication of signatures, or legal advice",
+  "ownership": "verification/round2/ only; audited inputs were not edited",
+  "numeric_recheck": {
+    "status": "all_numeric_values_reconciled",
+    "reconciled": 1780,
+    "total": 1780,
+    "mismatches": 0,
+    "unverified_numeric_rows": 0,
+    "evidence_file": "verification/round2/numeric-recheck.json"
+  },
+  "source_coverage": {
+    "registered": 1483,
+    "parsed_or_supporting_snapshots": 32,
+    "catalogued_only": 1451,
+    "snapshots_by_access": {
+      "primary_publisher_snapshot": 24,
+      "primary_document_copy_snapshot": 8
+    },
+    "numeric_cells_by_source_access": {
+      "primary_publisher_snapshot": 1308,
+      "primary_document_copy_snapshot": 472
+    },
+    "all_32_discovery_routes": "Głos Migranta links/downloads or official NSA index already cited there",
+    "new_primary_fieldwork_in_original_32": false
+  },
+  "new_numeric_data_errors": [],
+  "findings": [
+    {
+      "id": "R2-N01",
+      "phase": 1,
+      "severity": "info",
+      "status": "confirmed",
+      "title": "All 1,780 numeric cells reconcile to the acquired sources or stated formulas",
+      "body": "The verifier reran its own source-reading helpers against the frozen dataset: 1,018 core cells plus 762 remaining cells, with no numeric mismatch or unverified numeric row. This checks transcription and calculations, not the administrative databases, source signatures, or every source-register URL.",
+      "affected_series": [
+        "lodz_caseworkers",
+        "lodz_pending_per_caseworker",
+        "lodz_pending_stock",
+        "lodz_staff_headcount",
+        "lodz_warehouse_all_outcomes",
+        "lodz_warehouse_positive_decisions",
+        "mswia_12584_pending_count",
+        "mswia_12584_reported_mean_days",
+        "mswia_18089_concluded_mean_days",
+        "nsa_wsa_6272_annual",
+        "udsc_20260828_blue_card_mean_days",
+        "udsc_20260828_concluded_mean_days",
+        "udsc_20260828_pending_stock",
+        "udsc_portal_eu_long_term_applications",
+        "udsc_portal_eu_long_term_decisions",
+        "udsc_portal_temporary_applications",
+        "udsc_portal_temporary_decisions",
+        "warehouse_all_outcomes"
+      ],
+      "evidence": [
+        {
+          "file": "verification/round2/numeric-recheck.json"
+        }
+      ],
+      "recommendation": "Describe the result as a scoped numeric and source review, not certification or 1,780 independently observed people/cases.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N02",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_existing_qualification",
+      "title": "Concluded-case averages do not estimate the wait of current or new applicants",
+      "body": "MSWiA regional means concern concluded proceedings; unfinished cases are absent. Rounded regional means have no supplied regional weights for a national mean. Full-year 2023 and partial 2026 differ in period and case mix. Their arithmetic comparison does not identify a causal change in administrative efficiency. Calendar-versus-working-day conventions are not independently established for every reporting system.",
+      "affected_series": [
+        "mswia_18089_concluded_mean_days",
+        "udsc_20260828_concluded_mean_days",
+        "udsc_20260828_blue_card_mean_days"
+      ],
+      "evidence": [
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body",
+          "locator": "table 1; footnote cut-off 06.07.2026"
+        },
+        {
+          "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+          "locator": "duration tables, cut-off 12.08.2026; public document copy"
+        }
+      ],
+      "recommendation": "Keep 'reported mean of concluded proceedings', exact cut-off, partial-year notice and no individual-wait forecast beside the chart and shared cards.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N03",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_existing_qualification",
+      "title": "UdSC regional attribution is reconstruction rather than direct authentication",
+      "body": "The public copy hides regional names. The 16 numeric rows are legible, and their national sums do not depend on names. Regional mapping relies on row-order reconstruction and the 2023 match to MSWiA; Blue Card inherits the row-order assumption. A unique numeric match supports the reconstruction but does not reveal a redacted label or authenticate the original letter.",
+      "affected_series": [
+        "udsc_20260828_pending_stock",
+        "udsc_20260828_concluded_mean_days",
+        "udsc_20260828_blue_card_mean_days"
+      ],
+      "evidence": [
+        {
+          "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+          "locator": "pp. 3–4, hidden region labels; source-access class primary_document_copy_snapshot"
+        }
+      ],
+      "recommendation": "Retain the reconstructed-geography quality flag and visible caveat. Avoid calling a regional value directly read from a named original row.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N04",
+      "phase": 1,
+      "severity": "low",
+      "status": "new_source_limitation",
+      "title": "NSA annual stock boundaries differ by one case twice",
+      "body": "The national 6272 end stock is 820 in 2023 while the 2024 opening stock is 821; the 2024 end stock is 930 while the 2025 opening stock is 929. Each dataset cell agrees with the corresponding official annual workbook and each annual movement identity reconciles. No cause for the cross-year differences has been established.",
+      "affected_series": [
+        "nsa_wsa_6272_annual"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nsa.gov.pl/dokumenty/statystyki-wsa/",
+          "locator": "2023, 2024, 2025 annual XLS; sheet WSA SAB Symbole; national symbol 6272, Excel row 249"
+        },
+        {
+          "computed_boundaries": [
+            {
+              "end_year": "2020",
+              "end_stock": 1652,
+              "next_year": "2021",
+              "next_opening_stock": 1652,
+              "difference_next_opening_minus_previous_end": 0
+            },
+            {
+              "end_year": "2021",
+              "end_stock": 3610,
+              "next_year": "2022",
+              "next_opening_stock": 3610,
+              "difference_next_opening_minus_previous_end": 0
+            },
+            {
+              "end_year": "2022",
+              "end_stock": 1517,
+              "next_year": "2023",
+              "next_opening_stock": 1517,
+              "difference_next_opening_minus_previous_end": 0
+            },
+            {
+              "end_year": "2023",
+              "end_stock": 820,
+              "next_year": "2024",
+              "next_opening_stock": 821,
+              "difference_next_opening_minus_previous_end": 1
+            },
+            {
+              "end_year": "2024",
+              "end_stock": 930,
+              "next_year": "2025",
+              "next_opening_stock": 929,
+              "difference_next_opening_minus_previous_end": -1
+            }
+          ]
+        }
+      ],
+      "recommendation": "Do not silently correct source figures, claim exact interyear stock continuity, or attribute the differences to revisions without evidence. Add a short note if stock movement across years is visualized.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N05",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_existing_qualification",
+      "title": "Court denominator, subject scope and disposed-case cohort matter",
+      "body": "Symbol 6272 includes visas, residence, settlement and expulsion, not residence permits alone. 432/(432+1032)=29.508197% in 2025 is the upheld share among merits dispositions. Rejected complaints, other dispositions and administrative closures have different categories. Annual disposed cases are not the cohort filed that year. These shares do not identify a new claimant's success probability or causal court performance.",
+      "affected_series": [
+        "nsa_wsa_6272_annual"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nsa.gov.pl/dokumenty/statystyki-wsa/",
+          "locator": "2025 XLS, WSA SAB Symbole, symbol 6272; disposition columns and Załatwiono/Zamknięto distinction"
+        }
+      ],
+      "recommendation": "Keep all outcome categories and the actual denominator visible; use blank-count-as-zero only under the documented existing-row reconciliation rule.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N06",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_existing_qualification",
+      "title": "Warehouse periods and outcome cohorts cannot be interchanged",
+      "body": "The 48 Podlaski warehouse cells for 2026 have an unknown operational cut-off; the report generation date does not establish it. All-outcome resolutions include positive and negative decisions, discontinuance and leaving an application unexamined. Łódź positive-only legal-basis cohorts and maximum durations are separate statistics; the latter are reported database maxima, not independently authenticated individual case histories. Source validation also removed duplicate IDs and substituted registration dates for specified old submission dates.",
+      "affected_series": [
+        "warehouse_all_outcomes",
+        "lodz_warehouse_all_outcomes",
+        "lodz_warehouse_positive_decisions"
+      ],
+      "evidence": [
+        {
+          "file": "data/curated/dataset.json",
+          "locator": "definitions warehouse_resolutions / positive_resolution_duration and 48 period_ambiguous observations"
+        }
+      ],
+      "recommendation": "Preserve null 2026 cut-offs and exclude these partial/ambiguous cells from an annual scenario baseline. Keep outcome cohorts and duration maxima separately labelled.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N07",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_existing_qualification",
+      "title": "Stocks, portal flows and staff ratios do not form a single cohort model",
+      "body": "UdSC stock and Łódź office stock have different cut-offs and incompletely matched scopes. Headcount is a snapshot of people, not annual FTE. Pending/headcount is a workload proxy, not productivity. Portal applications and decisions are counts by event year, not unique persons or the same filing cohort. Acquisition time is not an independently known operational cut-off. A stock divided by annual output is a conditional workload ratio, not an expected wait; stock-flow reconciliation also needs other movements.",
+      "affected_series": [
+        "lodz_pending_stock",
+        "lodz_caseworkers",
+        "lodz_staff_headcount",
+        "lodz_pending_per_caseworker",
+        "udsc_portal_temporary_applications",
+        "udsc_portal_temporary_decisions",
+        "udsc_portal_eu_long_term_applications",
+        "udsc_portal_eu_long_term_decisions"
+      ],
+      "evidence": [
+        {
+          "file": "data/curated/dataset.json",
+          "locator": "definitions lodz_scope, caseworkers, stock_per_caseworker, portal_flow, scenario"
+        }
+      ],
+      "recommendation": "Keep source/scope differences and scenario assumptions beside the values; do not infer missing cases, productivity, future LTR eligibility or a representative migrant wait distribution.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-N08",
+      "phase": 1,
+      "severity": "low",
+      "status": "resolved_primary_dictionary_checked",
+      "title": "API identifier semantics need a separately cited dictionary",
+      "body": "The 16 preserved API response bodies allow country totals to be reconciled but expose only country and total. They do not themselves explain caseType=1 and caseType=3. The current labels agree with the portal/CSV discovery context; no incorrect mapping has been demonstrated. A preserved official dictionary or exact official UI configuration would make that attribution independently reproducible.",
+      "affected_series": [
+        "udsc_portal_temporary_applications",
+        "udsc_portal_temporary_decisions",
+        "udsc_portal_eu_long_term_applications",
+        "udsc_portal_eu_long_term_decisions"
+      ],
+      "evidence": [
+        {
+          "file": "verification/round2/numeric-recheck.json",
+          "locator": "16 migracje.gov.pl API snapshots; numeric country totals"
+        }
+      ],
+      "recommendation": "Add the official identifier dictionary/locator if available. Do not describe the absence as proof of a wrong mapping.",
+      "final_disposition": "Official caseType dictionary independently read and hash-checked; see phase3-review.json."
+    },
+    {
+      "id": "R2-P01",
+      "phase": 2,
+      "severity": "medium",
+      "status": "confirmed_origin_boundary",
+      "title": "The original core reuses the source collection discovered through Głos Migranta",
+      "body": "All 32 parsed/supporting source acquisitions were discovered through Głos Migranta pages/downloads or its cited official NSA index. Directly fetching 24 official-publisher snapshots improves provenance and reproducibility but does not, by itself, create newly collected empirical cases. Eight acquisitions are public copies of official documents. The current README and footer credit Głos Migranta and do not claim affiliation; that attribution is fair and must survive the expanded comparison.",
+      "affected_files": [
+        "README.md",
+        "site/index.html",
+        "research/round2-data/provenance-audit.json"
+      ],
+      "evidence": [
+        {
+          "file": "data/curated/dataset.json",
+          "locator": "sources[].notes / access / status"
+        },
+        {
+          "file": "research/round2-data/provenance-audit.json",
+          "locator": "acquisition routes; independently compared with the original source register"
+        }
+      ],
+      "recommendation": "Credit the collection, documents, datasets and prior calculations. State our contribution as selected source rechecking, normalization, explicit definitions, reproducible code and visualization. Do not call Głos Migranta only a link list or claim new primary fieldwork for these 32 sources.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-P02",
+      "phase": 2,
+      "severity": "medium",
+      "status": "confirmed_coverage_boundary",
+      "title": "Source links, profiled rows and normalized cells are different coverage units",
+      "body": "The source register contains 1,483 records, with 32 parsed/supporting acquisitions and 1,451 catalogued-only entries. The normalized 1,780 observations are indicator cells, including derived shares and repeated fields, not 1,780 people or independent cases. Profiling 6,625 upstream CSV rows is a structural inventory, not a full factual audit of all their claims. Neither this administrative selection nor a future volunteer questionnaire is a representative sample of all migrants.",
+      "evidence": [
+        {
+          "file": "data/curated/dataset.json",
+          "locator": "summary"
+        },
+        {
+          "file": "coverage/structured-sources.json",
+          "locator": "structural profiling scope, separate from source-value verification"
+        }
+      ],
+      "recommendation": "Publish these units separately. Do not give catalogue entries reviewed status or infer survey prevalence/population averages from voluntary responses.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    },
+    {
+      "id": "R2-B01",
+      "phase": 1,
+      "severity": "high_if_reproduced_in_new_site",
+      "status": "prevent_upstream_overstatement",
+      "title": "Do not transfer the TZTC identity rule to an ordinary application certificate",
+      "body": "The official UKNF response concerns Belarusian international-protection applicants and expressly recognizes the Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (TZTC). That statutory identity document is not the same document as an ordinary residence-application receipt, MOS confirmation or passport stamp. A statement that every 'zaświadczenie' proves identity would overextend this source. The letter also preserves other customer-due-diligence duties.",
+      "evidence": [
+        {
+          "url": "https://bip.brpo.gov.pl/sites/default/files/2026-03/Odpowiedz_KNF_Bialorusini_konta_05_03_2026.pdf",
+          "locator": "letter dated 05.03.2026, pp. 1–3; prior sector letter 10.06.2025, DML-DMLZNA.071.1.2025.KK"
+        },
+        {
+          "url": "https://glos-migranta.eu/fakty",
+          "locator": "section 7, banking discussion; inspected as a secondary assertion"
+        }
+      ],
+      "recommendation": "Name the document precisely. Present ordinary filing proof as possible evidence of a legal position, not automatically as an identity document or proof of lawful residence in every case.",
+      "final_disposition": "New published banking copy preserves the stated limits; the upstream-overstatement risk is avoided."
+    },
+    {
+      "id": "R2-B02",
+      "phase": 1,
+      "severity": "high_if_reproduced_in_new_site",
+      "status": "prevent_unconditional_account_guarantee",
+      "title": "A basic-account right and AML safeguards coexist",
+      "body": "Directive 2014/92 arts. 2, 15 and 16 protect qualifying consumers' basic-payment-account access; lawful residence is a legal entitlement, not a requirement to hold a plastic permit. This is not a guarantee for every commercial/business account. Article 16(4) preserves AML refusal, while Directive 2015/849 art. 14(4) requires action where relevant due diligence cannot be completed. Identity, lawful status and remaining due diligence are distinct questions.",
+      "evidence": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0092",
+          "locator": "arts. 2(1)–(2), 15, 16(2), 16(4), 19"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32015L0849",
+          "locator": "arts. 13–14; current version link shown as 30.12.2024"
+        }
+      ],
+      "recommendation": "Distinguish opening refusal, account restrictions, payment-card expiry and termination. Do not promise that a valid passport or pending application makes every restriction unlawful. Check current Polish implementation separately.",
+      "final_disposition": "New published banking copy preserves the stated limits; the upstream-overstatement risk is avoided."
+    },
+    {
+      "id": "R2-B03",
+      "phase": 1,
+      "severity": "info",
+      "status": "new_relevant_primary_authority",
+      "title": "Jenec supports individual assessment, within a specific basic-account case",
+      "body": "CJEU C-81/24 Jenec, judgment 11.06.2026, ECLI:EU:C:2026:470, rejects automatic basic-account refusal solely because of inclusion on a third-country sanctions list, requiring an individual AML assessment. It strengthens the argument against blanket exclusion; it does not decide every migrant document-expiry restriction or remove EU sanctions and AML duties. The official case record, operative part and official abstract were checked; a full-judgment paragraph review remains with the legal workstream.",
+      "evidence": [
+        {
+          "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=en&publishedId=C-81%2F24",
+          "locator": "judgment/operative part, 11.06.2026; official abstract ECLI:EU:C:2026:470"
+        },
+        {
+          "url": "https://juris.curia.europa.eu/juris/document/document.jsf?docid=312451&doclang=PL",
+          "locator": "official abstract"
+        }
+      ],
+      "recommendation": "Use the narrow holding, then clearly label any extension to expiry-related restrictions as an argument rather than an adjudicated conclusion.",
+      "final_disposition": "Full official judgment paragraphs34–56 independently reviewed; new copy remains calibrated. See phase3-review.json."
+    },
+    {
+      "id": "R2-B04",
+      "phase": 1,
+      "severity": "medium",
+      "status": "retain_remedy_limits",
+      "title": "Supervisory reporting and individual complaint remedies differ",
+      "body": "GIIF communication 73 rejects category-only de-risking but says GIIF cannot change an individual bank decision. Rzecznik Finansowy intervention normally follows a rejected, partially met or unanswered bank complaint; it assists natural persons, including entrepreneurs, but does not issue a binding decision or interrupt the claim limitation period. These are separate banking routes, not ways to accelerate a residence permit.",
+      "evidence": [
+        {
+          "url": "https://www.gov.pl/web/finanse/komunikat-nr-73-w-sprawie-wykluczania-niektorych-kategorii-klientow-z-nawiazywania-stosunkow-gospodarczych-derisking-oraz-skarg-wnoszonych-do-generalnego-inspektora-informacji-finansowej-przez-klientow-instytucji-obowiazanych",
+          "locator": "individual assessment and competence paragraphs"
+        },
+        {
+          "url": "https://rf.gov.pl/dla-klientow/postepowania-interwencyjne/",
+          "locator": "conditions, persons assisted, limits of intervention"
+        }
+      ],
+      "recommendation": "Ask for the bank's stated reasons and a formal complaint; route systemic information to the proper supervisor without promising an immediate unfreeze or requiring public disclosure of private records.",
+      "final_disposition": "Confirmed within its stated scope or retained as a disclosed source/inference limitation."
+    }
+  ],
+  "glos_comparison": {
+    "fair_contribution": "Selected source rechecking, provenance distinctions, normalized indicator cells, definitions, reproducible calculations, citations and visualization built on the Głos Migranta source collection and official publishers.",
+    "not_established": [
+      "New independently collected case-level empirical dataset in the original 32 acquisitions",
+      "Verification of all 1,483 source-register URLs or all 6,625 upstream CSV rows",
+      "Representativeness of the administrative selection or voluntary questionnaire",
+      "Cause of text/API differences, including the 445458 versus 445462 distinction; an old CSV or revision has not been established"
+    ]
+  },
+  "phase_3_pending_checks": [
+    "Review the finished PL/BE/EN pages, fallback text, fact pages, metadata and social cards for equivalent statistical/legal qualifications and removal of Russian public copy as requested.",
+    "Verify finished banking/actions/scenarios against current Polish law and primary EU authority, including exact document types, court scope, conditional remedy claims and new sources.",
+    "Review questionnaire wording: voluntary selection, one submission versus one person/case, duplicate handling, completed versus right-censored ongoing waits, denominator/missing-answer rules and no representative-population inference.",
+    "Review controller/contact/purpose/legal basis/retention/deletion information before submission; distinguish lack of names from anonymity and Cloudflare's operational IP processing.",
+    "Inspect server validation, allowed fields and lengths, size limits, duplicate retry handling, abuse controls, error/success behavior, database commit evidence, admin/export authorization and logs; CORS is not authentication.",
+    "Check no passport/card/case numbers or identifying free text is required, no row-level responses are published, and aggregate disclosure controls and access/retention practices match public promises.",
+    "Check backend tests and deployment evidence supplied by the author; a passing local test is not proof of deployed configuration or production data deletion.",
+    "Reconcile new datasets separately; record any unverified series rather than silently extending approval from the original 1,780 cells.",
+    "Only after an explicit final freeze: record exact reviewed claim IDs, file hashes and the remaining unverified scope. No round-2 release approval is issued here."
+  ],
+  "limits": [
+    "The source register is much larger than the 32 acquired snapshots reviewed numerically.",
+    "Public copies were reconciled to their published bytes; agency-hosted original signatures were not authenticated.",
+    "Reconciliation does not establish completeness/correctness of the original administrative databases or representativeness.",
+    "The expanded public site, questionnaire and Cloudflare backend were not ready for this phase and have not yet been approved.",
+    "No private chat, case file, credential, complete third-party article, or raw source binary was copied into these reports."
+  ],
+  "phase_3_part_review_file": "verification/round2/phase3-review.json",
+  "phase_3_status": "completed_scoped_source_content_and_behavior_review",
+  "final_scope_file": "verification/round2/release.json",
+  "resolved_additional_findings": [
+    {
+      "id": "R2-N09",
+      "resolution": "General duration metadata no longer asserts a submission start-event for MSWiA18089; endpoints are source-specific."
+    },
+    {
+      "id": "R2-P03",
+      "resolution": "445458 is described as forecast prose;445462 as inspected CSV/API; no historical snapshot/revision cause is asserted."
+    },
+    {
+      "id": "R2-S01",
+      "resolution": "Idempotent receipts and stable fingerprints tested, including a lost response and midnight retry."
+    },
+    {
+      "id": "R2-S02",
+      "resolution": "Versioned response/contact consent and timestamps retained and tested."
+    }
+  ]
+}

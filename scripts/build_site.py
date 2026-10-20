@@ -10,6 +10,7 @@ import json
 import re
 from pathlib import Path
 import shutil
+from build_round2 import fact_html, translate_claims, build_pages, review_html
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs'
@@ -27,22 +28,6 @@ def esc(value):
 
 def fmt(value):
     return f'{value:,}'.replace(',', ' ')
-
-def review_page(text):
-    """Small safe renderer for authored review prose; raw markdown stays downloadable."""
-    def inline(value):
-        value=esc(value)
-        value=re.sub(r'\[([^\]]+)\]\((https?://[^\s)]+|[^\s)]+\.(?:json|py|md))\)',r'<a href="\2">\1</a>',value)
-        return re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',value)
-    parts=[]
-    for block in text.split('\n\n'):
-        block=block.strip()
-        if not block:continue
-        if block.startswith('#'):
-            level=min(len(block)-len(block.lstrip('#')),3)
-            parts.append(f'<h{level}>{inline(block.lstrip("# "))}</h{level}>')
-        else:parts.append('<p>'+inline(block).replace('\n','<br>')+'</p>')
-    return '<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Проверка источников · Residence Observatory</title><meta name="description" content="Объём и ограничения отдельной проверки данных и публичных утверждений."><meta property="og:title" content="Проверка источников · Residence Observatory"><meta property="og:description" content="Объём и ограничения отдельной AI-проверки."><meta property="og:image" content="https://aierudit.github.io/poland-residence-observatory/assets/social.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="../assets/style.css"></head><body><main class="fact-page"><a class="back" href="../#method">← Residence Observatory</a><article class="fact-card provenance">'+''.join(parts)+'<p><a href="review.md">Markdown ↓</a> · <a href="release.json">Release JSON ↓</a></p></article></main></body></html>'
 
 def build_claims(data):
     observations = data['observations']
@@ -128,17 +113,8 @@ def build_claims(data):
     for c in claims:
         c['source_ids'] = sorted({by_id[i]['source_id'] for i in c['observation_ids']})
         c['as_of_release'] = data['as_of']
-        c['review_scope'] = 'Independent AI source review; see verification/review.md. Not external certification.'
-    return claims
-
-def fact_html(c, data, sources):
-    title, body, caveat = [c[k+'_pl'] for k in ['title','body','caveat']]
-    source_html = ''.join(f'<li><a href="{esc(sources[s]["url"])}">{esc(sources[s]["title"])} ↗</a><br>{esc(sources[s]["publisher"])} · {esc(sources[s].get("document_date") or "date not specified")} · {esc(sources[s]["access"])}</li>' for s in c['source_ids'])
-    by_id = {o['id']:o for o in data['observations']}
-    locators = sorted({str(by_id[i].get('source_locator','')) for i in c['observation_ids']})
-    citation = f'{title}. {body} {caveat} — Residence Observatory, {data["version"]}. {BASE}/facts/{c["id"]}/'
-    return f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} · Residence Observatory</title>
-<meta name="description" content="{esc(body+' '+caveat)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(caveat)}"><meta property="og:type" content="article"><meta property="og:url" content="{BASE}/facts/{c['id']}/"><meta property="og:image" content="{BASE}/assets/fact-{c['id']}.png"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="{BASE}/facts/{c['id']}/"><link rel="icon" href="../../assets/icon.svg"><link rel="stylesheet" href="../../assets/style.css"></head><body><main class="fact-page"><a class="back" href="../../#facts">← Residence Observatory / wszystkie dane</a><article class="fact-card"><div class="fact-top"><span>FAKT / {esc(c['id'].upper())}</span><span>WERSJA {esc(data['version'])}</span></div><h1>{esc(title)}</h1><p>{esc(body)}</p><blockquote>{esc(caveat)}</blockquote><div class="provenance"><h2>Źródło i odtwarzalność</h2><ul>{source_html}</ul><p><strong>Obliczenie:</strong> {esc(c['calculation'])}</p><details><summary>Lokalizatory i identyfikatory ({len(c['observation_ids'])} obserwacji)</summary><p>{esc('; '.join(locators))}</p><code>{esc(', '.join(c['observation_ids']))}</code></details><p><strong>Wersja badania:</strong> {esc(data['as_of'])}. To nie są dane na żywo. <a href="../../verification/">Zakres niezależnej weryfikacji AI</a>.</p><p><a href="https://github.com/AIErudit/poland-residence-observatory/tree/v{esc(data["version"])}/docs/facts/{c["id"]}/">Archiwum wersji v{esc(data["version"])}</a> · <a href="../../data/dataset.json">Pełny dataset JSON</a> · <a href="../../data/observations.csv">CSV</a> · <a href="../../data/claims.json">Rejestr twierdzeń</a></p><h2>Cytowanie</h2><pre id="citation">{esc(citation)}</pre><div class="fact-actions"><button id="copy">Kopiuj cytowanie</button><a href="https://twitter.com/intent/tweet?url={BASE}/facts/{c['id']}/" target="_blank" rel="noopener noreferrer">Udostępnij w X ↗</a><a href="https://github.com/AIErudit/poland-residence-observatory/issues/new/choose">Zgłoś korektę ↗</a></div><p id="copy-status" role="status"></p><h2>По-русски</h2><p><strong>{esc(c['title_ru'])}</strong></p><p>{esc(c['body_ru'])}</p><p>{esc(c['caveat_ru'])}</p></div></article><p class="small">Niezależne opracowanie AIErudit. Ustalenia dotyczą wyłącznie opisanych źródeł i okresów. Karta może zostać skorygowana; historia zmian pozostaje w GitHub.</p></main><script>document.getElementById('copy').addEventListener('click',async()=>{{const s=document.getElementById('citation').textContent;try{{await navigator.clipboard.writeText(s);document.getElementById('copy-status').textContent='Skopiowano źródło i zastrzeżenie.';}}catch{{window.prompt('Skopiuj cytowanie:',s);}}}});</script></body></html>'''
+        c['review_scope'] = 'Independent AI source review; see verification/round2/review.md. Not external certification.'
+    return translate_claims(claims)
 
 def main():
     data = read('data/curated/dataset.json')
@@ -147,8 +123,12 @@ def main():
     (OUT/'assets').mkdir(exist_ok=True)
     (OUT/'data').mkdir(exist_ok=True)
     (OUT/'.nojekyll').write_text('',encoding='utf-8', newline='\n')
-    for name in ['style.css','app.js','icon.svg']:
+    for name in ['style.css','app.js','icon.svg','i18n.js','page.js','analytics.js','survey.js','flag-en.svg']:
         shutil.copyfile(ROOT/'site'/name, OUT/'assets'/name)
+    for p in (ROOT/'site/vendor').glob('*'):
+        shutil.copyfile(p,OUT/'assets'/p.name)
+    for original,name in [('research/round2-data/offices.json','offices'),('research/round2-data/provenance-audit.json','provenance-audit'),('research/round2-data/eurostat-context.json','eurostat-context'),('research/round2-law/banking.json','banking'),('research/round2-law/actions.json','actions'),('site/survey-config.json','survey-config')]:
+        shutil.copyfile(ROOT/original,OUT/'data'/f'{name}.json')
     for p in (ROOT/'data/curated').glob('*'):
         if p.suffix in ('.json','.csv'):
             shutil.copyfile(p,OUT/'data'/p.name)
@@ -163,8 +143,8 @@ def main():
         if 'metric_label_pl' in c:
             value=c['preview_value']
             if c['unit']=='days': value='658 <small>dni</small>'
-            metrics.append(f'<article class="metric" data-claim="{c["id"]}"><span class="metric-label">{esc(c["metric_label_pl"])}</span><strong>{value}</strong><p class="metric-copy">{esc(c["metric_copy_pl"])}</p><a href="facts/{c["id"]}/">Definicja i źródło ↗</a></article>')
-        cards.append(f'<article class="fact-card" data-claim="{c["id"]}" id="fact-{c["id"]}"><div class="fact-top"><span>DATA / {esc(c["id"].upper())}</span><span>{esc(data["version"])}</span></div><h3 data-field="title">{esc(c["title_pl"])}</h3><p data-field="body">{esc(c["body_pl"])}</p><p class="fact-caveat" data-field="caveat">{esc(c["caveat_pl"])}</p><div class="fact-actions"><a href="facts/{c["id"]}/">Źródło / источник ↗</a><button data-copy="{c["id"]}">Cytuj / цитировать</button></div></article>')
+            metrics.append(f'<article class="metric" data-claim="{c["id"]}"><span class="metric-label">{esc(c["metric_label_pl"])}</span><strong>{value}</strong><p class="metric-copy">{esc(c["metric_copy_pl"])}</p><a data-i18n="definitionLink" data-keep-lang href="facts/{c["id"]}/">Definicja i źródło ↗</a></article>')
+        cards.append(f'<article class="fact-card" data-claim="{c["id"]}" id="fact-{c["id"]}"><div class="fact-top"><span>DATA / {esc(c["id"].upper())}</span><span>{esc(data["version"])}</span></div><h3 data-field="title">{esc(c["title_pl"])}</h3><p data-field="body">{esc(c["body_pl"])}</p><p class="fact-caveat" data-field="caveat">{esc(c["caveat_pl"])}</p><div class="fact-actions"><a data-i18n="definitionLink" data-keep-lang href="facts/{c["id"]}/">Źródło ↗</a><button data-i18n="copy" data-copy="{c["id"]}">Cytuj</button></div></article>')
         folder=OUT/'facts'/c['id']
         folder.mkdir(parents=True,exist_ok=True)
         (folder/'index.html').write_text(fact_html(c,data,{s['id']:s for s in data['sources']}),encoding='utf-8', newline='\n')
@@ -172,7 +152,7 @@ def main():
     (OUT/'index.html').write_text(page,encoding='utf-8', newline='\n')
     (OUT/'404.html').write_text('<!doctype html><html lang="pl"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>404 · Residence Observatory</title><h1>Nie znaleziono strony</h1><a href="/poland-residence-observatory/">Residence Observatory →</a></html>',encoding='utf-8', newline='\n')
     (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n',encoding='utf-8', newline='\n')
-    urls=[BASE+'/']+[f'{BASE}/facts/{c["id"]}/' for c in claims]
+    urls=[BASE+'/',BASE+'/survey/',BASE+'/privacy/',BASE+'/verification/']+[f'{BASE}/facts/{c["id"]}/' for c in claims]
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>{data["as_of"]}</lastmod></url>' for u in urls)+'</urlset>',encoding='utf-8', newline='\n')
     (OUT/'verification').mkdir(exist_ok=True)
     for name in ['review.md','baseline.json','research-review.json','release.json','verify_primary_sources.py']:
@@ -180,8 +160,22 @@ def main():
         if p.exists(): shutil.copyfile(p, OUT/'verification'/name)
     review=ROOT/'verification/review.md'
     if review.exists():
-        (OUT/'verification/index.html').write_text(review_page(review.read_text(encoding='utf-8')),encoding='utf-8', newline='\n')
-    manifest={'version':data['version'],'as_of':data['as_of'],'dataset_sha256':hashlib.sha256((OUT/'data/dataset.json').read_bytes()).hexdigest(),'claim_ids':[c['id'] for c in claims],'observations':len(data['observations']),'sources':len(data['sources'])}
+        (OUT/'verification/index.html').write_text(review_html(),encoding='utf-8', newline='\n')
+    (OUT/'verification/round2').mkdir(exist_ok=True)
+    for p in (ROOT/'verification/round2').glob('*'):
+        if p.suffix in ['.json','.md']:shutil.copyfile(p,OUT/'verification/round2'/p.name)
+    build_pages(OUT)
+    # File hashes prevent mixed old/new JavaScript and CSS after a Pages update.
+    def asset_version(match):
+        prefix,url=match.groups();asset=OUT/'assets'/Path(url).name
+        if not asset.exists():return match.group(0)
+        digest=hashlib.sha256(asset.read_bytes()).hexdigest()[:12]
+        return prefix+'="'+url+'?v='+digest+'"'
+    for page_file in OUT.rglob('*.html'):
+        text=page_file.read_text(encoding='utf-8')
+        text=re.sub(r'(src|href)="([^"?#]*assets/[^"?#]+)"',asset_version,text)
+        page_file.write_text(text,encoding='utf-8',newline='\n')
+    manifest={'site_version':'1.1.0','languages':['pl','be','en'],'context_observations':15,'version':data['version'],'as_of':data['as_of'],'dataset_sha256':hashlib.sha256((OUT/'data/dataset.json').read_bytes()).hexdigest(),'claim_ids':[c['id'] for c in claims],'observations':len(data['observations']),'sources':len(data['sources'])}
     write_json(OUT/'manifest.json',manifest)
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 

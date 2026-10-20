@@ -1,0 +1,116 @@
+{
+  "pl": {
+    "title": "Prywatność i Twoje dane",
+    "intro": "Administrator: Vitali Bibikov. Kontakt: support@pagefabrica.com (temat: Residence Observatory — dane). Wersja informacji: 20.10.2026. Ankieta jest dobrowolna, nie jest usługą urzędową i nie wpływa na postępowanie.",
+    "sections": [
+      [
+        "Co zbieramy i po co",
+        "Wymagamy województwa, rodzaju zezwolenia, statusu sprawy i daty złożenia; dla zakończonej sprawy także daty rozstrzygnięcia. Obliczamy liczbę dni. Możesz dodać wybrane informacje o podstawie pobytu, sposobie złożenia, trudnościach, działaniach, postępowaniu sądowym, banku, obywatelstwie w szerokiej kategorii i wielkości gospodarstwa. Celem jest badanie zgłoszonych doświadczeń i przygotowanie zbiorczych statystyk. Nie prosimy o nazwisko, PESEL, sygnaturę, dokumenty, swobodny opis ani dane innych osób. Jedna ankieta dotyczy jednej sprawy."
+      ],
+      [
+        "Zgoda i kontakt",
+        "Podstawą przetwarzania odpowiedzi jest Twoja zgoda (art. 6 ust. 1 lit. a RODO). E-mail jest opcjonalny i wymaga osobnej zgody na kontakt w sprawie odpowiedzi. Brak e-maila nie ogranicza udziału. Zgodę można wycofać przez usunięcie odpowiedzi lub kontakt z administratorem; nie wpływa to na zgodność wcześniejszego przetwarzania. Nie nazywamy ankiety anonimową: dokładne daty i opcjonalny e-mail mogą pozwalać na identyfikację."
+      ],
+      [
+        "Gdzie i jak długo",
+        "Prywatne odpowiedzi zapisujemy w osobnej bazie Cloudflare D1 utworzonej z jurysdykcją UE. Aktywne odpowiedzi wygasają po 730 dniach, a oddzielnie zaszyfrowany e-mail po 180 dniach; codzienne zadanie usuwa wygasłe rekordy. Usunięcie z aktywnej bazy nie usuwa natychmiast kopii odzyskiwania dostawcy — D1 zachowuje historię do 30 dni, zależnie od planu. Cloudflare obsługuje globalną sieć i może przetwarzać metadane poza UE; jurysdykcja bazy nie jest gwarancją, że każde przetwarzanie odbywa się w UE. Odpowiedzi nie trafiają do publicznego GitHub, Issues ani wykresów automatycznie."
+      ],
+      [
+        "Ochrona przed botami",
+        "Turnstile ładujemy po Twoim włączeniu weryfikacji w ankiecie. Cloudflare przetwarza sygnały urządzenia i połączenia zgodnie ze swoimi zasadami; token jest weryfikowany na serwerze. Nasz kod nie zapisuje surowego IP ani nie prowadzi analityki odwiedzających. Ograniczanie nadużyć używa krótkotrwałego HMAC adresu IP i okna czasowego; rekordy są usuwane przy codziennym sprzątaniu (do około doby po wygaśnięciu). Podstawą zabezpieczenia usługi jest uzasadniony interes (art. 6 ust. 1 lit. f RODO). Dostawcy mogą prowadzić własne logi infrastruktury."
+      ],
+      [
+        "Kwit usunięcia i Twoje prawa",
+        "Przed wysłaniem przeglądarka tworzy losowy identyfikator i tajny klucz usunięcia. Zapisuje wyłącznie tę kwitancję lokalnie, aby umożliwić ponowienie i usunięcie; nie zapisuje tam treści odpowiedzi ani e-maila. Na współdzielonym urządzeniu pobierz kwit i usuń kopię przeglądarkową. Zachowaj go: bez e-maila lub kwitu możemy nie rozpoznać Twojego wpisu. Formularz usunięcia jest na stronie ankiety. Możesz żądać dostępu, sprostowania, usunięcia, ograniczenia lub przeniesienia danych, cofnąć zgodę i zgłosić sprzeciw wobec przetwarzania opartego na uzasadnionym interesie. Nie przesyłaj dokumentu tożsamości bez wcześniejszego uzgodnienia. Skargę dotyczącą ochrony danych można złożyć do Prezesa UODO."
+      ],
+      [
+        "Publikacja i ograniczenia badania",
+        "Obecnie nie publikujemy surowych ankiet ani bieżących automatycznych wyników. Przed każdą publikacją administrator sprawdza duplikaty, spójność i ryzyko identyfikacji. Minimalna wielkość grupy wynosi 10; sama liczebność nie wystarcza, jeśli dane nadal identyfikują osoby. Dokładnych dat, e-maili i rekordów jednostkowych nie publikujemy. Otwarte i zakończone sprawy są oddzielne. Ochotnicza próba nie reprezentuje wszystkich migrantów; mediana zakończonych spraw nie jest prognozą dla nowego wniosku. Prawdziwie zanonimizowane opublikowane agregaty mogą pozostać po usunięciu wpisu. Nie podejmujemy automatycznych decyzji o osobach."
+      ],
+      [
+        "Hosting i korespondencja",
+        "GitHub Pages dostarcza publiczną stronę i przetwarza techniczne dane połączenia według zasad GitHub. Cloudflare obsługuje API, bazę i ochronę antybotową; operator korzysta z warunków i mechanizmów przetwarzania danych tych dostawców. Wiadomości wysłane dobrowolnie na adres wsparcia są oddzielną korespondencją potrzebną do udzielenia odpowiedzi, a nie rekordem ankiety. Nie wysyłaj w nich dokumentów ani danych innych osób. Pytania o odbiorców, transfery i realizację praw kieruj do administratora. Korespondencję obsługujemy w uzasadnionym interesie udzielenia odpowiedzi i obsługi praw (art. 6 ust. 1 lit. f RODO), a przy obowiązku prawnym także lit. c. Operator usuwa ją w ciągu 12 miesięcy od zamknięcia sprawy, chyba że przepis lub konkretna potrzeba ustalenia, dochodzenia lub obrony roszczeń wymaga dłuższego przechowania; wtedy zachowuje tylko niezbędny zakres."
+      ],
+      [
+        "Transfery i kopie zabezpieczeń",
+        "Cloudflare DPA (§6) przewiduje SCC 2021/914 dla transferów objętych ograniczeniami oraz DPF tam, gdzie ma zastosowanie. GitHub wskazuje SCC i udział w DPF. Teksty i mechanizmy są dostępne w podlinkowanych dokumentach dostawców poniżej; o kopię zabezpieczeń dotyczących projektu można też poprosić administratora."
+      ]
+    ]
+  },
+  "be": {
+    "title": "Прыватнасць і вашы даныя",
+    "intro": "Адміністратар: Vitali Bibikov. Кантакт: support@pagefabrica.com (тэма: Residence Observatory — даныя). Версія: 20.10.2026. Анкета добраахвотная, не з’яўляецца дзяржаўнай паслугай і не ўплывае на вашу справу.",
+    "sections": [
+      [
+        "Што збіраем і навошта",
+        "Абавязковыя палі: ваяводства, тып дазволу, стан справы і дата падачы; для завершанай справы таксама дата рашэння. Разлічваем колькасць дзён. Можна дадаць падставу побыту, спосаб падачы, цяжкасці, дзеянні, судовы вынік, банк, шырокую катэгорыю грамадзянства і памер гаспадаркі. Мэта — даследаванне паведамленага досведу і зводная статыстыка. Не просім імя, PESEL, нумары спраў, дакументы, вольны аповед або даныя іншых людзей. Адна анкета — адна справа."
+      ],
+      [
+        "Згода і сувязь",
+        "Апрацоўваем адказы на падставе вашай згоды (арт. 6(1)(a) GDPR). E-mail неабавязковы і патрабуе асобнай згоды на сувязь наконт адказу. Без яго ўдзел таксама магчымы. Згоду можна адклікаць выдаленнем адказу або праз адміністратара; ранейшая законная апрацоўка ад гэтага не становіцца незаконнай. Анкета не ананімная: дакладныя даты і неабавязковы e-mail могуць дазволіць ідэнтыфікацыю."
+      ],
+      [
+        "Дзе і як доўга",
+        "Прыватныя адказы захоўваем у асобнай Cloudflare D1 з юрысдыкцыяй ЕС. Тэрмін актыўнага адказу — 730 дзён, асобна зашыфраванага e-mail — 180 дзён; штодзённае заданне выдаляе пратэрмінаваныя запісы. Выдаленне з актыўнай базы не адразу выдаляе рэзервовую гісторыю пастаўшчыка: D1 захоўвае яе да 30 дзён у залежнасці ад плана. Сетка Cloudflare глабальная, метаданыя могуць апрацоўвацца па-за ЕС; юрысдыкцыя базы не азначае, што ўся апрацоўка адбываецца ў ЕС. Адказы аўтаматычна не трапляюць у публічны GitHub, Issues або графікі."
+      ],
+      [
+        "Абарона ад ботаў",
+        "Turnstile загружаецца пасля ўключэння вамі праверкі ў анкеце. Cloudflare апрацоўвае сігналы прылады і злучэння паводле сваіх правілаў; сервер правярае токен. Наш код не захоўвае сыры IP і не вядзе аналітыку наведвальнікаў. Для абмежавання злоўжыванняў выкарыстоўваецца кароткачасовы HMAC IP і часавога акна; запісы выдаляюцца штодня, прыкладна не пазней за суткі пасля сканчэння тэрміну. Падстава бяспекі — законны інтарэс, арт. 6(1)(f) GDPR. Пастаўшчыкі могуць мець уласныя інфраструктурныя журналы."
+      ],
+      [
+        "Квітанцыя выдалення і правы",
+        "Перад адпраўкай браўзер стварае выпадковы ідэнтыфікатар і сакрэтны ключ выдалення. Лакальна захоўвае толькі гэтую квітанцыю для паўтору і выдалення, без адказаў або e-mail. На агульнай прыладзе спампуйце квітанцыю і выдаліце лакальную копію. Захавайце яе: без e-mail або квітанцыі можам не знайсці ваш запіс. Форма выдалення ёсць на старонцы анкеты. Вы можаце запытаць доступ, выпраўленне, выдаленне, абмежаванне або перанос даных, адклікаць згоду і пярэчыць апрацоўцы на падставе законнага інтарэсу. Не дасылайце дакумент асобы без узгаднення. Скаргі па абароне даных прымае польскі орган UODO."
+      ],
+      [
+        "Публікацыя і межы даследавання",
+        "Сырыя анкеты і аўтаматычныя бягучыя вынікі не публікуюцца. Перад публікацыяй адміністратар правярае дублікаты, узгодненасць і рызыку ідэнтыфікацыі. Мінімум — 10 адказаў у групе; гэтага недастаткова, калі людзей усё яшчэ можна вызначыць. Дакладныя даты, e-mail і адзінкавыя запісы не публікуюцца. Адкрытыя і завершаныя справы аналізуюцца асобна. Добраахвотная выбарка не рэпрэзентуе ўсіх мігрантаў; медыяна завершаных спраў не прадказвае чаканне новай заявы. Сапраўды ананімізаваныя апублікаваныя агрэгаты могуць застацца пасля выдалення адказу. Аўтаматычных рашэнняў аб людзях не прымаем."
+      ],
+      [
+        "Хостынг і ліставанне",
+        "GitHub Pages дастаўляе публічны сайт і апрацоўвае тэхнічныя даныя злучэння паводле правілаў GitHub. Cloudflare забяспечвае API, базу і антыботавую праверку; аператар карыстаецца ўмовамі і механізмамі апрацоўкі гэтых пастаўшчыкоў. Лісты на адрас падтрымкі — асобнае ліставанне для адказу на запыт, а не частка анкеты. Не дасылайце дакументы або чужыя даныя. Па пытаннях атрымальнікаў, перадач і правоў звяртайцеся да адміністратара. Ліставанне апрацоўваем у законным інтарэсе адказу і рэалізацыі правоў (арт. 6(1)(f) GDPR), а пры прававым абавязку таксама паводле (c). Аператар выдаляе яго на працягу 12 месяцаў пасля закрыцця запыту, калі закон або канкрэтная патрэба ў абароне ці ажыццяўленні прававых патрабаванняў не вымагае даўжэйшага захавання; тады застаецца толькі неабходнае."
+      ],
+      [
+        "Перадачы і копіі гарантый",
+        "Cloudflare DPA (§6) прадугледжвае SCC 2021/914 для абмежаваных перадач і DPF, калі ён прымяняецца. GitHub пазначае SCC і ўдзел у DPF. Тэксты і механізмы даступныя ў дакументах пастаўшчыкоў па спасылках ніжэй; копію гарантый праекта можна запытаць у адміністратара."
+      ]
+    ]
+  },
+  "en": {
+    "title": "Privacy and your data",
+    "intro": "Controller: Vitali Bibikov. Contact: support@pagefabrica.com (subject: Residence Observatory — data). Notice version: 20 October 2026. Participation is voluntary. This is not an official service and does not affect your proceedings.",
+    "sections": [
+      [
+        "What we collect and why",
+        "Required: voivodeship, permit type, case status and application date; concluded cases also require a resolution date. We calculate elapsed days. Optional fields cover legal basis, submission method, difficulties, actions, court outcome, bank, a broad citizenship category and household size. We study reported experiences and prepare aggregate statistics. We do not request names, PESEL, case numbers, documents, free-text accounts or other people’s details. One response concerns one case."
+      ],
+      [
+        "Consent and contact",
+        "Response processing relies on your consent (GDPR Article 6(1)(a)). Email is optional and requires a separate opt-in for follow-up about your response. You can participate without it. Withdraw consent by deleting your response or contacting the controller; withdrawal does not affect prior lawful processing. This survey is not anonymous: exact dates and optional email may enable identification."
+      ],
+      [
+        "Where and for how long",
+        "Private responses are stored in a separate Cloudflare D1 database created with EU jurisdiction. Active responses expire after 730 days and separately encrypted email after 180 days; a daily job removes expired rows. Deletion from the active database does not immediately erase the provider’s recovery history: D1 retains up to 30 days depending on plan. Cloudflare operates a global network and may process metadata outside the EU; database jurisdiction does not mean all processing takes place in the EU. Responses are not automatically published to GitHub, Issues or charts."
+      ],
+      [
+        "Bot protection",
+        "Turnstile loads after you enable verification in the survey. Cloudflare processes device and connection signals under its policies; the server validates the token. Our application does not store raw IP addresses or run visitor analytics. Abuse prevention uses a short-lived HMAC of the IP and time window; a daily cleanup removes entries, within roughly a day after expiry. Service protection relies on legitimate interest under GDPR Article 6(1)(f). Providers may keep their own infrastructure logs."
+      ],
+      [
+        "Deletion receipt and your rights",
+        "Before submission your browser creates a random identifier and secret deletion key. It stores only that receipt locally for retries and deletion, without answers or email. On a shared device, download the receipt and clear the browser copy. Keep it: without an email or receipt we may be unable to identify your entry. The survey page contains a deletion form. You may request access, correction, erasure, restriction or portability, withdraw consent and object to legitimate-interest processing. Do not send identity documents without prior agreement. You can lodge a data-protection complaint with Poland’s UODO."
+      ],
+      [
+        "Publication and research limits",
+        "Raw responses and automatic live results are not published. Before publication the controller reviews duplicates, consistency and re-identification risk. The minimum group size is 10; that alone is insufficient if individuals remain identifiable. Exact dates, email and individual rows will not be published. Pending and concluded cases are analysed separately. A self-selected sample does not represent all migrants; a median of concluded cases does not predict a new application’s wait. Truly anonymised published aggregates may remain after a response is deleted. We make no automated decisions about individuals."
+      ],
+      [
+        "Hosting and correspondence",
+        "GitHub Pages serves the public site and processes technical connection data under GitHub’s policies. Cloudflare provides the API, database and bot protection; the operator uses these providers’ processing terms and mechanisms. Voluntary support emails are separate correspondence needed to answer your request, not survey records. Do not email documents or other people’s data. Contact the controller about recipients, transfers or exercising your rights. Correspondence relies on legitimate interest in answering and handling rights requests (GDPR Article 6(1)(f)), and Article 6(1)(c) where a legal duty applies. The operator deletes it within 12 months of closing the request unless law or a specific need to establish, exercise or defend legal claims requires longer retention, limited to what is necessary."
+      ],
+      [
+        "Transfers and copies of safeguards",
+        "Cloudflare’s DPA (§6) provides SCC 2021/914 for restricted transfers and DPF where applicable. GitHub identifies SCCs and participation in DPF. The linked provider documents below contain these texts and mechanisms; you can also ask the controller for a copy of project safeguards."
+      ]
+    ]
+  }
+}

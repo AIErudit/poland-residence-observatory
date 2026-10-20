@@ -3,12 +3,12 @@ import argparse
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-EXT={'.py','.json','.csv','.md','.yml','.yaml','.html','.css','.js','.txt','.svg','.xml'}
+EXT={'.py','.json','.csv','.md','.yml','.yaml','.html','.css','.js','.txt','.svg','.xml','.mjs','.sql','.jsonc'}
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();changed=[]
     for path in ROOT.rglob('*'):
-        if not path.is_file() or any(x in path.parts for x in ['.git','__pycache__','.venv','.cache','node_modules']):continue
+        if not path.is_file() or any(x in path.parts for x in ['.git','.codegraph','__pycache__','.venv','.cache','node_modules']):continue
         if path.suffix not in EXT:continue
         raw=path.read_bytes();canonical=raw.decode('utf-8-sig').replace('\r\n','\n').encode('utf-8')
         if raw!=canonical:

@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-20T13:34:00+00:00",
+  "synthetic_fixture_only": true,
+  "no_real_personal_responses_submitted": true,
+  "response_count_before": 0,
+  "response_count_after": 0,
+  "production_deletion_removed_synthetic_response_and_contact": true,
+  "unauthenticated_export_status": 401,
+  "disallowed_origin_status": 403,
+  "database_jurisdiction": "eu",
+  "collection_enabled": false
+}

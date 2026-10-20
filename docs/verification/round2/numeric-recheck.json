@@ -1,0 +1,178 @@
+{
+  "checked_at": "2026-10-20T13:29:38.835741+00:00",
+  "status": "all_numeric_values_reconciled",
+  "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
+  "core_previously_reconciled": 1018,
+  "additional_reconciled": 762,
+  "total_numeric_observations_reconciled": 1780,
+  "total_observations": 1780,
+  "additional_counts_by_series": {
+    "nsa_wsa_6272_annual": 510,
+    "udsc_20260828_blue_card_mean_days": 64,
+    "warehouse_all_outcomes": 96,
+    "lodz_warehouse_all_outcomes": 27,
+    "lodz_warehouse_positive_decisions": 45,
+    "udsc_portal_temporary_applications": 4,
+    "udsc_portal_temporary_decisions": 4,
+    "udsc_portal_eu_long_term_applications": 4,
+    "udsc_portal_eu_long_term_decisions": 4,
+    "mswia_12584_pending_count": 2,
+    "mswia_12584_reported_mean_days": 2
+  },
+  "source_snapshots_read": {
+    "src_5dd2be926a66": {
+      "url": "https://www.nsa.gov.pl/media/m5ccfdz2/7-skargi-na-bezczynność-i-przewlekłość-2024.xls",
+      "sha256": "0c87a4302891b8b505cc7bebafe1a73f0bbe8c5046253292ed64f1633f697ac5",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_68ce466a081c": {
+      "url": "https://www.nsa.gov.pl/media/foejxbq4/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2020.xls",
+      "sha256": "a41e39beb95170330b8cf21ae6d0514cfa562ba20c2b9b699c9ed2d58974e545",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_7734abe934b3": {
+      "url": "https://www.nsa.gov.pl/media/1bbn0phd/7-skargi-na-bezczynność-i-przewlekłość-2025.xls",
+      "sha256": "571e77cdba13d8bb50f1da80e47ce510ee6592746f75c9e4918637eec8ac61d7",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_920edcb12a4f": {
+      "url": "https://www.nsa.gov.pl/media/wazp5vzz/7-skargi-na-bezczynność-i-przewlekłość-2023.xls",
+      "sha256": "3584a053884ab5bfdc0ebe33ba3a56ba8baab30d72621f158208c9f99adad878",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_98d7eb497d68": {
+      "url": "https://www.nsa.gov.pl/media/zxwcc1uq/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2021.xls",
+      "sha256": "c995993f1ba71f33ad4c126c6e4d2b8b95b7f9c7c328086df969e104bc7c8fcb",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_c27ab6872d30": {
+      "url": "https://www.nsa.gov.pl/media/es1bldwx/7_skargi_na_bezczynnoĺ-ae-_i_przewlekĺ-oĺ-ae-_-_2022.xls",
+      "sha256": "49d77a4a0f8d7c8e0c1691dac71978d51307e898d4bbfb35fee17cdc501a4399",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_3aebb28a24e1": {
+      "url": "https://glos-migranta.eu/dokumenty/udsc-bsz-waism-0361-16-2026-08-28.pdf",
+      "sha256": "b2d81db630197c78b5b5c4231da0c315acfbd222548fef677118694f9bc12c73",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_a8e9ff0bc5cd": {
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-03-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "sha256": "7ec6b84eaa03cebfcf1d5b6f5e98f7fec7fc10fb19865c2cf83af21c67b40c8f",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_ab6931527e0e": {
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-02-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "sha256": "d866b6e6cdd9537fbe864ae4d9dceee66a207455df97619c5ac1162a558c75a0",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_b34097e5a54c": {
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-01-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "sha256": "32d33787bbe832564a17900157714d29ece170ceadd34867a306629a991bfda9",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_e8a26fb8e812": {
+      "url": "https://glos-migranta.eu/dokumenty/podlaski-ob-ii-1331-16-2026-pt-2026-09-09-decyzja-zal-04-sredni-czas-postepowania-legalizacja-pod.pdf",
+      "sha256": "3607e835bfb5fbd31782c0c6c33caa23be2edddc9902aab343b29aa4fe3ec73c",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_8e1be42183d6": {
+      "url": "https://glos-migranta.eu/dokumenty/lodzki-soc-iv-1331-11-hurtownia-raporty.xlsx",
+      "sha256": "22fbdb1a83d61c77886ae75d2c069ed4871e9fb5e30c494e90e8d2f618672145",
+      "access": "primary_document_copy_snapshot"
+    },
+    "src_a13608abc4e9": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "1b547ff7e095f103e1abf305fae81185d43706f57f71fb1f5ec2e0a09ddd4830",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_179c34e6cc2c": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "ff6b426cab5f1ca8c68ced877adcc53dbee782f5bcaec04f6ba72d5e54bd9ffe",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_0967cf458c80": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "7fd936fa933bd22105be3d16fa1e6d3d65218a7c28697b1417a8c755cc940471",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_43675f089fec": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "2ecb9a1b2fce02dd4ca02251b109b2965eb466df89fe593935bf3647e9a6e2cf",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_40d6dc517e4f": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "a83c8757b14ac2380e483e981295050cf0e79347870f50b7cf0524d74a82caaa",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_066ec000b001": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "583e5dad196a44e5658a6e99160d4ad420133794dbb0476c4db2b8d60aca6c46",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_18ecdde3fe7c": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "29ee12158b47fe86703a9a30180386523a0b9bf11a98e1368b7b6280222cadf6",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_305c0baa12a6": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=1&groupBy=country&fields=total,country",
+      "sha256": "4cc20fe820679b14fd86eced26a3f28de19608b63612de6172bc5306d41462c4",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_6ece024bd7a8": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "8a4fa6d412c3815b0c16d680dde09f9247a37a21e60eaa6ab07537b6ffe610cb",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_7f4780ea5cff": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2023&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "bed620ce3d2d24f92db32338df0fcd4d9db60d40d43e3c142a94c914402b6db9",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_cc5cc7575ee2": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "07fbc2f67a1a9c20630a26271b1decda6c8f860855200272c4299933f5cd3871",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_39b8cc2face8": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2024&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "1fa4b8679b5bf93a870400d8b17608b89fec7de3fa2588576d7205beb7bb2ecc",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_e1296be50eb1": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "e6f8d4d5074ac50b7bb112502dc542c5eb85c17f3d339fd95934b8169f86a5d7",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_2a16b820dd8a": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2025&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "4812766bc0715ceac0822d7b824f435df66b2f84a1ecc4a0b8940d8238f72050",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_07cf745a747f": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/applications/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "30dc7161e7ab2a8ef459e6e4f1c3afc79b96f5c7a2aed46ba0569e60c5cb95d1",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_c135d2dddbe8": {
+      "url": "https://migracje.gov.pl/wp-json/udscmap/v1/decisions/poland?year=2026&caseType=3&groupBy=country&fields=total,country",
+      "sha256": "55f8c6cae47fa042971d4d7d859300edc92a106bd135f29f9224b715a1230c6c",
+      "access": "primary_publisher_snapshot"
+    },
+    "src_9ec673b3725c": {
+      "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/12584/reply/DMQHGV/body",
+      "sha256": "394792272253220d3f3fba47b0a39bb027dbad8e60f155888f76fec777285858",
+      "access": "primary_publisher_snapshot"
+    }
+  },
+  "issues": [],
+  "unverified_rows": [],
+  "limits": [
+    "Numeric agreement with acquired source snapshots does not authenticate signed originals or validate administrative source systems.",
+    "Redacted UdSC regional labels remain reconstructed; all-copy provenance qualifiers remain applicable.",
+    "Warehouse2026 values match the table but exact operational cut-off is unknown; as_of_date=null and period_ambiguous are required, no annual projection permitted.",
+    "Reported maxima are database statistics, not independently authenticated individual histories.",
+    "All1483 catalogue URLs, all6625 upstream CSV records and all research claims are not independently fact-checked by this numeric reconciliation."
+  ]
+}

@@ -18,3 +18,5 @@ playwright-report/
 test-results/
 screenshots/
 verification/_*
+.codegraph/
+backend/wrangler.jsonc

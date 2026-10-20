@@ -1,0 +1,280 @@
+{
+  "as_of": "2026-10-20",
+  "offices": [
+    {
+      "geography_id": "PL-DS",
+      "geography_name": "Dolnośląskie",
+      "office_name": "Dolnośląski Urząd Wojewódzki we Wrocławiu",
+      "authority_name": "Wojewoda Dolnośląski",
+      "cities": [
+        "Wrocław"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/dolnoslaski-uw",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/dolnoslaski-uw/cudzoziemcy-1",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:09+00:00",
+      "content_sha256": "dc108d9a5a27e37ae72cf479c55a45988698141682a01bdade8bc3fd78da04f8",
+      "official_profile_title": "Strona główna - Dolnośląski Urząd Wojewódzki - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-KP",
+      "geography_name": "Kujawsko-pomorskie",
+      "office_name": "Kujawsko-Pomorski Urząd Wojewódzki w Bydgoszczy",
+      "authority_name": "Wojewoda Kujawsko-Pomorski",
+      "cities": [
+        "Bydgoszcz",
+        "Toruń"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-kujawsko-pomorski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-kujawsko-pomorski/cudzoziemcy",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:09+00:00",
+      "content_sha256": "9a846b5a1374378438bb4a5c2847f6eae0dec041bf6c9838e7b9a73b478cfc42",
+      "official_profile_title": "Kujawsko-Pomorski Urząd Wojewódzki w Bydgoszczy - Kujawsko-Pomorski Urząd Wojewódzki w Bydgoszczy - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-LU",
+      "geography_name": "Lubelskie",
+      "office_name": "Lubelski Urząd Wojewódzki w Lublinie",
+      "authority_name": "Wojewoda Lubelski",
+      "cities": [
+        "Lublin"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-lubelski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-lubelski/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:09+00:00",
+      "content_sha256": "ec2273602338ae42f75d58609fe94196a18f9161a42b70141c46258da740ecea",
+      "official_profile_title": "Lubelski Urząd Wojewódzki - Lubelski Urząd Wojewódzki w Lublinie - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-LB",
+      "geography_name": "Lubuskie",
+      "office_name": "Lubuski Urząd Wojewódzki w Gorzowie Wielkopolskim",
+      "authority_name": "Wojewoda Lubuski",
+      "cities": [
+        "Gorzów Wielkopolski",
+        "Zielona Góra"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-lubuski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-lubuski/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:09+00:00",
+      "content_sha256": "3992ddbbf849c71a990960aef240633ebbdfbfafc5d11a151b8ab14f955db748",
+      "official_profile_title": "Lubuski Urząd Wojewódzki - Lubuski Urząd Wojewódzki - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-LD",
+      "geography_name": "Łódzkie",
+      "office_name": "Łódzki Urząd Wojewódzki w Łodzi",
+      "authority_name": "Wojewoda Łódzki",
+      "cities": [
+        "Łódź"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-lodzki",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-lodzki/kontakt-z-urzedem",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:09+00:00",
+      "content_sha256": "f504e472372a00fb0ef0dd2a5ddf7d8b4ad22be47a4060876fd8a76a34032baa",
+      "official_profile_title": "Łódzki Urząd Wojewódzki - Łódzki Urząd Wojewódzki w Łodzi - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-MA",
+      "geography_name": "Małopolskie",
+      "office_name": "Małopolski Urząd Wojewódzki w Krakowie",
+      "authority_name": "Wojewoda Małopolski",
+      "cities": [
+        "Kraków"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie",
+      "contact_or_foreigners_url": null,
+      "verification_status": "official_MSWiA_directory_verified_profile_not_confirmed",
+      "retrieved_at": "2026-10-20T12:58:29+00:00",
+      "content_sha256": "f7b0ec481538b181b5936007c93abfcbccc850e3059f1be20ffdf03a62d628ec",
+      "official_profile_title": null,
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-MZ",
+      "geography_name": "Mazowieckie",
+      "office_name": "Mazowiecki Urząd Wojewódzki w Warszawie",
+      "authority_name": "Wojewoda Mazowiecki",
+      "cities": [
+        "Warszawa"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-mazowiecki",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-mazowiecki/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:10+00:00",
+      "content_sha256": "0c19be159c8fd203e34e25fe4c4c0ca378829af12ddbc987e30001753b80a555",
+      "official_profile_title": "Mazowiecki Urząd Wojewódzki w Warszawie - Mazowiecki Urząd Wojewódzki w Warszawie - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-OP",
+      "geography_name": "Opolskie",
+      "office_name": "Opolski Urząd Wojewódzki w Opolu",
+      "authority_name": "Wojewoda Opolski",
+      "cities": [
+        "Opole"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-opolski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-opolski/kontakt-z-urzedem",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:10+00:00",
+      "content_sha256": "ac7afc1ad05b466af9e4962f6a138b362212b5df3f60cd6300dd4f1929ef4ef7",
+      "official_profile_title": "Opolski Urząd Wojewódzki - Opolski Urząd Wojewódzki - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-PK",
+      "geography_name": "Podkarpackie",
+      "office_name": "Podkarpacki Urząd Wojewódzki w Rzeszowie",
+      "authority_name": "Wojewoda Podkarpacki",
+      "cities": [
+        "Rzeszów"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-podkarpacki",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-podkarpacki/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:10+00:00",
+      "content_sha256": "c84509faa8e9a8d2452cdf72157fa38362f1715b9d30b82fc1f7b80eef8016ed",
+      "official_profile_title": "Podkarpacki Urząd Wojewódzki w Rzeszowie - Podkarpacki Urząd Wojewódzki w Rzeszowie - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-PD",
+      "geography_name": "Podlaskie",
+      "office_name": "Podlaski Urząd Wojewódzki w Białymstoku",
+      "authority_name": "Wojewoda Podlaski",
+      "cities": [
+        "Białystok"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-podlaski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-podlaski/cudzoziemcy-legalizacja-pobytu",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:10+00:00",
+      "content_sha256": "8c6e51e909d2bd663f8668a67d0c9f8a0ada617bedd1b90906f3c56dc9be6938",
+      "official_profile_title": "Podlaski Urząd Wojewódzki w Białymstoku - Podlaski Urząd Wojewódzki w Białymstoku - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-PM",
+      "geography_name": "Pomorskie",
+      "office_name": "Pomorski Urząd Wojewódzki w Gdańsku",
+      "authority_name": "Wojewoda Pomorski",
+      "cities": [
+        "Gdańsk"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-pomorski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-pomorski/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:11+00:00",
+      "content_sha256": "9f8799a29ad597ef9eb3294d3674f7b8137faac584c9d7570da22b707ac87449",
+      "official_profile_title": "Strona główna - Pomorski Urząd Wojewódzki w Gdańsku - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-SL",
+      "geography_name": "Śląskie",
+      "office_name": "Śląski Urząd Wojewódzki w Katowicach",
+      "authority_name": "Wojewoda Śląski",
+      "cities": [
+        "Katowice"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie",
+      "contact_or_foreigners_url": null,
+      "verification_status": "official_MSWiA_directory_verified_profile_not_confirmed",
+      "retrieved_at": "2026-10-20T12:58:29+00:00",
+      "content_sha256": "f7b0ec481538b181b5936007c93abfcbccc850e3059f1be20ffdf03a62d628ec",
+      "official_profile_title": null,
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-SK",
+      "geography_name": "Świętokrzyskie",
+      "office_name": "Świętokrzyski Urząd Wojewódzki w Kielcach",
+      "authority_name": "Wojewoda Świętokrzyski",
+      "cities": [
+        "Kielce"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-swietokrzyski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-swietokrzyski/cudzoziemcy",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:11+00:00",
+      "content_sha256": "9cc1079090a0a90a13815952d203bd0bd82a67a537ce32c638c34fe647e3d513",
+      "official_profile_title": "Strona główna - Świętokrzyski Urząd Wojewódzki w Kielcach - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-WN",
+      "geography_name": "Warmińsko-mazurskie",
+      "office_name": "Warmińsko-Mazurski Urząd Wojewódzki w Olsztynie",
+      "authority_name": "Wojewoda Warmińsko-Mazurski",
+      "cities": [
+        "Olsztyn"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-warminsko-mazurski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-warminsko-mazurski/kontakt-z-urzedem",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:11+00:00",
+      "content_sha256": "2014b284c86a69b4bf30bec99fd0281bfee9ea143a5e835719af19dfd37301f4",
+      "official_profile_title": "Warmińsko-Mazurski Urząd Wojewódzki w Olsztynie - Warmińsko-Mazurski Urząd Wojewódzki w Olsztynie - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-WP",
+      "geography_name": "Wielkopolskie",
+      "office_name": "Wielkopolski Urząd Wojewódzki w Poznaniu",
+      "authority_name": "Wojewoda Wielkopolski",
+      "cities": [
+        "Poznań"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie",
+      "contact_or_foreigners_url": null,
+      "verification_status": "official_MSWiA_directory_verified_profile_not_confirmed",
+      "retrieved_at": "2026-10-20T12:58:29+00:00",
+      "content_sha256": "f7b0ec481538b181b5936007c93abfcbccc850e3059f1be20ffdf03a62d628ec",
+      "official_profile_title": null,
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    },
+    {
+      "geography_id": "PL-ZP",
+      "geography_name": "Zachodniopomorskie",
+      "office_name": "Zachodniopomorski Urząd Wojewódzki w Szczecinie",
+      "authority_name": "Wojewoda Zachodniopomorski",
+      "cities": [
+        "Szczecin"
+      ],
+      "cities_definition": "Project capital labels, not a verified list of all foreigner-service branches. For two-capital regions the provincial office seat is specified by office_name.",
+      "official_url": "https://www.gov.pl/web/uw-zachodniopomorski",
+      "contact_or_foreigners_url": "https://www.gov.pl/web/uw-zachodniopomorski/dane-kontaktowe",
+      "verification_status": "official_profile_and_contact_verified",
+      "retrieved_at": "2026-10-20T13:00:13+00:00",
+      "content_sha256": "ba34e272a934816c5b52134b564e8cf962f47641cfc000f1849d3d62ce05cbf4",
+      "official_profile_title": "Strona główna - Zachodniopomorski Urząd Wojewódzki w Szczecinie - Portal Gov.pl",
+      "directory_source_url": "https://www.gov.pl/web/mswia/urzedy-wojewodzkie"
+    }
+  ],
+  "limitation": "Directory and contact references only; not appointment availability or confirmation of competent office for a personal case."
+}

@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-20T13:36:34.669Z",
+  "status": "pass_synthetic_scope",
+  "checks": 14,
+  "results": [
+    {
+      "name": "valid submission stores encrypted optional contact and versioned consent",
+      "status": "pass"
+    },
+    {
+      "name": "lost-response retry returns original receipt before reusing Turnstile",
+      "status": "pass"
+    },
+    {
+      "name": "pending retry across UTC midnight is stable",
+      "status": "pass"
+    },
+    {
+      "name": "changed payload conflicts with the same receipt",
+      "status": "pass"
+    },
+    {
+      "name": "unknown fields and required consent fail without storing data",
+      "status": "pass"
+    },
+    {
+      "name": "impossible/future dates and completed/pending mismatch are rejected",
+      "status": "pass"
+    },
+    {
+      "name": "left-unexamined is a distinct valid concluded outcome",
+      "status": "pass"
+    },
+    {
+      "name": "large and malformed JSON fail without echoing body",
+      "status": "pass"
+    },
+    {
+      "name": "disallowed origin and unauthenticated export are rejected",
+      "status": "pass"
+    },
+    {
+      "name": "wrong Turnstile success/hostname/action cannot store a response",
+      "status": "pass"
+    },
+    {
+      "name": "database failure cannot return accepted success",
+      "status": "pass"
+    },
+    {
+      "name": "disabled collection rejects new submissions",
+      "status": "pass"
+    },
+    {
+      "name": "wrong deletion token is rejected, correct token removes response and contact",
+      "status": "pass"
+    },
+    {
+      "name": "scheduled expiry prunes old responses, contacts and rate buckets",
+      "status": "pass"
+    }
+  ],
+  "file_sha256": {
+    "backend/worker.mjs": "60bb06396b710bd3eb97191a6213f2986c42b3cd84c3767323d6d93d2b407837",
+    "backend/schema.sql": "0959822303073c1fee0ff2f9c848ae02d81d675d0490e8bc886e4bd9ba271e4c"
+  },
+  "limits": [
+    "Independent synthetic endpoint checks use an in-memory D1 stand-in and a controlled Siteverify response, not real users or a deployed endpoint.",
+    "They do not establish production secret configuration, Cloudflare D1 transaction behavior, cron execution, browser storage/privacy copy, email follow-up tooling, provider logging/backup retention, or one-response-per-person validity.",
+    "D1 atomic batches and Turnstile single-use behavior were separately checked against official provider documentation."
+  ],
+  "release_approval": false
+}

@@ -1,0 +1,215 @@
+{
+  "checked_at": "2026-10-20T13:44:18.967714+00:00",
+  "as_of": "2026-10-20",
+  "status": "completed_scoped_phase_3_review",
+  "release_approval": true,
+  "reviewed_research_file_sha256": {
+    "research/round2-data/eurostat-context.json": "5b0d7bfb64b02ff31c6665a4e4d85b284e3a3cdb8fa28228ab092a6c45cd970e",
+    "research/round2-data/portal-dictionary-evidence.json": "ceba89f7941e9a7870239d738c3c155592c5eea71a90a0a87bf9cad33cba9b94",
+    "research/round2-law/banking.json": "ebf263745ecd323538792771524fd58826b31d9f9bf12601389ff0921ed3edfd",
+    "research/round2-law/actions.json": "c26565594f5e6ba9165c5bd560c437e2dd99e477b0a320c2ea9c1cf0c0721b5b"
+  },
+  "eurostat": {
+    "status": "pass",
+    "cells_checked": 15,
+    "coordinate_value_flag_locator_mismatches": 0,
+    "evidence": "verification/round2/eurostat-check.json",
+    "boundary": "A separate official context layer, not a wait series or evidence of first-ever arrivals; preserve PER=Person and EU27 including Poland."
+  },
+  "portal_identifier_dictionary": {
+    "status": "resolved_primary_dictionary_checked",
+    "url": "https://migracje.gov.pl/wp-json/udscmap/v1/caseType",
+    "content_sha256": "f9d5d159b7d8bdd99bc0a4c3212d2a5af565de89ee922bf2e6019c701aad91f7",
+    "mapping": {
+      "1": "Pobyt czasowy",
+      "3": "Pobyt rezydenta dlugoterminowego UE"
+    }
+  },
+  "banking_and_actions_checks": [
+    {
+      "id": "R2-L01",
+      "status": "confirmed_calibrated",
+      "subjects": [
+        "banking-main",
+        "basic-payment-account",
+        "identity-documents"
+      ],
+      "result": "The proposed PL/BE/EN copy separates lawful residence, a plastic card, identity documents, basic versus commercial accounts, and continuing AML/sanctions duties. The earlier TZTC conflation is explicitly avoided.",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf",
+          "locator": "arts. 59ia–59ig, especially 59ic(3), (6)–(8)"
+        },
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2025/644/text/U/D20250644Lj.pdf",
+          "locator": "arts. 34, 37, 41; official current text dated 08.10.2026"
+        },
+        {
+          "url": "https://bip.brpo.gov.pl/sites/default/files/2026-03/Odpowiedz_KNF_Bialorusini_konta_05_03_2026.pdf",
+          "locator": "pp. 1–3, TZTC and remaining due diligence"
+        }
+      ]
+    },
+    {
+      "id": "R2-L02",
+      "status": "confirmed_full_judgment_scope",
+      "subjects": [
+        "individual-assessment"
+      ],
+      "result": "Jenec was checked in the full official judgment, paragraphs 34–56. Individual assessment is required in its basic-account/third-country-list setting; paragraphs 53–55 preserve the possibility of refusal when the risk cannot effectively be managed. The draft retains these limits and does not claim that all existing-account restrictions are unlawful.",
+      "sources": [
+        {
+          "url": "https://juris.curia.europa.eu/juris/document/document_print.jsf?cid=4677606&docid=312431&doclang=EN&pageIndex=0&text=",
+          "locator": "C-81/24, ECLI:EU:C:2026:470, paras. 34–56, 11.06.2026"
+        }
+      ]
+    },
+    {
+      "id": "R2-L03",
+      "status": "confirmed_published_policy_scope",
+      "subjects": [
+        "millennium",
+        "pko-bp",
+        "pekao"
+      ],
+      "result": "Bank snippets match the reviewed published policies and preserve their limitations. Millennium's 90-day FAQ is not generalized to every residence card; PKO's expired-ID and BY/RU sanctions notices are separate; Pekao is a different bank and its current terms are tied to contracts from 01.07.2026. No blocked-account prevalence estimate or blanket legality finding is asserted.",
+      "sources": [
+        {
+          "url": "https://www.bankmillennium.pl/bankowosc-elektroniczna/aplikacja-mobilna-klienci-indywidualni-biznes/aktualizacja-danych-osobowych",
+          "locator": "embedded FAQ content in the official HTML, 90 days; inspected underlying HTML because extracted visible text omits the accordion"
+        },
+        {
+          "url": "https://www.pkobp.pl/aktualnosci/masz-niewazny-dokument-tozsamosci-stracisz-dostep-do-aplikacji-iko-i-serwisu-ipko",
+          "locator": "notice 15.09.2025"
+        },
+        {
+          "url": "https://www.pkobp.pl/aktualnosci/informacja-dla-obywateli-bialorusi-i-rosji-ktorzy-otworzyli-konta-w-pko-banku-polskim-po-24102025-r-bez-karty-pobytu",
+          "locator": "notice 04.12.2025; exact stated population and branch-service distinction"
+        },
+        {
+          "url": "https://www.pekao.com.pl/dam/jcr:951ed9bc-fb22-4382-978a-123e1ed977a2/Regulamin_Rachunkow_Bankowych_dla_umow_zawartych_od_1072026.2026-08-31-14-38-39.pdf",
+          "locator": "sections 22, 106, 111, 122, 125; contracts from 01.07.2026"
+        }
+      ]
+    },
+    {
+      "id": "R2-L04",
+      "status": "confirmed_guidance_distinguished_from_law",
+      "subjects": [
+        "sanctions"
+      ],
+      "result": "The draft correctly limits the Commission FAQ's detailed answers to its Russian-provision subject, labels it guidance, and avoids promising that every pending-residence document establishes an exception. The Belarus amendment has an express personalized-security-credentials exception. Binding EU measures remain distinct from third-country lists.",
+      "sources": [
+        {
+          "url": "https://finance.ec.europa.eu/document/download/8b0e76f4-6a5e-4fd3-a85e-04d7ecdfe340_en?filename=faqs-sanctions-russia-payments-services_en.pdf",
+          "locator": "13.03.2026; questions 5, 7, 9–10"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2025/2041/oj",
+          "locator": "Article 1(8), inserting Article 1v(1a); entry into force Article 2"
+        }
+      ]
+    },
+    {
+      "id": "R2-L05",
+      "status": "confirmed_conditional_remedies",
+      "subjects": [
+        "bank-document-request",
+        "bank-complaint",
+        "bank-escalation",
+        "residence-file-status",
+        "residence-remedies",
+        "travel",
+        "legal-help"
+      ],
+      "result": "Complaint deadlines distinguish the 15/35 business-day payment-services regime from the 30/60 calendar-day general regime. RF/UKNF/UOKiK roles and possible remedies are not guarantees. Residence text preserves conditions, art. 100d scope and individual disapplication; filing proof does not automatically authorize travel or re-entry.",
+      "sources": [
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf",
+          "locator": "arts. 15a–15b and 41"
+        },
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2024/1109/text/U/D20241109Lj.pdf",
+          "locator": "current financial-complaints/RF legislation, arts. 6–7 and 17; cached current text reviewed"
+        },
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2026/1293/text.pdf",
+          "locator": "art. 100d; separately cited extension to 04.03.2027"
+        },
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf",
+          "locator": "art. 112a, read with MOS amendment and commencement source"
+        }
+      ]
+    }
+  ],
+  "backend": {
+    "status": "pass_synthetic_scope",
+    "independent_synthetic_checks": 14,
+    "evidence": "verification/round2/backend-check.json",
+    "tested_file_sha256": {
+      "backend/worker.mjs": "60bb06396b710bd3eb97191a6213f2986c42b3cd84c3767323d6d93d2b407837",
+      "backend/schema.sql": "0959822303073c1fee0ff2f9c848ae02d81d675d0490e8bc886e4bd9ba271e4c"
+    },
+    "resolved_findings": [
+      {
+        "id": "R2-S01",
+        "original_issue": "No retry idempotency: a committed response with a lost 201 could be duplicated, losing its deletion receipt.",
+        "correction_checked": "Client-generated UUID and deletion secret; saved unique ID and HMAC payload fingerprint; exact retry returns existing receipt before Siteverify. Same receipt with changed payload conflicts. Across-midnight pending retry remains stable."
+      },
+      {
+        "id": "R2-S02",
+        "original_issue": "The required privacy version and optional-contact consent were checked but not retained.",
+        "correction_checked": "Response/contact tables now retain privacy_version and consent_at; optional contact is stored only with affirmative contact consent. Tested in synthetic persistence."
+      }
+    ],
+    "controls_observed": [
+      "Strict accepted-field and enum/range/date validation; no file upload or unrestricted case narrative.",
+      "Server checks Turnstile success, hostname and action. Origin allowlist is not presented as authentication.",
+      "Prepared SQL; awaited D1 batch before accepted success; generic database/service failures do not echo a submitted body.",
+      "Optional email separate and AES-GCM encrypted; response stores deletion-secret hash, not its cleartext.",
+      "Separate admin bearer secret; no public raw-response read route.",
+      "Daily expiry cleanup; no raw IP is stored by application code, but a keyed short-lived abuse identifier is stored and Cloudflare still processes network data."
+    ],
+    "limits": [
+      "Independent synthetic endpoint checks use an in-memory D1 stand-in and a controlled Siteverify response, not real users or a deployed endpoint.",
+      "They do not establish production secret configuration, Cloudflare D1 transaction behavior, cron execution, browser storage/privacy copy, email follow-up tooling, provider logging/backup retention, or one-response-per-person validity.",
+      "D1 atomic batches and Turnstile single-use behavior were separately checked against official provider documentation."
+    ]
+  },
+  "findings_pending_or_to_recheck": [
+    {
+      "id": "R2-N09",
+      "severity": "medium",
+      "status": "resolved_or_scoped_in_final_review",
+      "finding": "The original concluded_duration definition universally asserts submission-to-first-instance-resolution. Native MSWiA18089 does not expressly define the source-system start event. Use reported administrative duration, and specify endpoints only where the particular source defines them.",
+      "source_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body"
+    },
+    {
+      "id": "R2-P03",
+      "severity": "low",
+      "status": "resolved_or_scoped_in_final_review",
+      "finding": "The new round2-data report calls 445458 a forecast-page portal snapshot and suggests retrieval/revision explanations. The established evidence is forecast text445458 versus inspected CSV/API445462. No old CSV or revision has been established."
+    },
+    {
+      "id": "R2-S03",
+      "severity": "release_gate",
+      "status": "resolved_or_scoped_in_final_review",
+      "finding": "The finished notice and form must match the actual exact dates and optional sensitive/linkable combinations, separate contact consent, client receipt storage, deletion route and daily retention cleanup. Do not claim anonymity or that all Cloudflare processing stays in the EU from the D1 jurisdiction alone."
+    },
+    {
+      "id": "R2-S04",
+      "severity": "release_gate",
+      "status": "resolved_or_scoped_in_final_review",
+      "finding": "Synthetic tests do not prove deployed secrets, allowed Turnstile hostname/action, D1 binding/schema, EU storage setting, cron, observability/provider processing, restricted admin access, operational email follow-up/deletion or browser request handling. The collection gate stays off until the controller/notice/configuration are ready."
+    }
+  ],
+  "not_yet_reviewed": [
+    "Positive production browser Turnstile-to-insert journey; this remains explicitly unobserved.",
+    "Actual future operator handling of real responses, correspondence, disclosure review and provider logs/backups.",
+    "Administrative database truth/completeness, original signatures, catalogued-only URLs and every upstream CSV/research claim."
+  ],
+  "independence_and_limits": "Separate AI reviewer from the authors of audited data/code. Source/content and synthetic behavior checks, supplemented by operator browser/deployment evidence; not external certification, a legal opinion, penetration test or administrative database audit. Exact scope and remaining limits are in release.json.",
+  "final_scope_file": "verification/round2/release.json",
+  "final_public_content_check": "verification/round2/public-check.json"
+}

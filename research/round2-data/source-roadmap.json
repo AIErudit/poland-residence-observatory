@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-10-20",
+  "status": "research_plan_not_curated_facts",
+  "national_representativeness": {
+    "pl": "Oficjalne zbiory administracyjne opisują określone populacje i zakresy. Ankieta i czaty nie są reprezentatywne dla wszystkich wnioskodawców.",
+    "be": "Афіцыйныя адміністрацыйныя звесткі апісваюць вызначаныя сукупнасці. Апытанне і чаты не рэпрэзентуюць усіх заяўнікаў.",
+    "en": "Official administrative collections describe defined populations and scopes. Survey and chat samples do not represent all applicants."
+  },
+  "sources": [
+    {
+      "id": "eurostat_first_permits",
+      "title": {"pl": "Eurostat: pierwsze zezwolenia", "be": "Eurostat: першыя дазволы", "en": "Eurostat: first residence permits"},
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table?lang=en",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/migr_resval_esms.htm",
+      "status": "direct_API_context_extracted_pending_independent_review",
+      "output": "eurostat-context.json",
+      "priority": 1,
+      "ingestion": "JSON-stat dimension codes, labels, values and status flags; preserve source update timestamp and immutable retrieval hash.",
+      "boundary": "Non-EU first-permit flow, not all migrants, waiting time, pending cases or voivode-only temporary decisions. EU27 includes Poland."
+    },
+    {
+      "id": "eurostat_valid_permits",
+      "title": {"pl": "Eurostat: ważne zezwolenia", "be": "Eurostat: дзейныя дазволы", "en": "Eurostat: valid permits"},
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_resvalid/default/table?lang=en",
+      "status": "official_dataset_identified_not_normalized",
+      "priority": 2,
+      "ingestion": "Annual31December stock with citizenship/reason/validity definitions and flags.",
+      "boundary": "Valid-authorisation stock is not a stock of unfinished applications. Do not add to first permits or use as the denominator of a wait estimate."
+    },
+    {
+      "id": "udsc_portal_and_reports",
+      "title": {"pl": "UdSC: portal i raporty", "be": "UdSC: партал і справаздачы", "en": "UdSC: portal and reports"},
+      "url": "https://www.gov.pl/web/udsc/statystyki-migracyjne",
+      "dictionary_url": "https://migracje.gov.pl/wp-json/udscmap/v1/caseType",
+      "status": "existing_core_plus_new_primary_dictionary_evidence",
+      "priority": 1,
+      "ingestion": "Snapshot official dictionaries and API response schemas before values. Add revisions, operational cut-off where known and permit/event scope.",
+      "boundary": "Applications, decisions, valid documents, temporary protection and persons are separate measures. Public operational API should not be treated as a guaranteed stable/versioned API."
+    },
+    {
+      "id": "nsa_wsa",
+      "title": {"pl": "NSA: statystyki WSA", "be": "NSA: статыстыка WSA", "en": "NSA: WSA statistics"},
+      "url": "https://www.nsa.gov.pl/dokumenty/statystyki-wsa/",
+      "status": "2020_2025_core_reproduced_2026_halfyear_candidate",
+      "priority": 1,
+      "ingestion": "Discover only official annual/half-year workbooks; verify symbol labels and layout. Reconcile16 jurisdictions/national totals and movement/outcome partitions.",
+      "boundary": "6272 is broad immigration scope; WSA first instance is not NSA cassation. Half-year and annual periods differ. Merit, rejection, other and closure denominators differ."
+    },
+    {
+      "id": "zus_foreign_insured",
+      "title": {"pl": "ZUS: ubezpieczeni cudzoziemcy", "be": "ZUS: застрахаваныя замежнікі", "en": "ZUS: foreign insured persons"},
+      "url": "https://psz.zus.pl/pl/kategorie/ubezpieczeni/ubezpieczenia-emerytalne-i-rentowe",
+      "report_url": "https://www.zus.pl/en/baza-wiedzy/statystyka/opracowania-tematyczne/cudzoziemcy",
+      "status": "official_downloads_identified_context_only_not_normalized",
+      "priority": 2,
+      "ingestion": "Monthly/quarterly XLSX by foreign citizenship and insurance-title group; verify whether geography is payer, branch, workplace or residence.",
+      "boundary": "Insured persons are not all foreign residents or residence applicants; insurance titles can overlap. No linked administrative-wait outcome is established."
+    },
+    {
+      "id": "gus_bdl_and_experimental_work",
+      "title": {"pl": "GUS: BDL i praca cudzoziemców", "be": "GUS: BDL і праца замежнікаў", "en": "GUS: BDL and foreign workers"},
+      "url": "https://api.stat.gov.pl/home/bdlapi",
+      "example_methodology_url": "https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultaktualnosci/6329/15/24/1/cudzoziemcy_wykonujacy_prace_w_polsce_w_listopadzie_2024_r..pdf",
+      "status": "official_methods_and_API_identified_no_new_curated_values",
+      "priority": 2,
+      "ingestion": "Discover variable IDs and geographic codes through metadata; cache monthly publications and revision flags.",
+      "boundary": "Experimental persons-performing-work scope differs from employment/insurance. Statistical regions can split Mazowieckie; explicitly map NUTS/TERYT to project geography before aggregation."
+    },
+    {
+      "id": "eu_managed_migration",
+      "title": {"pl": "UE: metody i porównania", "be": "ЕС: метады і параўнанні", "en": "EU: methods and comparisons"},
+      "url": "https://ec.europa.eu/eurostat/web/migration-asylum/managed-migration/information-data",
+      "status": "official_methodological_context_reviewed",
+      "priority": 1,
+      "ingestion": "Preserve collection definitions, legal basis, coverage and revision policy alongside counts.",
+      "boundary": "Cross-country permit volumes are not a ranking of waiting times or administrative efficiency; national visa/status reporting differs."
+    },
+    {
+      "id": "standardized_public_information",
+      "title": {"pl": "Jednolite wnioski o dane", "be": "Адзіныя запыты звестак", "en": "Standardized data requests"},
+      "url": "https://www.gov.pl/web/udsc/uzyskaj-informacje-publiczna",
+      "status": "proposal_not_sent",
+      "priority": 1,
+      "ingestion": "Request matching office/permit/cohort definitions, submission/registration/completeness dates, outcomes, headcount versus FTE, open-stock age buckets and cut-offs. Ask for aggregate definitions and machine-readable tables, no personal identifiers.",
+      "boundary": "Requesting data is not publishing evidence. Differences require clarification, not forced reconciliation; cost and disclosure limits need confirmation before sending."
+    },
+    {
+      "id": "x_public_leads",
+      "title": {"pl": "X: sygnały publiczne", "be": "X: публічныя сігналы", "en": "X: public leads"},
+      "url": "https://docs.x.com/x-api/posts/search/introduction",
+      "pricing_url": "https://docs.x.com/x-api/getting-started/pricing",
+      "status": "capability_documentation_reviewed_no_collection",
+      "priority": 3,
+      "ingestion": "Authorized API with credit/spending cap, or manually submitted public URLs; verify each factual lead against the original institution.",
+      "boundary": "No scraping/paywall bypass or promised completeness. Search results, engagement and language-selected posts are not representative wait/sentiment measures. Respect deletion and redistribution rules."
+    }
+  ],
+  "backend": {
+    "status": "design_proposal_not_deployed",
+    "frontend": "Static GitHub Pages; translationsPL/BE/EN; no secrets in browser",
+    "submission": "Cloudflare Worker: strict payload schema, prepared D1 statements, Turnstile Siteverify including hostname/action/single-use, idempotency key, bounded size and request budget",
+    "storage": "D1 structured questionnaire and change events; separate restricted optional contact store; optional private R2 content-addressed source snapshots",
+    "public_reads": "Precomputed reviewed aggregate JSON served statically; no public raw-response endpoint",
+    "updates": "ConditionalGET then SHA comparison; normalize changed sources only; candidate diff and tests; independent review; versioned immutable release; manual promotion",
+    "llm_budget": "No LLM on routine fetch/parse/submission. Human/targeted OCR for changed ambiguous scans only.",
+    "cost": "Low-volume Free-plan target, benchmark first. Workers Paid minimum$5/month if needed; other products, domains, email and overages separate. Budget alerts and kill switch required.",
+    "pricing_checked": "2026-10-20",
+    "sources": [
+      "https://developers.cloudflare.com/workers/platform/pricing/",
+      "https://developers.cloudflare.com/d1/platform/pricing/",
+      "https://developers.cloudflare.com/r2/pricing/",
+      "https://developers.cloudflare.com/turnstile/plans/",
+      "https://developers.cloudflare.com/turnstile/get-started/server-side-validation/"
+    ],
+    "retention_proposal": {"application_raw_IP": "never store", "rotating_abuse_HMAC": "24h", "unverified_optional_email": "7days", "opted_in_contact": "90days unless renewed", "private_survey_record": "24months with delete/edit token", "released_nonidentifying_aggregates": "versioned history; reassess disclosure risk", "provider_logs_and_backups": "must be configured and documented before launch"},
+    "survey_limits": ["Self-selection, language/channel coverage and nonresponse remain; no national representativeness.", "Completed and right-censored ongoing cases are separate. Month-only dates are intervals, not exact invented dates.", "Cross-sectional long waits can be length-biased; survival methods do not remove selection/informative-censoring bias.", "Token/idempotency protects edits and replay, not one-person uniqueness. Similar office/month/type is only a soft flag.", "Optional email has separate consent/storage and is never a public analytical field.", "Proposed10-person cells and complementary suppression protect privacy, not statistical representativeness."]
+  }
+}

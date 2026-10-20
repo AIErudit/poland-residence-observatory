@@ -1,0 +1,10 @@
+{
+  "name": "poland-residence-observatory-survey",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true,
+  "observability": {"enabled": false},
+  "vars": {"COLLECTION_ENABLED": "false"},
+  "d1_databases": [{"binding": "DB", "database_name": "poland-residence-observatory-survey", "database_id": "REPLACE_WITH_PRIVATE_DEPLOYMENT_ID"}],
+  "triggers": {"crons": ["17 3 * * *"]}
+}

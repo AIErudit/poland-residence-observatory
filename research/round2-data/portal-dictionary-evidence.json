@@ -1,0 +1,26 @@
+{
+  "url": "https://migracje.gov.pl/wp-json/udscmap/v1/caseType",
+  "retrieved_at": "2026-10-20T13:01:57+00:00",
+  "content_sha256": "f9d5d159b7d8bdd99bc0a4c3212d2a5af565de89ee922bf2e6019c701aad91f7",
+  "http_status": 200,
+  "case_types": [
+    {
+      "id": 4,
+      "type": "Ochrona miedzynarodowa"
+    },
+    {
+      "id": 1,
+      "type": "Pobyt czasowy"
+    },
+    {
+      "id": 3,
+      "type": "Pobyt rezydenta dlugoterminowego UE"
+    },
+    {
+      "id": 2,
+      "type": "Pobyt staly"
+    }
+  ],
+  "discovery": "Official WordPress REST route index /wp-json/ exposes /udscmap/v1/caseType.",
+  "status": "official_dictionary_retrieved_pending_verifier"
+}

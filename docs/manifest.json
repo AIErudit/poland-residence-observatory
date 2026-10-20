@@ -1,7 +1,14 @@
 {
-  "version": "1.0.0",
+  "site_version": "1.1.0",
+  "languages": [
+    "pl",
+    "be",
+    "en"
+  ],
+  "context_observations": 15,
+  "version": "1.1.0",
   "as_of": "2026-10-20",
-  "dataset_sha256": "a3609775dc2a5e8fb85b50838f3d65faa5e938c74f98bf028931a45be625fb76",
+  "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
   "claim_ids": [
     "silesia-658",
     "fifteen-regions",

@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-20T13:42:02.006401+00:00",
+  "status": "pass",
+  "errors": [],
+  "dataset_version": "1.1.0",
+  "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
+  "public_observations_checked": 1780,
+  "eurostat_cells_checked": 15,
+  "facts_checked": [
+    {
+      "claim_id": "silesia-658",
+      "languages": [
+        "pl",
+        "be",
+        "en"
+      ],
+      "file_sha256": "2048259de899b159b9695e0b9b9d734fc228a0d8a4216023f2a2ae241ed01769"
+    },
+    {
+      "claim_id": "fifteen-regions",
+      "languages": [
+        "pl",
+        "be",
+        "en"
+      ],
+      "file_sha256": "7ce5a8dd045f8eb79748a0be933d01ca24bfb60c3ef630ef5658218d4bf150e8"
+    },
+    {
+      "claim_id": "pending-803223",
+      "languages": [
+        "pl",
+        "be",
+        "en"
+      ],
+      "file_sha256": "954572c69422003aaf4a6367d7dcb2c85ad884c0469c27f6d3f95327bc825e12"
+    },
+    {
+      "claim_id": "courts-merits-2025",
+      "languages": [
+        "pl",
+        "be",
+        "en"
+      ],
+      "file_sha256": "c57cb8be67f89ceacbb5cb2eed64d747ef971f2b8c0fe7dc7ffe1a072c00de90"
+    }
+  ],
+  "claim_ids": [
+    "silesia-658",
+    "fifteen-regions",
+    "pending-803223",
+    "courts-merits-2025"
+  ],
+  "public_numeric_files_identical_to_reviewed_inputs": true,
+  "limits": [
+    "This is an artifact/content check, not browser interaction or a production survey submission.",
+    "Dynamic PL/BE/EN wording was separately read; this script checks the server-rendered fact blocks and public downloads.",
+    "Canonical HTML/social metadata is Polish; query-parameter localization renders after JavaScript. This is not a promise of localized crawler previews."
+  ],
+  "release_approval": false
+}

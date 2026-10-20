@@ -1,0 +1,675 @@
+{
+  "status": "official_context_pending_independent_review",
+  "category": "context-not-waiting",
+  "as_of": "2026-10-20",
+  "dataset": "migr_resfirst",
+  "selected_full_years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "observations": [
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2021",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2021",
+      "as_of_date": "2021-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 967345,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[31]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2021\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2022",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2022",
+      "as_of_date": "2022-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 700264,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[32]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2022\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2023",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2023",
+      "as_of_date": "2023-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 642789,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[33]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2023\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2024",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2024",
+      "as_of_date": "2024-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 488846,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[34]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2024\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2025",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2025",
+      "as_of_date": "2025-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 467314,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[35]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2025\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2021",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "EU27_2020",
+      "geography_name": "European Union - 27 countries (from 2020)",
+      "reference_period": "2021",
+      "as_of_date": "2021-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 3273875,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[13]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"EU27_2020\", \"reason\": \"TOTAL\", \"time\": \"2021\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2022",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "EU27_2020",
+      "geography_name": "European Union - 27 countries (from 2020)",
+      "reference_period": "2022",
+      "as_of_date": "2022-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 3564926,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[14]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"EU27_2020\", \"reason\": \"TOTAL\", \"time\": \"2022\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2023",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "EU27_2020",
+      "geography_name": "European Union - 27 countries (from 2020)",
+      "reference_period": "2023",
+      "as_of_date": "2023-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 3821562,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[15]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"EU27_2020\", \"reason\": \"TOTAL\", \"time\": \"2023\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2024",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "EU27_2020",
+      "geography_name": "European Union - 27 countries (from 2020)",
+      "reference_period": "2024",
+      "as_of_date": "2024-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 3504650,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[16]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"EU27_2020\", \"reason\": \"TOTAL\", \"time\": \"2024\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2025",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "EU27_2020",
+      "geography_name": "European Union - 27 countries (from 2020)",
+      "reference_period": "2025",
+      "as_of_date": "2025-12-31",
+      "citizenship_code": "TOTAL",
+      "citizenship_label": "Total",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 3860000,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_0a1a8660a496",
+      "source_locator": "JSON-stat value[17]; {\"citizen\": \"TOTAL\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"EU27_2020\", \"reason\": \"TOTAL\", \"time\": \"2025\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2021",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2021",
+      "as_of_date": "2021-12-31",
+      "citizenship_code": "BY",
+      "citizenship_label": "Belarus",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 130903,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_765f3805d69c",
+      "source_locator": "JSON-stat value[13]; {\"citizen\": \"BY\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2021\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2022",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2022",
+      "as_of_date": "2022-12-31",
+      "citizenship_code": "BY",
+      "citizenship_label": "Belarus",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 285496,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_765f3805d69c",
+      "source_locator": "JSON-stat value[14]; {\"citizen\": \"BY\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2022\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2023",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2023",
+      "as_of_date": "2023-12-31",
+      "citizenship_code": "BY",
+      "citizenship_label": "Belarus",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 255595,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_765f3805d69c",
+      "source_locator": "JSON-stat value[15]; {\"citizen\": \"BY\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2023\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2024",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2024",
+      "as_of_date": "2024-12-31",
+      "citizenship_code": "BY",
+      "citizenship_label": "Belarus",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 151116,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_765f3805d69c",
+      "source_locator": "JSON-stat value[16]; {\"citizen\": \"BY\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2024\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2025",
+      "series_id": "eurostat_first_residence_permits_context",
+      "indicator_id": "first_residence_permits",
+      "category": "context-not-waiting",
+      "geography_id": "PL",
+      "geography_name": "Poland",
+      "reference_period": "2025",
+      "as_of_date": "2025-12-31",
+      "citizenship_code": "BY",
+      "citizenship_label": "Belarus",
+      "reason_code": "TOTAL",
+      "duration_code": "TOTAL",
+      "frequency": "A",
+      "unit_code": "PER",
+      "unit_label": "Person",
+      "value": 128468,
+      "flags": null,
+      "statistical_break": null,
+      "source_id": "round2_eurostat_765f3805d69c",
+      "source_locator": "JSON-stat value[17]; {\"citizen\": \"BY\", \"duration\": \"TOTAL\", \"freq\": \"A\", \"geo\": \"PL\", \"reason\": \"TOTAL\", \"time\": \"2025\", \"unit\": \"PER\"}",
+      "definition_id": "eurostat_first_permit_context",
+      "quality_status": "official_context_pending_independent_review",
+      "notes": "Administrative first-permit flow for non-EU citizens in this collection; TOTAL does not mean all migrants. Not a waiting-time, pending-case, unique-new-arrival or voivode-only decision count. Absence of a break flag does not certify full comparability."
+    }
+  ],
+  "definitions": [
+    {
+      "id": "eurostat_first_permit_context",
+      "label": "Eurostat first residence permits: context only",
+      "description": "Annual authorisations for non-EU citizens to stay at least3months. A first permit can also follow a gap of at least6months after an earlier permit. National long-stay visas/status grants may be included under the statistical definition. TOTAL aggregates citizenship within this collection; BY means Belarus citizenship, not ethnic origin. Reported PER/Person unit is preserved. These are not applications, waiting times, the resident stock, or the same scope as Polish temporary-residence case resolutions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "round2_eurostat_0a1a8660a496",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resfirst?lang=EN&geo=PL&geo=EU27_2020&citizen=TOTAL&reason=TOTAL&duration=TOTAL&unit=PER",
+      "publisher": "Eurostat",
+      "retrieved_at": "2026-10-20T12:58:02+00:00",
+      "content_sha256": "693718a0e4f7f2a0976b2320fed3439e51d54e155c7db37cc6d0308822a02bc7",
+      "dataset_updated": "2026-09-28T11:00:00+0200",
+      "dimensions": {
+        "freq": {
+          "label": "Time frequency",
+          "category": {
+            "index": {
+              "A": 0
+            },
+            "label": {
+              "A": "Annual"
+            }
+          }
+        },
+        "reason": {
+          "label": "Reason",
+          "category": {
+            "index": {
+              "TOTAL": 0
+            },
+            "label": {
+              "TOTAL": "Total"
+            }
+          }
+        },
+        "citizen": {
+          "label": "Country of citizenship",
+          "category": {
+            "index": {
+              "TOTAL": 0
+            },
+            "label": {
+              "TOTAL": "Total"
+            }
+          }
+        },
+        "duration": {
+          "label": "Duration",
+          "category": {
+            "index": {
+              "TOTAL": 0
+            },
+            "label": {
+              "TOTAL": "Total"
+            }
+          }
+        },
+        "unit": {
+          "label": "Unit of measure",
+          "category": {
+            "index": {
+              "PER": 0
+            },
+            "label": {
+              "PER": "Person"
+            }
+          }
+        },
+        "geo": {
+          "label": "Geopolitical entity (reporting)",
+          "category": {
+            "index": {
+              "EU27_2020": 0,
+              "PL": 1
+            },
+            "label": {
+              "EU27_2020": "European Union - 27 countries (from 2020)",
+              "PL": "Poland"
+            }
+          }
+        },
+        "time": {
+          "label": "Time",
+          "category": {
+            "index": {
+              "2008": 0,
+              "2009": 1,
+              "2010": 2,
+              "2011": 3,
+              "2012": 4,
+              "2013": 5,
+              "2014": 6,
+              "2015": 7,
+              "2016": 8,
+              "2017": 9,
+              "2018": 10,
+              "2019": 11,
+              "2020": 12,
+              "2021": 13,
+              "2022": 14,
+              "2023": 15,
+              "2024": 16,
+              "2025": 17
+            },
+            "label": {
+              "2008": "2008",
+              "2009": "2009",
+              "2010": "2010",
+              "2011": "2011",
+              "2012": "2012",
+              "2013": "2013",
+              "2014": "2014",
+              "2015": "2015",
+              "2016": "2016",
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024",
+              "2025": "2025"
+            }
+          }
+        }
+      },
+      "access": "direct_official_API",
+      "discovery_route": "new_round2_official_Eurostat_research_not_the_old_Glos_core"
+    },
+    {
+      "id": "round2_eurostat_765f3805d69c",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resfirst?lang=EN&geo=PL&citizen=BY&reason=TOTAL&duration=TOTAL&unit=PER",
+      "publisher": "Eurostat",
+      "retrieved_at": "2026-10-20T13:00:08+00:00",
+      "content_sha256": "19695406f237e660aae9ee41876b1b1f609bb6b550fa417fa442cfea380db794",
+      "dataset_updated": "2026-09-28T11:00:00+0200",
+      "dimensions": {
+        "freq": {
+          "label": "Time frequency",
+          "category": {
+            "index": {
+              "A": 0
+            },
+            "label": {
+              "A": "Annual"
+            }
+          }
+        },
+        "reason": {
+          "label": "Reason",
+          "category": {
+            "index": {
+              "TOTAL": 0
+            },
+            "label": {
+              "TOTAL": "Total"
+            }
+          }
+        },
+        "citizen": {
+          "label": "Country of citizenship",
+          "category": {
+            "index": {
+              "BY": 0
+            },
+            "label": {
+              "BY": "Belarus"
+            }
+          }
+        },
+        "duration": {
+          "label": "Duration",
+          "category": {
+            "index": {
+              "TOTAL": 0
+            },
+            "label": {
+              "TOTAL": "Total"
+            }
+          }
+        },
+        "unit": {
+          "label": "Unit of measure",
+          "category": {
+            "index": {
+              "PER": 0
+            },
+            "label": {
+              "PER": "Person"
+            }
+          }
+        },
+        "geo": {
+          "label": "Geopolitical entity (reporting)",
+          "category": {
+            "index": {
+              "PL": 0
+            },
+            "label": {
+              "PL": "Poland"
+            }
+          }
+        },
+        "time": {
+          "label": "Time",
+          "category": {
+            "index": {
+              "2008": 0,
+              "2009": 1,
+              "2010": 2,
+              "2011": 3,
+              "2012": 4,
+              "2013": 5,
+              "2014": 6,
+              "2015": 7,
+              "2016": 8,
+              "2017": 9,
+              "2018": 10,
+              "2019": 11,
+              "2020": 12,
+              "2021": 13,
+              "2022": 14,
+              "2023": 15,
+              "2024": 16,
+              "2025": 17
+            },
+            "label": {
+              "2008": "2008",
+              "2009": "2009",
+              "2010": "2010",
+              "2011": "2011",
+              "2012": "2012",
+              "2013": "2013",
+              "2014": "2014",
+              "2015": "2015",
+              "2016": "2016",
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024",
+              "2025": "2025"
+            }
+          }
+        }
+      },
+      "access": "direct_official_API",
+      "discovery_route": "new_round2_official_Eurostat_research_not_the_old_Glos_core"
+    }
+  ],
+  "metadata_sources": [
+    {
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/migr_resval_esms.htm",
+      "retrieved_at": "2026-10-20T13:00:11+00:00",
+      "sha256": "a4ee7e8fbedd253794d7857bd4106abb79ab2655de81347b7feb61d113ed9b4b",
+      "status": 200
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/migration-asylum/managed-migration/information-data",
+      "retrieved_at": "2026-10-20T13:00:12+00:00",
+      "sha256": "86ea5c4cd3e2fa87bc1422d67b0ee97de6a44b4e7f1108161638cf2e8fbd764a",
+      "status": 200
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-introduction",
+      "retrieved_at": "2026-10-20T13:00:14+00:00",
+      "sha256": "5bdac1d6fa90082b33aa9d6acce7864244e7fa299f1e8ca76af2c8a3617ea8d7",
+      "status": 200
+    }
+  ],
+  "limitations": [
+    "EU27 includes Poland and must not be added to Poland.",
+    "A first residence permit is not necessarily a first-ever migration event.",
+    "No time-to-decision can be inferred from these annual counts.",
+    "Absence of flags is preserved as null, not proof of no statistical breaks.",
+    "Eurostat revisions can change historical values; snapshots must be retained.",
+    "This additional context layer does not replace or mutate the frozen1780-observation core."
+  ]
+}

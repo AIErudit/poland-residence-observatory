@@ -9,6 +9,7 @@ For a new evidence release, assign source researcher, data engineer, editorial m
 * Researcher: follow each claim to the original publisher; inventory cited material and additional official sources. Record inaccessible and catalogued-only sources honestly.
 * Data engineer: preserve acquisition hashes outside the repository, normalize observations without losing dates or definitions, write meaningful reconciliation tests. Never manufacture a national mean from regional means without weights.
 * Editor/maintainer: select defensible headlines, preserve uncertainty beside each number, maintain accessible tables and permanent citations. Distinguish permits, plastic cards, applications and people.
+* Data steward: administer private survey consent, retention, deletions, contact access and disclosure review. Responses are volunteered case reports, never a population-representative sample. Use `backend/README.md`; no raw export may enter public Git, Issues or CI.
 * Verifier: independently reproduce source numbers and calculations; challenge coverage, denominator, period, comparability and legal wording; report blocking issues in `verification/`. Do not edit the observations being verified. An editor fixes them and requests re-review.
 
 ## Evidence and release rules
@@ -21,6 +22,9 @@ For a new evidence release, assign source researcher, data engineer, editorial m
 6. No raw personal records, full third-party articles, credentials or private source caches in Git. Publish derived aggregates and source references. Retain upstream licence restrictions and attribution.
 7. New evidence is staged and reviewed before updating published observations or claims. No unattended ingestion-to-publication workflow. Record corrections with the date and affected claim IDs.
 8. Before release: run the dataset tests, verifier check, site build and site validation. Review desktop/mobile, source links, filters, citations and downloads. Publish only after blocking findings are resolved. Record exact scope of verification.
+
+9. Keep the Eurostat context and volunteered survey layers separate from the core administrative series. Use `scripts/refresh_context.py` only for an external candidate, and `scripts/aggregate_survey.py` only for an external private review candidate. Neither script publishes. Never use survey data to rank office population performance.
+10. The active interface languages are PL / BE / EN; BE uses the white-red-white flag. Review wording, caveats and copied citations in all three languages. Historical Russian research is an archive, not an active language option.
 
 ## Commands
 

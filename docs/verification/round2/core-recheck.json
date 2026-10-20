@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-20T13:29:37.065531+00:00",
+  "status": "pass_scoped_reconciliation",
+  "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
+  "claim_ids": [
+    "silesia-658",
+    "fifteen-regions",
+    "pending-803223",
+    "courts-merits-2025"
+  ],
+  "checks_by_series": {
+    "mswia_18089_concluded_mean_days": 64,
+    "udsc_20260828_pending_stock": 64,
+    "udsc_20260828_concluded_mean_days": 64,
+    "nsa_wsa_6272_annual": 714,
+    "warehouse_all_outcomes": 96,
+    "lodz_pending_stock": 4,
+    "lodz_caseworkers": 4,
+    "lodz_staff_headcount": 4,
+    "lodz_pending_per_caseworker": 4
+  },
+  "distinct_observations_reconciled": 1018,
+  "issues": [],
+  "limits": [
+    "Copy values reconciled to publicly available copies; original signatures not authenticated.",
+    "UdSC regional names are reconstructed; the pending national sum does not depend on names.",
+    "Blue Card, maximum-duration, remaining Lodz warehouse and other non-core rows are not all independently reparsed here.",
+    "Catalogue URLs are not all fact-verified; structural checks are separate.",
+    "This core reconciliation is supplemented by check_remaining.py; overall release scope is recorded separately in release.json."
+  ]
+}

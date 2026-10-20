@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-10-20T13:44:18.967714+00:00",
+  "status": "completed_recheck_no_blocking_findings",
+  "release_approval": true,
+  "file_sha256_at_recording": {
+    "site/survey.js": "2741f10cabe4cfe6973a5b04592fa8560541fa1f8f33f2caf76cda1d739cdff6",
+    "site/privacy-content.json": "76b414a2d22c8a211d7a41ad054390c8dff6576b9ff811a979ed9699f00ccc59",
+    "site/survey.html": "767e6c23744dcd6a2c5b9b40784124eb1775cb516b96918258082b07161c8fcb",
+    "docs/survey/index.html": "21208d9910ceac6fe16e9a4ca166bfe87b6c6ee88d686e80c1c2c93e4d468013",
+    "docs/privacy/index.html": "2616e77ab0933de7c31187c5fd20a98efc40bb33aaab1faadbf79e7fe3e91ab2"
+  },
+  "findings": [
+    {
+      "id": "R2-U01",
+      "severity": "medium",
+      "status": "resolved_rechecked",
+      "title": "Avoid an identifying-data-free promise",
+      "affected": [
+        "site/survey.js",
+        "site/survey.html"
+      ],
+      "evidence": "The headline says without identifying details while exact dates and optional email can identify a participant; the privacy notice correctly acknowledges this.",
+      "resolution_requested": "Use the precise no-case/document-numbers wording in all three languages."
+    },
+    {
+      "id": "R2-U02",
+      "severity": "medium",
+      "status": "resolved_rechecked",
+      "title": "Clearing the saved receipt does not clear the open page",
+      "affected": [
+        "site/survey.js",
+        "site/privacy-content.json"
+      ],
+      "evidence": "receipt-clear removes localStorage but leaves state.receipt, the displayed secret and the deletion field in memory/DOM. The shared-device advice should distinguish persistent storage from an open tab.",
+      "resolution_requested": "Clear display/state/fields when appropriate, or label the action as clearing the saved copy and instruct users to close the tab. Preserve safe recovery for an uncertain in-flight attempt."
+    },
+    {
+      "id": "R2-U03",
+      "severity": "collection_activation_gate",
+      "status": "resolved_rechecked",
+      "title": "State transfer safeguards and correspondence retention/basis",
+      "affected": [
+        "site/privacy-content.json"
+      ],
+      "evidence": "The initial notice names global provider processing but refers generically to mechanisms and invites contact, rather than naming the applicable safeguards and copy source. Correspondence purpose is stated but its basis/retention criterion is not clear.",
+      "resolution_requested": "Add short accurate GDPR Article13 information using the checked provider terms: Cloudflare DPA6.1–6.4 (DPF and SCC where applicable) and GitHub international-transfers/DPF sections. Specify support/right-request purpose, basis and a defensible retention period/criterion. Do not imply audit certification."
+    },
+    {
+      "id": "R2-U04",
+      "severity": "low",
+      "status": "accepted_nonblocking_lifecycle_limit",
+      "title": "Static client readiness is not live server readiness",
+      "affected": [
+        "site/survey.js",
+        "site/survey-config.json"
+      ],
+      "evidence": "The initial available message follows static config=true; the deployed service is intentionally collection=false for review. Submission fails closed.",
+      "resolution_requested": "Do not describe static readiness as a verified live collection state. If checking health, reconcile the timing with the no-Cloudflare-connection-before-activation notice.",
+      "resolution": "Static config enables the form; the reviewed deployment is enabled. Later availability is still checked by the actual submission result, not a continuous health monitor. Errors never claim successful acceptance."
+    },
+    {
+      "id": "R2-U05",
+      "severity": "low",
+      "status": "resolved_rechecked",
+      "title": "Required outcome taxonomy should not force a wrong outcome",
+      "affected": [
+        "site/survey.js",
+        "backend/worker.mjs"
+      ],
+      "evidence": "The initial required status list omitted leaving an application unexamined; this is a distinct source outcome.",
+      "resolution_requested": "Add a correct option or explicitly narrow the survey eligibility; final enum/labels/tests will be rechecked."
+    },
+    {
+      "id": "R2-U06",
+      "severity": "low",
+      "status": "resolved_rechecked",
+      "title": "Belarusian raw-IP typo",
+      "affected": [
+        "site/privacy-content.json"
+      ],
+      "evidence": "The initial BE copy says зыры IP.",
+      "resolution_requested": "Use сыры IP or a natural equivalent. This is editorial, not a substantive privacy defect."
+    },
+    {
+      "id": "R2-U07",
+      "severity": "info",
+      "status": "accepted_disclosed_limitation",
+      "title": "Crawler/social metadata is canonical Polish",
+      "affected": [
+        "docs/facts/*/index.html"
+      ],
+      "evidence": "The static fact pages contain three localized article blocks, but their initial metadata and social images are Polish. Query-param localization happens after JavaScript.",
+      "resolution_requested": "Do not promise localized crawler previews. Numeric context and caveats are preserved in the canonical metadata."
+    },
+    {
+      "id": "R2-U08",
+      "severity": "medium",
+      "status": "resolved_rechecked",
+      "title": "Restored receipts cannot clear their saved copy",
+      "affected": [
+        "site/survey.js"
+      ],
+      "evidence": "After reload, state.phase=restored and receiptFinal=false. The first clear-receipt fix allows clearing only receiptFinal, so even an already downloaded receipt cannot be removed locally without deleting the server record.",
+      "resolution_requested": "Allow a deliberate local-copy clear in restored state, with clear recovery wording; preserve protection against discarding an active unresolved attempt and add this browser-state case to QA."
+    }
+  ],
+  "confirmed": [
+    "Public numerical downloads reconcile:1780 original cells plus15 distinct Eurostat context cells.",
+    "All four fact pages preserve PL/BE/EN bodies, limitations and citations.",
+    "Main charts preserve exact dates, reconstructed geography, broader6272 scope/denominators and scenario limitations.",
+    "The privacy notice names the confirmed controller, optional contact consent, non-anonymity, daily expiry cleanup and provider recovery-history limitations."
+  ],
+  "limits": [
+    "Exact scope is in release.json. Earlier evidence describes the initial ready-for-review copy; resolved findings are retained for traceability.",
+    "Belarusian substantive equivalence was checked by an AI reviewer; no native-human editorial certification is claimed."
+  ],
+  "final_scope_file": "verification/round2/release.json",
+  "file_sha256_at_final_recheck": {
+    "site/survey.js": "fff85ada0dee3e1413ee0a77913f68b434da158cabb5b34e7321cc3348d48139",
+    "site/privacy-content.json": "76b414a2d22c8a211d7a41ad054390c8dff6576b9ff811a979ed9699f00ccc59",
+    "site/survey.html": "b6ce78f70d9605ea57fc7b5ba546b239e6efccf16688493cfcd5a003b02fe1a6",
+    "docs/survey/index.html": "4b9c615bbb358d1c647df444f278f3b7c6046513ba07b3559e223073b30b7929",
+    "docs/privacy/index.html": "71b3322d5f97e43b27aac5c87182b08153cb8cc18a80c6dcb387655c3acf07db"
+  }
+}

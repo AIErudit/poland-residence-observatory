@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-20",
+  "status": "research_draft_for_independent_review",
+  "languages": ["pl", "be", "en"],
+  "scope": "Published bank information and primary law; no individual legal assessment or estimate of the prevalence of account restrictions.",
+  "public_sections": [
+    {
+      "id": "banking-main",
+      "authority": "EU and Polish legislation; UKNF",
+      "status": "verified_with_conditions",
+      "date": "2026-10-20",
+      "title": {"pl": "Konto bankowe podczas oczekiwania na pobyt", "be": "Банкаўскі рахунак падчас чакання дазволу на побыт", "en": "Banking while a residence application is pending"},
+      "text": {
+        "pl": "Wygaśnięcie karty pobytu nie zawsze oznacza utratę legalnego pobytu. Nie oznacza też, że każde ograniczenie rachunku jest bezprawne. Bank sprawdza tożsamość, aktualność danych, ryzyko AML i właściwe sankcje. Ustal, czy problem dotyczy otwarcia konta, dostępu elektronicznego, konkretnej płatności czy wypowiedzenia umowy.",
+        "be": "Заканчэнне тэрміну карты побыту не заўсёды азначае страту законнага побыту. Але гэта таксама не робіць любое абмежаванне рахунку незаконным. Банк правярае асобу, актуальнасць даных, рызыкі AML і адпаведныя санкцыі. Высветліце, ці гаворка пра адкрыццё рахунку, электронны доступ, асобны плацёж або скасаванне дамовы.",
+        "en": "An expired residence card does not always mean that your stay has become unlawful. Nor does lawful pending residence make every account restriction unlawful. Banks check identity, current information, AML risk and applicable sanctions. Establish whether the issue concerns opening an account, digital access, a particular payment or termination."
+      },
+      "source_ids": ["payments-act", "aml-act", "knf-rpo-2026"],
+      "links": [{"label": "Ustawa o usługach płatniczych", "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf"}, {"label": "AML: art. 34, 37, 41", "url": "https://eli.gov.pl/api/acts/DU/2025/644/text/U/D20250644Lj.pdf"}, {"label": "UKNF, 05.03.2026", "url": "https://bip.brpo.gov.pl/sites/default/files/2026-03/Odpowiedz_KNF_Bialorusini_konta_05_03_2026.pdf"}]
+    },
+    {
+      "id": "basic-payment-account",
+      "authority": "Directive 2014/92/EU; Polish Payment Services Act",
+      "status": "verified_with_conditions",
+      "date": "2026-10-20",
+      "title": {"pl": "Podstawowy rachunek płatniczy (PRP)", "be": "Базавы плацежны рахунак (PRP)", "en": "Basic payment account (PRP)"},
+      "text": {
+        "pl": "PRP to odrębny produkt ustawowy, a nie dowolne konto komercyjne. Legalny pobyt w UE nie ogranicza się do posiadania plastikowej karty. W Polsce znaczenie mają także brak innego odpowiedniego rachunku w PLN, ważny dokument tożsamości i pozostałe warunki ustawowe. Bank musi przestrzegać AML i sankcji. Pełny wniosek o PRP powinien rozpatrzyć w 10 dni roboczych; odmowa powinna wskazywać przyczynę, z wyjątkami ustawowymi.",
+        "be": "PRP — асобны прадукт, прадугледжаны законам, а не любы камерцыйны рахунак. Законны побыт у ЕС не зводзіцца да пластыкавай карты. У Польшчы маюць значэнне таксама адсутнасць іншага адпаведнага рахунку ў злотых, дзейны дакумент асобы і астатнія ўмовы закона. Банк мусіць выконваць AML і санкцыі. Поўную заяву на PRP павінны разгледзець за 10 працоўных дзён; прычыну адмовы паведамляюць з прадугледжанымі законам выключэннямі.",
+        "en": "PRP is a statutory basic account, not any commercial account. Lawful EU residence is not confined to holding a plastic card. Polish conditions also include having no other qualifying PLN account, a valid identity document and other statutory requirements. AML and sanctions still apply. A complete PRP application should be decided within 10 business days; reasons for refusal are provided subject to statutory exceptions."
+      },
+      "source_ids": ["pad", "payments-act"],
+      "links": [{"label": "Directive 2014/92: arts 2, 15, 16, 19", "url": "https://eur-lex.europa.eu/eli/dir/2014/92/oj"}, {"label": "Art. 59ia–59ig", "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf"}],
+      "legal_notes": ["Article 2(2) defines legally resident by Union or national law and includes people without a fixed address and asylum seekers. Article 16(2) additionally covers people not granted a residence permit whose expulsion is impossible for legal or factual reasons.", "Article 16(4) requires refusal where opening would breach AML/CFT law. Article 19 concerns termination of basic accounts; it is not a universal termination rule for every commercial account.", "Polish art. 59ic(7) includes discretionary grounds: a qualifying existing account, specified listing/warnings, no valid identity document, previous gross breach, failure to sign, unlawful stay, or absence of a residential or correspondence address in Poland. Their application and compatibility in a particular dispute require legal assessment.", "Art. 59ig separately governs termination of PRP. It distinguishes immediate grounds from grounds with at least two months' notice; AML obligations under art. 41 remain relevant."]
+    },
+    {
+      "id": "identity-documents",
+      "authority": "UKNF letter of 05.03.2026; UdSC/MOS",
+      "status": "verified_scope_important",
+      "date": "2026-03-05",
+      "title": {"pl": "TZTC to nie zwykłe potwierdzenie wniosku", "be": "TZTC — не звычайнае пацвярджэнне заявы", "en": "TZTC is not an ordinary application receipt"},
+      "text": {
+        "pl": "UKNF potwierdził, że Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (TZTC), wydawane w procedurze ochrony międzynarodowej, jest dokumentem tożsamości uwzględnianym przy weryfikacji AML. Nie wynika z tego, że zwykłe zaświadczenie o wniosku pobytowym, potwierdzenie MOS, kod QR lub stempel zastępują dokument tożsamości. Tożsamość i podstawa legalnego pobytu to dwa różne zagadnienia.",
+        "be": "UKNF пацвердзіў: Tymczasowe Zaświadczenie Tożsamości Cudzoziemca (TZTC), якое выдаюць у працэдуры міжнароднай абароны, з'яўляецца дакументам асобы для праверкі AML. Гэта не азначае, што звычайная даведка аб заяве на побыт, пацвярджэнне MOS, QR-код або штамп замяняюць дакумент асобы. Асоба і падстава законнага побыту — розныя пытанні.",
+        "en": "UKNF confirms that a Temporary Foreigner Identity Certificate (TZTC), issued in the international protection procedure, is an identity document to consider in AML checks. This does not make an ordinary residence-application certificate, MOS receipt, QR code or passport stamp an identity document. Identity and the legal basis for residence are separate questions."
+      },
+      "source_ids": ["knf-rpo-2026", "mos-documents"],
+      "links": [{"label": "UKNF: pp. 1–3", "url": "https://bip.brpo.gov.pl/sites/default/files/2026-03/Odpowiedz_KNF_Bialorusini_konta_05_03_2026.pdf"}, {"label": "MOS: documents", "url": "https://mos.cudzoziemcy.gov.pl/kategorie-informacji/dokumenty/dokumenty-info-podstawowe/informacje-ogolne/"}]
+    },
+    {
+      "id": "individual-assessment",
+      "authority": "CJEU; UKNF",
+      "status": "verified_limited_holding",
+      "date": "2026-06-11",
+      "title": {"pl": "Ocena indywidualna ma znaczenie", "be": "Важная індывідуальная ацэнка", "en": "Individual assessment matters"},
+      "text": {
+        "pl": "UKNF wskazuje, że sam wyższy poziom ryzyka związany z grupą klientów nie wystarcza do rezygnacji z relacji. TSUE w sprawie C‑81/24 Jenec uznał, że sama lista sankcyjna państwa trzeciego nie wystarcza do obowiązkowej odmowy PRP bez indywidualnej oceny AML. To nie uchyla wiążących sankcji UE ani nie rozstrzyga automatycznie sporu o istniejące konto.",
+        "be": "Паводле UKNF, толькі павышаная рызыка, звязаная з групай кліентаў, не дастатковая для адмовы ад адносін. У справе C‑81/24 Jenec Суд ЕС пастанавіў: уключэнне ў санкцыйны спіс трэцяй краіны само па сабе не дае падставы для абавязковай адмовы ў PRP без індывідуальнай ацэнкі AML. Гэта не адмяняе абавязковых санкцый ЕС і не вырашае аўтаматычна спрэчку пра існы рахунак.",
+        "en": "UKNF says a group's higher risk alone cannot determine refusal or termination. In C‑81/24 Jenec, the CJEU held that a third country's sanctions listing alone cannot require refusal of a basic account without an individual AML assessment. This does not override binding EU sanctions or automatically decide a dispute about an existing account."
+      },
+      "source_ids": ["jenec", "knf-rpo-2026"],
+      "links": [{"label": "C‑81/24 Jenec, ECLI:EU:C:2026:470", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0081"}, {"label": "UKNF, 05.03.2026", "url": "https://bip.brpo.gov.pl/sites/default/files/2026-03/Odpowiedz_KNF_Bialorusini_konta_05_03_2026.pdf"}]
+    }
+  ],
+  "banks": [
+    {
+      "id": "millennium",
+      "name": "Bank Millennium S.A.",
+      "authority": "Bank's product FAQ and published terms",
+      "status": "published_policy_partially_verified",
+      "date": "2026-10-20",
+      "public_text": {
+        "pl": "Bank Millennium kieruje osoby bez polskiego obywatelstwa do oddziału. FAQ o aktualizacji dokumentu przewiduje blokadę transakcji po 90 dniach od wygaśnięcia nieaktualizowanego dokumentu tożsamości; opisuje głównie dowód osobisty. Nie ustaliliśmy na tej podstawie jednej reguły dla każdej wygasłej karty pobytu. Regulamin przewiduje obowiązki aktualizacji oraz ograniczenia AML. Sprawdź wersję umowy i pisemne żądanie banku.",
+        "be": "Bank Millennium накіроўвае асоб без польскага грамадзянства ў аддзяленне. FAQ аб абнаўленні дакумента прадугледжвае блакаванне аперацый праз 90 дзён пасля заканчэння тэрміну неабноўленага дакумента асобы; ён пераважна апісвае dowód osobisty. З гэтага нельга вывесці адно правіла для кожнай пратэрмінаванай карты побыту. Рэгламент прадугледжвае абнаўленне даных і абмежаванні AML. Праверце версію дамовы і пісьмовае патрабаванне банка.",
+        "en": "Bank Millennium directs people without Polish citizenship to a branch. Its identity-update FAQ describes transaction restrictions after 90 days following expiry of an unupdated identity document, mainly discussing Polish ID cards. This does not establish one rule for every expired residence card. The terms require data updates and allow AML restrictions. Check your contract version and the bank's written request."
+      },
+      "opening": "Current Millennium 360 FAQ: non-Polish citizens open in a branch. A complete universal list of documents for each non-EU nationality was not verified from the public product material.",
+      "existing_account": "General terms for contracts from 25.04.2022, last update 01.04.2025: ch. I requires identity verification and updates, allows additional information and restrictions where required information is missing or law requires restrictions. Termination section includes AML inability and failure to update necessary data after a demand. The published FAQ is evidence of the bank's policy, not a judicial finding of its lawfulness in each case.",
+      "basic_account": "Separate PRP terms for contracts from 28.06.2025, points 9–12, list termination grounds and distinguish immediate termination from at least two months' notice.",
+      "not_verified": ["A current official blanket policy of blocking every Belarusian customer's existing account because of residence-card expiry.", "A universal passport-only opening entitlement for all foreigners.", "Any estimate of the number of affected customers."],
+      "source_ids": ["millennium-main", "millennium-update", "millennium-general", "millennium-basic"],
+      "links": [{"label": "Millennium 360 FAQ", "url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/konto-millennium-360"}, {"label": "Aktualizacja danych osobowych", "url": "https://www.bankmillennium.pl/bankowosc-elektroniczna/aplikacja-mobilna-klienci-indywidualni-biznes/aktualizacja-danych-osobowych"}, {"label": "Regulamin ogólny", "url": "https://www.bankmillennium.pl/delegate/managedfiles/27/latest"}, {"label": "PRP terms", "url": "https://www.bankmillennium.pl/delegate/managedfiles/819/latest"}]
+    },
+    {
+      "id": "pko-bp",
+      "name": "PKO Bank Polski S.A. (PKO BP)",
+      "authority": "Bank's product FAQ and dated notices",
+      "status": "published_policy_verified_not_legal_endorsement",
+      "date": "2026-10-20",
+      "public_text": {
+        "pl": "PKO BP wymienia paszport i inne dokumenty tożsamości jako możliwe dokumenty przy otwieraniu konta przez cudzoziemca w oddziale. Komunikat z 15.09.2025 opisuje ograniczenia IKO/iPKO po wygaśnięciu zarejestrowanego dokumentu i możliwość dalszych ograniczeń płatności. Osobny komunikat z 04.12.2025 dotyczy części obywateli Białorusi i Rosji oraz sankcji. Te komunikaty nie są automatycznym rozstrzygnięciem zgodności każdego ograniczenia z prawem.",
+        "be": "PKO BP называе пашпарт і іншыя дакументы асобы сярод магчымых дакументаў для адкрыцця рахунку замежнікам у аддзяленні. Паведамленне ад 15.09.2025 апісвае абмежаванні IKO/iPKO пасля заканчэння тэрміну зарэгістраванага дакумента і магчымыя далейшыя абмежаванні плацяжоў. Асобнае паведамленне ад 04.12.2025 датычыцца часткі грамадзян Беларусі і Расіі ды санкцый. Гэтыя паведамленні не вырашаюць аўтаматычна пытанне законнасці кожнага абмежавання.",
+        "en": "PKO BP lists a passport and other identity documents as possible documents for foreigners opening an account in a branch. Its 15 September 2025 notice describes IKO/iPKO restrictions after the registered document expires and possible further payment restrictions. A separate 4 December 2025 notice concerns some Belarusian and Russian customers and sanctions. These notices do not automatically establish that every restriction is lawful."
+      },
+      "opening": "Konto bez Granic FAQ lists a foreign passport or other accepted identity document, including residence documents, EU IDs and TZTC. Bank may request additional information or supporting documents; listed employment/study/benefit examples are not a universal guarantee of acceptance.",
+      "existing_account": "Notice 15.09.2025 concerns the expired registered identity document, partial digital restrictions and potential wider payment restrictions. Foreign identity-document updates require a branch visit according to that notice.",
+      "sanctions_notice": "Notice 04.12.2025 addresses BY/RU citizens who opened accounts after 24.10.2025 without a residence card. It asks for a residence card or another document entitling residence in Poland and describes digital, phone, BLIK and card restrictions with branch service remaining. Do not extend it to all customers or treat its opening-date wording as the full legal scope of EU sanctions.",
+      "source_ids": ["pko-opening", "pko-expiry", "pko-sanctions", "ec-payments-faq", "belarus-2025"],
+      "links": [{"label": "PKO BP: opening FAQ", "url": "https://www.pkobp.pl/klient-indywidualny/konta/konto-bez-granic"}, {"label": "PKO BP: expired identity document, 15.09.2025", "url": "https://www.pkobp.pl/aktualnosci/masz-niewazny-dokument-tozsamosci-stracisz-dostep-do-aplikacji-iko-i-serwisu-ipko"}, {"label": "PKO BP: sanctions notice, 04.12.2025", "url": "https://www.pkobp.pl/aktualnosci/informacja-dla-obywateli-bialorusi-i-rosji-ktorzy-otworzyli-konta-w-pko-banku-polskim-po-24102025-r-bez-karty-pobytu"}]
+    },
+    {
+      "id": "pekao",
+      "name": "Bank Pekao S.A. (Polska Kasa Opieki S.A.)",
+      "authority": "Bank's current terms catalog and account terms",
+      "status": "terms_verified_specific_expiry_policy_not_verified",
+      "date": "2026-10-20",
+      "public_text": {
+        "pl": "Bank Pekao S.A. to inny bank niż PKO BP. Jego regulamin dla umów od 01.07.2026 wymaga weryfikacji tożsamości i aktualizacji danych; przewiduje też wypowiedzenie związane m.in. z brakującymi dokumentami AML. Nie znaleźliśmy w sprawdzonym materiale oficjalnej ogólnej reguły automatycznego blokowania istniejącego konta po wygaśnięciu karty pobytu. Szczególnej oferty dla obywateli Ukrainy nie należy przenosić na wszystkie narodowości.",
+        "be": "Bank Pekao S.A. і PKO BP — розныя банкі. Рэгламент Pekao для дамоў ад 01.07.2026 патрабуе праверкі асобы і абнаўлення даных; ён таксама прадугледжвае скасаванне дамовы, у тым ліку пры адсутнасці дакументаў для AML. У правераных матэрыялах мы не знайшлі агульнага афіцыйнага правіла аўтаматычнай блакіроўкі існага рахунку пасля заканчэння тэрміну карты побыту. Асобную прапанову для грамадзян Украіны нельга пераносіць на ўсе грамадзянствы.",
+        "en": "Bank Pekao S.A. is a different bank from PKO BP. Its terms for contracts from 1 July 2026 require identity checks and data updates and provide termination grounds including missing AML documents. The reviewed material did not establish an official general rule automatically blocking an existing account when a residence card expires. A special Ukrainian offer must not be generalised to all nationalities."
+      },
+      "opening": "The reviewed public material did not establish a complete general document list for every non-EU nationality. Online opening methods are not proof of eligibility in a branch. The dedicated Ukrainian page has special conditions and must keep that population label.",
+      "existing_account": "Current terms: §22 identity verification using valid identity document or listed agreed authentication methods; §122 immediate personal-data/ID updates; §111 important termination grounds include failure to provide AML information/documents. Ordinary bank notice under §106 is two months; applicable statutory AML/sanctions obligations must be considered separately. Older contracts have separate terms in the bank catalog.",
+      "source_ids": ["pekao-catalog", "pekao-current", "pekao-ukraine", "pekao-reclamations"],
+      "links": [{"label": "Pekao terms catalog", "url": "https://www.pekao.com.pl/o-banku/stopka/cennik-i-regulamin.html"}, {"label": "Terms for contracts from 01.07.2026", "url": "https://www.pekao.com.pl/dam/jcr:951ed9bc-fb22-4382-978a-123e1ed977a2/Regulamin_Rachunkow_Bankowych_dla_umow_zawartych_od_1072026.2026-08-31-14-38-39.pdf"}, {"label": "Pekao: complaints", "url": "https://www.pekao.com.pl/o-banku/reklamacje.html"}]
+    }
+  ],
+  "sanctions": {
+    "authority": "EU Regulations; European Commission non-binding FAQ",
+    "status": "verified_with_scope_and_guidance_caveats",
+    "date": "2026-10-20",
+    "public_text": {
+      "pl": "Dla części obywateli Białorusi i Rosji znaczenie mają odrębne sankcje UE, z wyjątkami m.in. dla określonego obywatelstwa lub zezwolenia na pobyt. Nie jest to ogólny nakaz zamknięcia wszystkich rachunków. Komisja Europejska wyjaśnia w odniesieniu do art. 5b(2) rozporządzenia 833/2014, że przepis nie nakazuje zamknięcia kont ani ogólnego wyłączenia bankowości internetowej. Sprawdź konkretną usługę, wyjątek i dokumenty; zwykłe legalne oczekiwanie na pobyt nie dowodzi automatycznie wyjątku sankcyjnego.",
+      "be": "Для часткі грамадзян Беларусі і Расіі дзейнічаюць асобныя санкцыі ЕС з выключэннямі, у тым ліку для пэўнага грамадзянства або дазволу на побыт. Гэта не агульны загад закрыць усе рахункі. Еўракамісія тлумачыць адносна арт. 5b(2) рэгламенту 833/2014: ён не патрабуе закрыцця рахункаў або агульнага адключэння інтэрнэт-банкінгу. Трэба праверыць паслугу, выключэнне і дакументы; законнае чаканне дазволу само па сабе не пацвярджае санкцыйнага выключэння.",
+      "en": "Separate EU sanctions affect some Belarusian and Russian customers, with exceptions including specified citizenship or residence permits. They are not a general instruction to close every account. For Article 5b(2) of Regulation 833/2014, the European Commission explains that account closure or a general online-banking ban is not required. Check the specific service, exception and documents; lawful pending residence alone does not automatically establish a sanctions exemption."
+    },
+    "notes": ["Regulations 2025/2033 and 2025/2041 were adopted and published on 23.10.2025 and entered into force on 24.10.2025. They add restrictions on issuing payment instruments, acquiring payment transactions, payment initiation and electronic money for persons in scope; distinguish these services from every ordinary transfer.", "Russia: art. 5b(3) of Regulation 833/2014. Belarus: consult current art. 1u, including its residence/nationality exception; do not substitute the 2023 paragraph numbering. Art. 1v(1a), introduced by 2025/2041, expressly excludes provision of personalised security credentials needed to access an account from the specified service prohibitions.", "Commission FAQ dated 13.03.2026 directly interprets the Russian provision: no compulsory account closure or termination (Q5), continued use of existing cards not prohibited merely by this rule (Q7), no general online/mobile access ban (Q9), no general prohibition of direct transfers/cash withdrawal (Q10). Renewal/reissue may be issuing a new instrument. Individual transactions and other sanctions can still be prohibited.", "The FAQ is administrative guidance, not a judgment. Its detailed answers must not automatically be presented as a ruling on the Belarusian provision, although the parallel wording and Belarusian credentials exception are relevant.", "The FAQ discusses some long-stay D visas with completed registration formalities, depending on national law. Neither 'all visas qualify' nor 'only a plastic card can ever qualify' is a safe general statement. Whether a Polish pending-application document qualifies for a sanctions exception was not established by this review."],
+    "source_ids": ["russia-2025", "belarus-2025", "belarus-current", "ec-payments-faq"],
+    "links": [{"label": "EU 2025/2033", "url": "https://eur-lex.europa.eu/eli/reg/2025/2033/oj"}, {"label": "EU 2025/2041: art. 1(7)–(9)", "url": "https://eur-lex.europa.eu/eli/reg/2025/2041/oj"}, {"label": "Current Belarus regulation", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R0765-20260724"}, {"label": "European Commission FAQ, 13.03.2026", "url": "https://finance.ec.europa.eu/document/download/8b0e76f4-6a5e-4fd3-a85e-04d7ecdfe340_en?filename=faqs-sanctions-russia-payments-services_en.pdf"}]
+  },
+  "evidence_limits": ["Published bank terms describe policy and contractual wording, not a finding that every restriction is lawful.", "No verified count or rate of blocked migrant accounts is supplied.", "Absence of a public blanket policy in this review does not establish that no customer has experienced a restriction.", "Identity, lawful residence, sanctions exemption, source of funds and access channel are separate questions.", "Independent verification and native Belarusian editorial review are still required before publication."]
+}

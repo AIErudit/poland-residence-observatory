@@ -19,7 +19,13 @@ jobs:
       - name: Dataset reconciliation
         run: python -m unittest discover -s tests -v
       - name: JavaScript syntax
-        run: node --check site/app.js
+        run: |
+          node --check site/app.js
+          node --check site/i18n.js
+          node --check site/analytics.js
+          node --check site/survey.js
+          node --check backend/worker.mjs
+          node --test verification/round2/backend-check.mjs
       - name: Build public snapshot
         run: python scripts/build_site.py
       - name: Verify independent review and public links

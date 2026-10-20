@@ -1,0 +1,305 @@
+{
+  "checked_at": "2026-10-20T13:42:02.415378+00:00",
+  "status": "pass",
+  "reviewed_file_sha256": "5b0d7bfb64b02ff31c6665a4e4d85b284e3a3cdb8fa28228ab092a6c45cd970e",
+  "observations_checked": 15,
+  "source_snapshots_checked": 2,
+  "errors": [],
+  "records": [
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2021",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2021"
+      },
+      "flat_index": 31,
+      "source_value": 967345,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2022",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2022"
+      },
+      "flat_index": 32,
+      "source_value": 700264,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2023",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2023"
+      },
+      "flat_index": 33,
+      "source_value": 642789,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2024",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2024"
+      },
+      "flat_index": 34,
+      "source_value": 488846,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_TOTAL_2025",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2025"
+      },
+      "flat_index": 35,
+      "source_value": 467314,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2021",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "EU27_2020",
+        "time": "2021"
+      },
+      "flat_index": 13,
+      "source_value": 3273875,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2022",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "EU27_2020",
+        "time": "2022"
+      },
+      "flat_index": 14,
+      "source_value": 3564926,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2023",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "EU27_2020",
+        "time": "2023"
+      },
+      "flat_index": 15,
+      "source_value": 3821562,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2024",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "EU27_2020",
+        "time": "2024"
+      },
+      "flat_index": 16,
+      "source_value": 3504650,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_EU27_2020_TOTAL_2025",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "TOTAL",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "EU27_2020",
+        "time": "2025"
+      },
+      "flat_index": 17,
+      "source_value": 3860000,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2021",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "BY",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2021"
+      },
+      "flat_index": 13,
+      "source_value": 130903,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2022",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "BY",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2022"
+      },
+      "flat_index": 14,
+      "source_value": 285496,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2023",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "BY",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2023"
+      },
+      "flat_index": 15,
+      "source_value": 255595,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2024",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "BY",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2024"
+      },
+      "flat_index": 16,
+      "source_value": 151116,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    },
+    {
+      "id": "es_migr_resfirst_PL_BY_2025",
+      "coordinates": {
+        "freq": "A",
+        "reason": "TOTAL",
+        "citizen": "BY",
+        "duration": "TOTAL",
+        "unit": "PER",
+        "geo": "PL",
+        "time": "2025"
+      },
+      "flat_index": 17,
+      "source_value": 128468,
+      "source_flag": null,
+      "value_matches": true,
+      "flag_matches": true,
+      "locator_matches": true
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "round2_eurostat_0a1a8660a496",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resfirst?lang=EN&geo=PL&geo=EU27_2020&citizen=TOTAL&reason=TOTAL&duration=TOTAL&unit=PER",
+      "content_sha256": "693718a0e4f7f2a0976b2320fed3439e51d54e155c7db37cc6d0308822a02bc7",
+      "dataset_updated": "2026-09-28T11:00:00+0200"
+    },
+    {
+      "id": "round2_eurostat_765f3805d69c",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resfirst?lang=EN&geo=PL&citizen=BY&reason=TOTAL&duration=TOTAL&unit=PER",
+      "content_sha256": "19695406f237e660aae9ee41876b1b1f609bb6b550fa417fa442cfea380db794",
+      "dataset_updated": "2026-09-28T11:00:00+0200"
+    }
+  ],
+  "interpretation_review": {
+    "category": "context-not-waiting",
+    "scope": "First residence permits under Eurostat collection definitions; not administrative applications, pending stocks, individual waiting times, or the same scope as voivode temporary-residence resolutions.",
+    "citizenship": "BY is citizenship, not ethnicity. TOTAL is the total within the non-EU permit collection, not all migrants.",
+    "geography": "EU27_2020 includes Poland; do not add EU total to Poland.",
+    "dates": "2021–2025 reference years; year-end dates are period endpoints, not a stock date or source retrieval date.",
+    "flags": "Checked as returned; no flag does not establish no breaks or revisions.",
+    "definition": "Authorisation to stay at least three months; first may follow a gap of at least six months. National long-stay visas/equivalent authorisations may be counted; first does not necessarily mean a first-ever arrival.",
+    "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/migr_resval_esms.htm"
+  },
+  "release_approval": false
+}

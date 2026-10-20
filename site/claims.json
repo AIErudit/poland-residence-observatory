@@ -7,23 +7,28 @@
       "obs_fc19d48ac45b038849"
     ],
     "title_pl": "658 dni: średnia zakończonych postępowań na Śląsku",
-    "title_ru": "658 дней: среднее по завершённым производствам в Силезии",
     "body_pl": "MSWiA podaje 658 dni dla pobytu czasowego w województwie śląskim w części 2026 roku, do 6 lipca. To najwyższa średnia w zestawieniu 16 województw.",
-    "body_ru": "MSWiA указывает 658 дней для временного проживания в Силезском воеводстве за часть 2026 года, до 6 июля. Это наибольшее среднее среди 16 воеводств в этой таблице.",
-    "caveat_pl": "Średnia zakończonych postępowań, nie maksimum ani przewidywany czas nowego wniosku. Źródło nie publikuje liczebności kohort ani szczegółowego sposobu liczenia dni.",
-    "caveat_ru": "Среднее по завершённым производствам, не максимум и не прогноз для нового заявления. Источник не раскрывает размер когорт и подробный способ подсчёта дней.",
+    "caveat_pl": "Średnia zakończonych postępowań, nie maksimum ani przewidywany czas nowego wniosku. Źródło nie podaje liczebności kohort ani dokładnego zdarzenia rozpoczynającego liczenie dni.",
     "calculation": "max(mean_days_2026 for 16 voivodeships) = 658; MSWiA 18089, table 1, Śląski / 2026.",
     "metric_label_pl": "ŚLĄSKIE · DO 06.07.2026",
-    "metric_label_ru": "СИЛЕЗИЯ · ДО 06.07.2026",
     "metric_copy_pl": "Średni czas zakończonych postępowań o pobyt czasowy. Najwyższy w tym zestawieniu.",
-    "metric_copy_ru": "Среднее по завершённым производствам о временном проживании. Наибольшее в этой таблице.",
     "preview_value": "658 dni",
     "preview_context": "Pobyt czasowy · Śląskie · średnia zakończonych spraw · do 06.07.2026",
     "source_ids": [
       "src_dab9bf75dd09"
     ],
     "as_of_release": "2026-10-20",
-    "review_scope": "Independent AI source review; see verification/review.md. Not external certification."
+    "review_scope": "Independent AI source review; see verification/round2/review.md. Not external certification.",
+    "title_be": "658 дзён: сярэдняя працягласць завершаных спраў у Сілезіі",
+    "title_en": "658 days: mean duration of concluded proceedings in Śląskie",
+    "body_be": "MSWiA паведамляе 658 дзён для часовага побыту ў Сілезскім ваяводстве за частку 2026 года, да 6 ліпеня. Гэта найбольшае сярэдняе ў табліцы 16 ваяводстваў.",
+    "body_en": "MSWiA reports 658 days for temporary residence in Śląskie for the part of 2026 ending on 6 July. This is the highest mean in its table of 16 voivodeships.",
+    "caveat_be": "Сярэдняе па завершаных справах, не максімум і не прагноз чакання новай заявы. Крыніца не падае памераў кагорт і дакладнага пачатку адліку дзён.",
+    "caveat_en": "A mean for concluded cases, not a maximum or a forecast for a new application. The source does not provide cohort sizes or the exact starting event for counting days.",
+    "metric_label_be": "ЧАСОВЫ ПОБЫТ · ДА 06.07.2026",
+    "metric_label_en": "TEMPORARY RESIDENCE · TO 6 JUL 2026",
+    "metric_copy_be": "сярэдняя працягласць завершаных спраў у Сілезіі паводле MSWiA. Не прагноз для новай заявы.",
+    "metric_copy_en": "mean duration of concluded proceedings in Śląskie, reported by MSWiA. Not a new applicant’s forecast."
   },
   {
     "id": "fifteen-regions",
@@ -64,11 +69,8 @@
       "obs_ea9c015dd411bcd888"
     ],
     "title_pl": "W 15 z 16 województw średnia za 2026 jest wyższa niż za 2023",
-    "title_ru": "В 15 из 16 воеводств среднее за 2026 год выше, чем за 2023",
     "body_pl": "Porównanie tabeli MSWiA: średni czas zakończonych postępowań o pobyt czasowy wzrósł w 15 regionach. Wyjątkiem jest dolnośląskie: 401 dni w 2023 i 303 w części 2026.",
-    "body_ru": "Сравнение таблицы MSWiA: среднее по завершённым производствам о временном проживании выросло в 15 регионах. Исключение — Нижняя Силезия: 401 день в 2023 году и 303 за часть 2026 года.",
     "caveat_pl": "Pełny rok 2023 porównano z okresem 2026 do 6 lipca. To nie dowód wydłużenia każdego indywidualnego postępowania ani miara wieku spraw w toku. Zmiana składu zakończonych spraw może zmieniać średnią.",
-    "caveat_ru": "Полный 2023 год сравнивается с 2026 годом до 6 июля. Это не доказательство удлинения каждого дела и не возраст текущей очереди. Изменение состава завершённых дел может менять среднее.",
     "calculation": "count(mean_days_2026 > mean_days_2023) = 15 of 16, paired by geography_id. No national average calculated.",
     "preview_value": "15 / 16",
     "preview_context": "Pobyt czasowy · województwa z wyższą średnią: 2023 vs 2026 do 6 lipca · MSWiA",
@@ -76,7 +78,13 @@
       "src_dab9bf75dd09"
     ],
     "as_of_release": "2026-10-20",
-    "review_scope": "Independent AI source review; see verification/review.md. Not external certification."
+    "review_scope": "Independent AI source review; see verification/round2/review.md. Not external certification.",
+    "title_be": "У 15 з 16 ваяводстваў сярэдняе за частку 2026 вышэй за 2023",
+    "title_en": "15 of 16 voivodeships have a higher partial-2026 mean than in 2023",
+    "body_be": "У адной табліцы MSWiA 15 ваяводстваў маюць вышэйшую сярэднюю працягласць завершаных спраў часовага побыту за 2026 да 6 ліпеня, чым за поўны 2023 год. Выключэнне — Ніжнесілезскае: 401 → 303 дні.",
+    "body_en": "In the same MSWiA table, 15 voivodeships have a higher mean duration for concluded temporary-residence cases in 2026 to 6 July than in full-year 2023. The exception is Dolnośląskie: 401 → 303 days.",
+    "caveat_be": "Параўноўваюцца сярэднія розных кагорт і поўнага з няпоўным годам. Гэта не доказ штогадовага пагаршэння, прычыны затрымак або чакання кожнага заяўніка.",
+    "caveat_en": "Different concluded cohorts and a full versus partial year are compared. This does not establish deterioration every year, the cause of delays or each applicant’s wait."
   },
   {
     "id": "pending-803223",
@@ -101,23 +109,28 @@
       "obs_e7fc497c2aa4027704"
     ],
     "title_pl": "803 223 sprawy o pobyt czasowy w toku na 1 lipca 2026",
-    "title_ru": "803 223 дела о временном проживании в работе на 1 июля 2026",
     "body_pl": "Suma 16 wierszy tabeli UdSC w piśmie z 28 sierpnia 2026: 803 223 niezakończone sprawy na 01.07.2026.",
-    "body_ru": "Сумма 16 строк таблицы UdSC в письме от 28 августа 2026 года: 803 223 незавершённых дела на 01.07.2026.",
     "caveat_pl": "Sprawy, nie unikalne osoby. Dokument to kopia opublikowana przez Głos Migranta, bez niezależnego potwierdzenia oryginału u organu. Nazwy regionów zasłonięto; suma ich nie wymaga. Możliwa zmiana porównywalności MOS/CUKR w 2026.",
-    "caveat_ru": "Дела, не уникальные люди. Документ — копия у Głos Migranta, без независимого подтверждения оригинала у органа. Названия регионов скрыты; для общей суммы они не нужны. Возможен разрыв сопоставимости MOS/CUKR в 2026 году.",
     "calculation": "sum(pending cases on 2026-07-01 over 16 rows) = 803223. UdSC BSZ.WAiSM.0361.16.2026/DH, table of pending cases.",
     "metric_label_pl": "POBYT CZASOWY · 01.07.2026",
-    "metric_label_ru": "ВРЕМЕННОЕ ПРОЖИВАНИЕ · 01.07.2026",
     "metric_copy_pl": "spraw w toku — suma tabeli w kopii pisma UdSC. To nie liczba migrantów.",
-    "metric_copy_ru": "дел в работе — сумма таблицы в копии письма UdSC. Это не число мигрантов.",
     "preview_value": "803 223",
     "preview_context": "Pobyt czasowy · sprawy w toku, nie osoby · 01.07.2026 · kopia pisma UdSC",
     "source_ids": [
       "src_3aebb28a24e1"
     ],
     "as_of_release": "2026-10-20",
-    "review_scope": "Independent AI source review; see verification/review.md. Not external certification."
+    "review_scope": "Independent AI source review; see verification/round2/review.md. Not external certification.",
+    "title_be": "803 223 справы часовага побыту ў працы на 1 ліпеня 2026",
+    "title_en": "803,223 temporary-residence cases pending on 1 July 2026",
+    "body_be": "Сума 16 радкоў табліцы UdSC у лісце ад 28 жніўня 2026: 803 223 незавершаныя справы на 01.07.2026.",
+    "body_en": "The 16 rows in the UdSC table in its letter of 28 August 2026 sum to 803,223 unfinished cases on 1 July 2026.",
+    "caveat_be": "Справы, не ўнікальныя людзі. Крыніца — копія ў Głos Migranta без незалежнага пацвярджэння арыгінала ў органе. Назвы рэгіёнаў схаваныя; для сумы яны не патрэбныя. Магчымы разрыў супастаўнасці MOS/CUKR у 2026.",
+    "caveat_en": "Cases, not unique people. The source is a copy hosted by Głos Migranta, without independent authentication by the agency. Regional labels are redacted but are not needed for this sum. A MOS/CUKR comparability break is possible in 2026.",
+    "metric_label_be": "ЧАСОВЫ ПОБЫТ · 01.07.2026",
+    "metric_label_en": "TEMPORARY RESIDENCE · 1 JUL 2026",
+    "metric_copy_be": "спраў у працы — сума табліцы ў копіі ліста UdSC. Не колькасць мігрантаў.",
+    "metric_copy_en": "pending cases, summed from the UdSC letter copy. Not a count of migrants."
   },
   {
     "id": "courts-merits-2025",
@@ -130,22 +143,27 @@
       "obs_ce80fe03cb3f2114b4"
     ],
     "title_pl": "29,5% uwzględnionych — tylko wśród rozstrzygnięć merytorycznych",
-    "title_ru": "29,5% удовлетворённых — только среди решений по существу",
     "body_pl": "WSA, 2025, bezczynność i przewlekłość, symbol 6272: 432 uwzględnienia i 1 032 oddalenia. 432 / (432 + 1 032) = 29,5%. Kategoria obejmuje wizy, pobyt, wydalenie i inne sprawy cudzoziemców.",
-    "body_ru": "WSA, 2025 год, бездействие и затягивание, символ 6272: 432 удовлетворения и 1 032 отказа по существу. 432 / (432 + 1 032) = 29,5%. Категория включает визы, проживание, выдворение и другие дела иностранцев.",
     "caveat_pl": "Poza tym mianownikiem są m.in. 1 873 odrzucenia procesowe. Nie jest to udział w nowych skargach ani szansa wygranej konkretnej osoby.",
-    "caveat_ru": "За пределами этого знаменателя — в том числе 1 873 процессуальных отклонения. Это не доля новых жалоб и не вероятность выигрыша конкретного человека.",
     "calculation": "432 / (432 + 1032) × 100 = 29.508197%. Rejected/resolved = 1873/3579. Different cohorts: inflow is not used as denominator.",
     "metric_label_pl": "WSA · SYMBOL 6272 · 2025",
-    "metric_label_ru": "WSA · СИМВОЛ 6272 · 2025",
     "metric_copy_pl": "uwzględnionych wśród rozstrzygnięć merytorycznych. Szersza kategoria niż sam pobyt.",
-    "metric_copy_ru": "удовлетворённых среди решений по существу. Категория шире дел о проживании.",
     "preview_value": "29,5%",
     "preview_context": "432 / (432 + 1032) · tylko rozstrzygnięcia merytoryczne. Wizy, pobyt, wydalenie · WSA 6272 · 2025",
     "source_ids": [
       "src_7734abe934b3"
     ],
     "as_of_release": "2026-10-20",
-    "review_scope": "Independent AI source review; see verification/review.md. Not external certification."
+    "review_scope": "Independent AI source review; see verification/round2/review.md. Not external certification.",
+    "title_be": "29,5% задаволеных — толькі сярод рашэнняў па сутнасці",
+    "title_en": "29.5% upheld — among merits rulings only",
+    "body_be": "WSA, 2025, бяздзейнасць і зацягванне, катэгорыя 6272: 432 задаволеныя скаргі і 1 032 адмовы па сутнасці. 432 / (432 + 1 032) = 29,5%. Катэгорыя ўключае візы, побыт, выдварэнне і іншыя справы іншаземцаў.",
+    "body_en": "WSA, 2025, inactivity and delay, category 6272: 432 upheld and 1,032 dismissed complaints. 432 / (432 + 1,032) = 29.5%. The category includes visas, residence, expulsion and other foreigner cases.",
+    "caveat_be": "Па-за гэтым назоўнікам — у тым ліку 1 873 працэсуальныя адхіленні. Гэта не доля новых скаргаў і не верагоднасць поспеху канкрэтнага чалавека.",
+    "caveat_en": "The denominator excludes, among other outcomes, 1,873 procedural rejections. This is neither a share of new filings nor an individual’s probability of success.",
+    "metric_label_be": "WSA · КАТЭГОРЫЯ 6272 · 2025",
+    "metric_label_en": "WSA · CATEGORY 6272 · 2025",
+    "metric_copy_be": "задаволена сярод рашэнняў па сутнасці. Працэсуальныя адхіленні па-за назоўнікам.",
+    "metric_copy_en": "upheld among merits rulings. Procedural rejections are outside this denominator."
   }
 ]

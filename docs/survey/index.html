@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Ankieta o sprawie pobytowej · Residence Observatory</title>
+  <meta name="description" content="Dobrowolna ankieta o jednej sprawie pobytowej. Otwarte i zakończone sprawy analizujemy osobno. Bez numerów spraw i dokumentów.">
+  <meta property="og:title" content="Ankieta o sprawie pobytowej · Residence Observatory">
+  <meta property="og:description" content="Dobrowolna ankieta o jednej sprawie. Bez numerów spraw i dokumentów; osobno obserwacje otwarte i zakończone.">
+  <meta property="og:type" content="website"><meta property="og:url" content="https://aierudit.github.io/poland-residence-observatory/survey/">
+  <meta property="og:image" content="https://aierudit.github.io/poland-residence-observatory/assets/social.png"><meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://aierudit.github.io/poland-residence-observatory/survey/">
+  <link rel="icon" href="../assets/icon.svg?v=ed44e54c3bf5" type="image/svg+xml"><link rel="stylesheet" href="../assets/style.css?v=dbb85dd2865b">
+  <script src="../assets/i18n.js?v=d2323f4a189e" defer></script><script src="../assets/survey.js?v=fff85ada0dee" defer></script>
+</head>
+<body>
+<a class="skip" href="#survey-form" data-s="skip">Przejdź do ankiety</a>
+<header class="topbar">
+  <a class="brand" href="../" data-keep-lang><span class="brand-mark" aria-hidden="true">r<span>o</span></span><span>RESIDENCE<br>OBSERVATORY <small>POLSKA</small></span></a>
+  <nav><a href="../#analytics" data-keep-lang data-s="back">Wróć do danych</a><a href="../privacy/" data-keep-lang data-s="privacy">Prywatność i usuwanie danych</a></nav>
+  <div class="lang" aria-label="Language"><button type="button" data-lang="pl" aria-pressed="true"><span class="flag-pl" aria-hidden="true"></span> PL</button><button type="button" data-lang="be" aria-pressed="false"><span class="flag-be" aria-hidden="true"></span> BE</button><button type="button" data-lang="en" aria-pressed="false"><span class="flag-en" aria-hidden="true"></span> EN</button></div>
+</header>
+<main class="survey-page">
+  <section class="survey-intro" aria-labelledby="survey-title">
+    <p class="eyebrow" data-s="eyebrow">DOBROWOLNA ANKIETA · JEDNA SPRAWA</p>
+    <h1 id="survey-title" data-s="title">Opowiedz o sprawie — bez numerów spraw i dokumentów.</h1>
+    <p class="intro" data-s="intro">Wypełnij jedną ankietę dla jednego złożonego wniosku. Pola oznaczone * są wymagane. Pozostałe możesz pominąć. Nie zbieramy nazwisk, PESEL, numerów spraw, dokumentów ani załączników.</p>
+    <p class="source-note" data-s="bias">To próba ochotnicza, niereprezentatywna dla wszystkich wnioskodawców. Sprawy otwarte i zakończone analizujemy osobno; publikujemy tylko sprawdzone agregaty. Ankieta nie wpływa na Twoją sprawę i nie składa skargi.</p>
+    <p class="small"><span data-s="controller">Administrator danych:</span> <strong>Vitali Bibikov</strong> · <a href="mailto:support@pagefabrica.com">support@pagefabrica.com</a> · <a href="../privacy/" data-keep-lang data-s="privacy">Prywatność i usuwanie danych</a></p>
+  </section>
+  <p id="collection-status" class="form-status" role="status" aria-live="polite">Sprawdzamy dostępność ankiety…</p>
+  <form id="survey-form" class="survey-form" method="post" action="./" autocomplete="off" novalidate>
+    <fieldset id="survey-fields" disabled>
+      <legend data-s="core">1. Twoja sprawa</legend>
+      <div class="form-grid">
+        <label for="survey-region"><span data-s="region">Urząd / województwo *</span><select id="survey-region" name="region" required><option value="">Wybierz</option></select></label>
+        <label for="survey-permit"><span data-s="permit">Rodzaj zezwolenia *</span><select id="survey-permit" name="permit" required></select></label>
+        <label for="survey-status"><span data-s="status">Obecny stan sprawy *</span><select id="survey-status" name="status" required></select></label>
+        <label for="survey-applied"><span data-s="applied">Data złożenia wniosku *</span><input id="survey-applied" name="applied_date" type="date" min="2014-01-01" required></label>
+        <label id="decision-wrap" for="survey-decision" hidden><span data-s="decision">Data decyzji / innego zakończenia sprawy *</span><input id="survey-decision" name="decision_date" type="date" min="2014-01-01" disabled></label>
+      </div>
+      <p class="small" data-s="dateHelp">Podaj daty, które znasz. Jeżeli nie znasz wymaganej daty, nie zgaduj — wróć po sprawdzeniu dokumentów. Najwcześniejsza obsługiwana data: 01.01.2014.</p>
+      <p id="duration-output" class="duration-preview" role="status" aria-live="polite"></p>
+      <details class="optional-fields">
+        <summary data-s="extras">2. Dodatkowe informacje — wszystkie opcjonalne</summary>
+        <div class="form-grid">
+          <label for="survey-basis"><span data-s="basis">Główny powód pobytu</span><select id="survey-basis" name="basis"></select></label>
+          <label for="survey-submission"><span data-s="submission">Sposób złożenia wniosku</span><select id="survey-submission" name="submission"></select></label>
+          <label for="survey-nationality"><span data-s="nationality">Obywatelstwo</span><select id="survey-nationality" name="nationality"></select></label>
+          <label for="survey-days"><span data-s="reportedDays">Deklarowany czas oczekiwania w dniach</span><input id="survey-days" name="reported_days" type="number" inputmode="numeric" min="0" max="10000" step="1" aria-describedby="reported-help"></label>
+          <label for="survey-household"><span data-s="household">Liczba osób w gospodarstwie domowym (1–10)</span><input id="survey-household" name="household_size" type="number" inputmode="numeric" min="1" max="10" step="1"></label>
+          <label for="survey-court"><span data-s="court">Wynik skargi do sądu, jeśli była</span><select id="survey-court" name="court_outcome"></select></label>
+          <label for="survey-bank"><span data-s="bank">Bank, jeśli wystąpił problem</span><select id="survey-bank" name="bank"></select></label>
+          <label for="survey-bank-issue"><span data-s="bankIssue">Rodzaj problemu z bankiem</span><select id="survey-bank-issue" name="bank_issue"></select></label>
+        </div>
+        <p id="reported-help" class="small" data-s="reportedHelp">Deklarowany czas zachowujemy osobno od obliczenia z dat. Nie dopisuj danych innych osób.</p>
+        <fieldset><legend data-s="difficulties">Jakie trudności wystąpiły? Możesz zaznaczyć kilka.</legend><div id="difficulties-group" class="check-grid"></div></fieldset>
+        <fieldset><legend data-s="actions">Jakie działania podjęto? Możesz zaznaczyć kilka.</legend><div id="actions-group" class="check-grid"></div></fieldset>
+        <fieldset><legend data-s="contact">Kontakt — całkowicie opcjonalny</legend>
+          <label for="survey-email"><span data-s="email">Email do ewentualnego kontaktu</span><input id="survey-email" name="email" type="email" maxlength="254" autocomplete="off" spellcheck="false"></label>
+          <label class="check"><input id="contact-consent" name="contact_consent" type="checkbox" disabled><span data-s="contactConsent">Osobno zgadzam się na kontakt pod podanym adresem. Email nie będzie publikowany ani dodawany do publicznych danych.</span></label>
+          <p class="small" data-s="emailHelp">Bez emaila ankieta jest równie ważna. Jeśli go podasz, potrzebna jest odrębna zgoda na kontakt.</p>
+        </fieldset>
+      </details>
+      <fieldset><legend data-s="consentTitle">3. Zgoda na przetwarzanie</legend>
+        <label class="check"><input id="survey-consent" name="consent" type="checkbox" required><span data-s="consent">Dobrowolnie zgadzam się na przetwarzanie podanych odpowiedzi do badania opisanego w informacji o prywatności (wersja 20.10.2026). Wiem, że mogę wycofać zgodę i usunąć zapis przy użyciu klucza usunięcia.</span></label>
+        <p class="small"><a href="../privacy/" data-keep-lang data-s="readPrivacy">Przeczytaj zasady prywatności i okresy przechowywania</a></p>
+      </fieldset>
+      <div class="sr-only" aria-hidden="true"><label>Website<input name="website" id="survey-website" type="text" tabindex="-1" autocomplete="off"></label></div>
+    </fieldset>
+    <section class="verification-box" aria-labelledby="verification-title">
+      <h2 id="verification-title" data-s="verificationTitle">4. Weryfikacja i wysłanie</h2>
+      <p class="small" data-s="verificationInfo">Cloudflare Turnstile sprawdza, czy formularza nie wysyła automat. Nie łączymy się z tym dostawcą, dopóki nie uruchomisz weryfikacji. Odpowiedzi nie są wysyłane podczas tej weryfikacji.</p>
+      <label class="check"><input id="verification-ack" type="checkbox"><span data-s="verificationAck">Zapoznałem(-am) się z informacją o prywatności i chcę załadować zewnętrzną weryfikację Cloudflare.</span></label>
+      <button id="enable-verification" class="secondary" type="button" disabled data-s="enableVerification">Uruchom weryfikację</button>
+      <div id="turnstile-container"></div>
+      <p id="widget-language-note" class="small" hidden></p>
+      <p id="verification-status" class="form-status" role="status" aria-live="polite"></p>
+      <div class="survey-actions"><button id="survey-submit" class="primary" type="submit" disabled data-s="send">Wyślij ankietę</button></div>
+    </section>
+    <p id="submission-status" class="form-status" role="status" aria-live="polite"></p>
+  </form>
+  <section id="receipt-box" class="receipt-box" aria-labelledby="receipt-title" hidden>
+    <h2 id="receipt-title" data-s="receiptTitle">Twój klucz usunięcia</h2>
+    <p id="receipt-state" class="form-status" role="status" aria-live="polite"></p>
+    <p class="small" data-s="receiptNotice">W tym urządzeniu zapisujemy tylko identyfikator i klucz usunięcia, nigdy odpowiedzi ani email. Osoba posiadająca ten klucz może usunąć zapis. Pobierz go i przechowuj prywatnie. Przeglądarka zachowuje tylko ostatni taki klucz.</p>
+    <dl class="receipt-values"><dt data-s="receiptId">Identyfikator zapisu</dt><dd><code id="receipt-id"></code></dd><dt data-s="receiptToken">Prywatny klucz usunięcia</dt><dd><code id="receipt-token"></code></dd></dl>
+    <div class="survey-actions"><button id="receipt-download" class="secondary" type="button" data-s="downloadReceipt">Pobierz klucz JSON</button><button id="receipt-clear" class="secondary" type="button" data-s="clearReceipt" disabled>Usuń zapisaną kopię klucza</button><button id="new-case" class="secondary" type="button" data-s="newCase">Nowa sprawa / wyczyść formularz</button></div>
+    <p class="small" data-s="clearHelp">Najpierw pobierz klucz JSON i zachowaj go prywatnie. Kopię można wyczyścić po potwierdzeniu przyjęcia lub usunięcia zapisu, a także po ponownym otwarciu strony. Klucz aktywnej próby o nieznanym wyniku pozostaje chroniony. Wyczyszczenie nie usuwa zapisu na serwerze. Na wspólnym urządzeniu zamknij potem tę kartę.</p>
+    <p id="receipt-storage-status" class="small" role="status" aria-live="polite"></p>
+  </section>
+  <section class="section" aria-labelledby="delete-title">
+    <div class="section-head"><div><h2 id="delete-title" data-s="deleteTitle">Usuń wcześniejszy zapis</h2><p data-s="deleteInfo">Wpisz identyfikator i klucz, aby usunąć odpowiedzi oraz powiązany kontakt. Klucz usunięty z przeglądarki nie usuwa danych na serwerze.</p></div></div>
+    <form id="delete-form" class="delete-form" method="post" action="./" autocomplete="off" novalidate>
+      <div class="form-grid"><label for="delete-id"><span data-s="receiptId">Identyfikator zapisu</span><input id="delete-id" type="text" maxlength="36" spellcheck="false" autocapitalize="none" required></label><label for="delete-token"><span data-s="receiptToken">Prywatny klucz usunięcia</span><input id="delete-token" type="password" minlength="32" maxlength="100" autocomplete="off" required></label></div>
+      <button id="delete-submit" class="secondary" type="submit" disabled data-s="deleteSend">Usuń zapis</button>
+      <p id="delete-status" class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer><div class="brand-footer">RESIDENCE OBSERVATORY <span>/ POLSKA</span></div><p><span data-s="controller">Administrator danych:</span> Vitali Bibikov · <a href="mailto:support@pagefabrica.com">support@pagefabrica.com</a></p><a href="../privacy/" data-keep-lang data-s="privacy">Prywatność i usuwanie danych</a></footer>
+<noscript><p class="noscript">Ankieta wymaga JavaScript. Nie wysłano żadnych odpowiedzi. / Анкета патрабуе JavaScript. Адказы не адпраўленыя. / This survey requires JavaScript. No answers have been sent.</p></noscript>
+</body>
+</html>

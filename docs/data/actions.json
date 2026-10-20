@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-20",
+  "status": "research_draft_for_independent_review",
+  "actions": [
+    {
+      "id": "bank-document-request",
+      "authority": "Bank terms; Payment Services Act; AML Act",
+      "status": "general_practical_step",
+      "date": "2026-10-20",
+      "title": {"pl": "Ustal, co bank ograniczył", "be": "Высветліце, што абмежаваў банк", "en": "Establish what the bank restricted"},
+      "text": {
+        "pl": "Poproś bank o potwierdzenie zakresu ograniczenia, podstawy prawnej i umownej, brakujących dokumentów oraz sposobu przywrócenia dostępu. Zapytaj, czy możesz wypłacić pieniądze lub zlecić przelew w oddziale. Zachowaj komunikaty i potwierdzenia. Przekaż aktualny dokument tożsamości oraz dowody legalnego pobytu bezpiecznym kanałem banku. Niektórych informacji AML bank nie może ujawnić.",
+        "be": "Папрасіце банк пацвердзіць абсяг абмежавання, прававую і дагаворную падставу, якіх дакументаў не хапае і як аднавіць доступ. Удакладніце, ці можна зняць грошы або зрабіць перавод у аддзяленні. Захавайце паведамленні і пацвярджэнні. Перадайце дзейны дакумент асобы і доказы законнага побыту праз бяспечны канал банка. Некаторыя звесткі AML банк не мае права раскрываць.",
+        "en": "Ask the bank to confirm the restriction, its legal and contractual basis, missing documents and steps to restore access. Ask whether branch withdrawals or transfers remain available. Keep notices and receipts. Supply a current identity document and evidence of lawful residence through the bank's secure channel. Some AML information cannot be disclosed."
+      },
+      "source_ids": ["payments-act", "aml-act", "pko-expiry", "millennium-general", "pekao-current"],
+      "links": [{"label": "Payment Services Act: art. 41", "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf"}, {"label": "AML Act: arts 34, 37, 41, 54", "url": "https://eli.gov.pl/api/acts/DU/2025/644/text/U/D20250644Lj.pdf"}],
+      "limits": "This is a request for clarification, not a promise of immediate disclosure or restoration. A payment-instrument block, AML non-execution, asset freeze and judicial seizure have different legal bases. Do not ask respondents to send bank documents to the Observatory."
+    },
+    {
+      "id": "bank-complaint",
+      "authority": "Payment Services Act art. 15a; Financial Complaints Act arts 6–7; RF",
+      "status": "verified_deadlines_depend_on_subject",
+      "date": "2026-10-20",
+      "title": {"pl": "Złóż reklamację do banku", "be": "Падайце рэкламацыю ў банк", "en": "Complain to the bank"},
+      "text": {
+        "pl": "Opisz zdarzenie, daty, dokumenty przedstawione bankowi i oczekiwane rozwiązanie. Zachowaj dowód złożenia reklamacji. Dla reklamacji dotyczących praw i obowiązków z ustawy o usługach płatniczych termin odpowiedzi wynosi 15 dni roboczych, wyjątkowo do 35 dni roboczych po wyjaśnieniu opóźnienia. W pozostałych sprawach objętych ustawą reklamacyjną zwykle jest to 30 dni kalendarzowych, wyjątkowo do 60. Właściwy termin zależy od przedmiotu reklamacji.",
+        "be": "Апішыце падзею, даты, пададзеныя банку дакументы і жаданае рашэнне. Захавайце пацвярджэнне падачы рэкламацыі. Для скаргаў аб правах і абавязках паводле закона аб плацежных паслугах адказ належыць даць за 15 працоўных дзён, у выключных складаных выпадках — да 35 з тлумачэннем затрымкі. Для астатніх пытанняў паводле закона аб рэкламацыях звычайны тэрмін — 30 каляндарных дзён, выключны — да 60. Тэрмін залежыць ад прадмета скаргі.",
+        "en": "Describe the event, dates, documents supplied and the remedy sought. Keep proof of submission. Complaints about rights and duties under the Payment Services Act normally require a response within 15 business days, exceptionally up to 35 with an explanation. Other complaints covered by the financial complaints legislation normally allow 30 calendar days, exceptionally up to 60. The applicable deadline depends on the complaint's subject."
+      },
+      "source_ids": ["payments-act", "rf-act", "rf-electronic"],
+      "links": [{"label": "Art. 15a", "url": "https://eli.gov.pl/api/acts/DU/2026/623/text.pdf"}, {"label": "RF: current complaint routes and deadlines", "url": "https://rf.gov.pl/jak-zlozyc-reklamacje-do-banku-lub-ubezpieczyciela-wazne-zmiany-od-13-lutego-2026-r/"}, {"label": "Pekao complaint channels", "url": "https://www.pekao.com.pl/o-banku/reklamacje.html"}],
+      "limits": "The exceptional extension requires the statutory explanation and revised date; it is not an automatic extra allowance. No automatic unblocking or compensation is promised. Since 13.02.2026 electronic complaint channels are required under the amended general financial complaints regime. Use the bank's published channel; ordinary electronic submission need not have a qualified electronic signature."
+    },
+    {
+      "id": "bank-escalation",
+      "authority": "Rzecznik Finansowy; KNF; UOKiK",
+      "status": "verified_distinct_institutional_roles",
+      "date": "2026-10-20",
+      "title": {"pl": "Wybierz właściwą pomoc", "be": "Абярыце адпаведную дапамогу", "en": "Choose the appropriate assistance"},
+      "text": {
+        "pl": "Po odpowiedzi banku lub upływie terminu możesz zwrócić się do Rzecznika Finansowego o pomoc w indywidualnym sporze. Interwencja RF nie gwarantuje odblokowania konta ani odszkodowania. UKNF przyjmuje sygnały do celów nadzorczych; nie zastępuje sądu w indywidualnym sporze. UOKiK zajmuje się zbiorowymi interesami konsumentów. W indywidualnej sprawie może też pomóc miejski lub powiatowy rzecznik konsumentów.",
+        "be": "Пасля адказу банка або заканчэння тэрміну можна звярнуцца да Rzecznik Finansowy па дапамогу ў асабістай спрэчцы. Умяшанне RF не гарантуе разблакіроўкі або кампенсацыі. UKNF прымае сігналы для нагляду, але не замяняе суд у індывідуальнай спрэчцы. UOKiK абараняе калектыўныя інтарэсы спажыўцоў. У асабістай справе таксама можа дапамагчы гарадскі або павятовы абаронца спажыўцоў.",
+        "en": "After the bank responds or its deadline expires, you can ask the Financial Ombudsman (RF) for help with an individual dispute. RF intervention does not guarantee access or compensation. UKNF receives information for supervision and does not replace a court in an individual dispute. UOKiK protects collective consumer interests. A municipal or district consumer ombudsman may also help individually."
+      },
+      "source_ids": ["rf-electronic", "rf-help", "knf-assistance", "uokik-assistance"],
+      "links": [{"label": "RF: intervention and complaint prerequisite", "url": "https://rf.gov.pl/jak-zlozyc-reklamacje-do-banku-lub-ubezpieczyciela-wazne-zmiany-od-13-lutego-2026-r/"}, {"label": "KNF: where to seek help", "url": "https://www.knf.gov.pl/dla_konsumenta/gdzie_szukac_pomocy_w_przypadku_sporu_z_instytucja_finansowa"}, {"label": "UOKiK: assistance directory", "url": "https://www.uokik.gov.pl/public/pomoc-dla-konsumentow"}]
+    },
+    {
+      "id": "residence-file-status",
+      "authority": "Foreigners Act art. 112a; MOS amendment and commencement notice",
+      "status": "verified_conditional_deadline",
+      "date": "2026-10-20",
+      "title": {"pl": "Sprawdź etap sprawy pobytowej", "be": "Праверце этап справы аб побыце", "en": "Check the stage of your residence case"},
+      "text": {
+        "pl": "Zbierz potwierdzenie złożenia wniosku, wezwania, odpowiedzi i dowody uzupełnienia dokumentów. Ustal, czy chodzi o decyzję, odwołanie czy wydanie fizycznej karty. Bazowe 60 dni z art. 112a nie zawsze biegnie od wysłania wniosku: początek zależy od warunków ustawowych, a sprawy papierowe i nowe sprawy MOS mają przepisy przejściowe. Sam zapis formularza lub kod QR nie dowodzi spełnienia wszystkich warunków.",
+        "be": "Збярыце пацвярджэнне падачы заявы, запыты органа, адказы і доказы дадання дакументаў. Высветліце, ці гаворка пра рашэнне, абскарджанне або выдачу пластыкавай карты. Базавыя 60 дзён паводле арт. 112a не заўсёды адлічваюцца ад адпраўкі заявы: пачатак залежыць ад умоў закона, а для папяровых і новых спраў MOS дзейнічаюць пераходныя правілы. Захаваны фармуляр або QR-код самі па сабе не пацвярджаюць выканання ўсіх умоў.",
+        "en": "Collect the submission receipt, official requests, replies and proof of completing documents. Establish whether you are waiting for a decision, an appeal or a physical card. The baseline 60 days under Article 112a does not always run from sending the application: statutory conditions and transition rules for paper and new MOS cases matter. Saving a form or obtaining a QR code alone does not establish that every condition is met."
+      },
+      "source_ids": ["foreigners-act", "mos-amendment", "mos-commencement"],
+      "links": [{"label": "Foreigners Act: art. 112a", "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf"}, {"label": "MOS amendment: transition rules", "url": "https://eli.gov.pl/api/acts/DU/2025/1794/text.pdf"}, {"label": "MOS commencement notice", "url": "https://eli.gov.pl/api/acts/MP/2026/370/text.pdf"}]
+    },
+    {
+      "id": "residence-remedies",
+      "authority": "Special Act art. 100d; KPA art. 37; PPSA arts 52–54; NSA",
+      "status": "individual_legal_assessment_needed",
+      "date": "2026-10-20",
+      "title": {"pl": "Ponaglenie i skarga do WSA wymagają oceny", "be": "Ponaglenie і скарга ў WSA патрабуюць ацэнкі", "en": "Assess a formal reminder and a WSA complaint"},
+      "text": {
+        "pl": "Art. 100d do 04.03.2027 obejmuje określone postępowania wojewody o zezwolenia pobytowe i ogranicza zwykłe środki przeciw opóźnieniu. Nie obejmuje automatycznie każdej karty, odwołania lub dokumentu. W części spraw sądy odmówiły zastosowania przedłużeń; nie jest to ogólne uchylenie przepisu. Prawnik może ocenić ponaglenie i skargę na bezczynność lub przewlekłość. Zwykły e-mail z prośbą o informację nie zastępuje formalnego środka.",
+        "be": "Да 04.03.2027 арт. 100d ахоплівае пэўныя справы ваяводы аб дазволах на побыт і абмяжоўвае звычайныя сродкі супраць затрымкі. Ён не ахоплівае аўтаматычна любую карту, апеляцыю або дакумент. У частцы спраў суды не прымянілі падаўжэнні; гэта не агульная адмена нормы. Юрыст можа ацаніць ponaglenie і скаргу на бяздзейнасць або зацягванне. Звычайны ліст з просьбай пра інфармацыю не замяняе фармальнага сродку.",
+        "en": "Until 4 March 2027, Article 100d covers specified voivode residence-permit proceedings and limits ordinary remedies for delay. It does not automatically cover every card, appeal or document. Courts have disapplied extensions in some cases; this is not a general repeal. A lawyer can assess a formal reminder (ponaglenie) and an inactivity or excessive-delay complaint to WSA. An ordinary status email is not a substitute."
+      },
+      "source_ids": ["special-act", "special-extension", "nsa-100d", "rpo-100d", "kpa", "ppsa"],
+      "links": [{"label": "Special Act: art. 100d", "url": "https://eli.gov.pl/api/acts/DU/2026/1293/text.pdf"}, {"label": "2026 extension", "url": "https://eli.gov.pl/api/acts/DU/2026/203/text.pdf"}, {"label": "NSA II OSK 2038/25", "url": "https://orzeczenia.nsa.gov.pl/doc/953FE35D2F"}, {"label": "RPO/MSWiA correspondence", "url": "https://bip.brpo.gov.pl/pl/content/rpo-cudzoziemcy-postepowania-legalizacyjne-przewleklosc-mswia-odpowiedz"}],
+      "limits": "The closed list concerns the indicated voivode permit proceedings across nationalities. Ordinary physical-card issuance/replacement, a Polish foreigner travel document and appeals before Szef UdSC require their own legal analysis; special CUKR provisions must be checked separately. A WSA inactivity complaint ordinarily requires an earlier ponaglenie, is filed through the authority and does not guarantee an order, damages or costs recovery. Do not promise that any chronological wait automatically satisfies the legal prerequisites."
+    },
+    {
+      "id": "travel",
+      "authority": "UdSC/MOS official instructions; Foreigners Act",
+      "status": "verified_no_automatic_reentry",
+      "date": "2026-10-20",
+      "title": {"pl": "Sprawdź podróż i powrót przed wyjazdem", "be": "Праверце ўмовы паездкі і вяртання да выезду", "en": "Check travel and return before leaving"},
+      "text": {
+        "pl": "Legalne oczekiwanie na decyzję w Polsce nie daje samo w sobie prawa do podróży po Schengen ani ponownego wjazdu. Stempel lub potwierdzenie wniosku nie zastępują ważnej wizy lub innej podstawy wjazdu. Możliwość wyjazdu nie jest gwarancją powrotu. Przed zakupem podróży sprawdź warunki z urzędem, Strażą Graniczną lub prawnikiem. Wiza ani dokument podróży nie powstają automatycznie z powodu opóźnienia.",
+        "be": "Законнае чаканне рашэння ў Польшчы само па сабе не дае права падарожнічаць па Шэнгенскай зоне або зноў уехаць. Штамп ці пацвярджэнне заявы не замяняюць дзейную візу або іншую падставу ўезду. Магчымасць выехаць не гарантуе вяртання. Да аплаты паездкі праверце ўмовы ў органе, Памежнай службы або юрыста. Затрымка не стварае аўтаматычна візы або праязнога дакумента.",
+        "en": "Lawfully waiting for a decision in Poland does not itself authorise Schengen travel or re-entry. A stamp or application receipt does not replace a valid visa or another entry basis. Being able to leave does not guarantee return. Check conditions with the authority, Border Guard or a lawyer before booking. A delay does not automatically create a visa or travel document."
+      },
+      "source_ids": ["mos-instructions", "foreigners-act"],
+      "links": [{"label": "Official MOS instructions: travel limits", "url": "https://mos.cudzoziemcy.gov.pl/api/files/db/c48889c4-874b-42b1-a0d9-be499adfec03"}, {"label": "Foreigners Act", "url": "https://eli.gov.pl/api/acts/DU/2025/1079/text/U/D20251079Lj.pdf"}],
+      "limits": "Travel depends on nationality, passport, visa/permit, residence status, entry conditions and sometimes international-protection issues. This card cannot determine an individual's right to depart or return."
+    },
+    {
+      "id": "legal-help",
+      "authority": "Ministry of Justice; providers' own current information",
+      "status": "verified_directory_not_guaranteed_availability",
+      "date": "2026-10-20",
+      "title": {"pl": "Poszukaj bezpłatnej konsultacji", "be": "Знайдзіце бясплатную кансультацыю", "en": "Look for a free consultation"},
+      "text": {
+        "pl": "Publiczny system nieodpłatnej pomocy jest dostępny także dla cudzoziemców w Polsce; obowiązują warunki uprawnienia, m.in. oświadczenie o niemożności poniesienia kosztów. Sprawdź zapisy i język porady. Stowarzyszenie Interwencji Prawnej oferuje bezpłatne konsultacje migracyjne po umówieniu. Zakres, terminy i możliwość reprezentacji zależą od placówki; konsultacja nie gwarantuje przejęcia sprawy.",
+        "be": "Дзяржаўная сістэма бясплатнай прававой дапамогі даступная і замежнікам у Польшчы; дзейнічаюць умовы, у тым ліку заява аб немагчымасці аплаціць дапамогу. Праверце запіс і мову кансультацыі. Stowarzyszenie Interwencji Prawnej прапануе бясплатныя міграцыйныя кансультацыі па запісе. Абсяг, тэрміны і прадстаўніцтва залежаць ад установы; кансультацыя не гарантуе вядзення справы.",
+        "en": "Poland's public free legal-aid system also serves foreigners in Poland, subject to eligibility including a declaration that you cannot afford paid help. Check appointments and languages. The Association for Legal Intervention offers free migration consultations by appointment. Scope, availability and representation vary; a consultation does not guarantee that a provider will take over the case."
+      },
+      "source_ids": ["legal-aid", "legal-aid-rules", "sip-help"],
+      "links": [{"label": "Ministry of Justice: help for foreigners", "url": "https://www.gov.pl/web/nieodplatna-pomoc/pomoc-dla-cudzoziemcow."}, {"label": "Eligibility and appointments", "url": "https://www.gov.pl/web/nieodplatna-pomoc/npp"}, {"label": "Stowarzyszenie Interwencji Prawnej", "url": "https://www.interwencjaprawna.pl/potrzebujesz-pomocy/"}]
+    }
+  ],
+  "survey_privacy": {
+    "authority": "GDPR arts 5–7, 9–10, 13, 17, 25, 28, 32, 44 et seq.",
+    "date": "2026-10-20",
+    "status": "design_proposal_requires_controller_and_processing_details_before_collection",
+    "source_ids": ["gdpr"],
+    "links": [{"label": "GDPR", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}],
+    "public_draft": {
+      "pl": "Udział jest dobrowolny. E-mail jest opcjonalny: podaj go tylko, jeśli chcesz kontaktu w sprawie zgłoszenia. Nie wpisuj nazwiska, PESEL, numeru konta, sygnatury sprawy ani danych z dokumentów. Nie przesyłaj skanów. Przed wysłaniem przeczytaj informację o administratorze, celach, podstawie prawnej, odbiorcach, czasie przechowywania i swoich prawach. Zgłoszenia uczestników nie są reprezentatywną statystyką wszystkich migrantów.",
+      "be": "Удзел добраахвотны. E-mail неабавязковы: пакіньце яго толькі калі хочаце зваротнага кантакту наконт паведамлення. Не ўказвайце прозвішча, PESEL, нумар рахунку, нумар справы або даныя дакументаў. Не дасылайце сканы. Перад адпраўкай прачытайце, хто апрацоўвае даныя, з якой мэтай і на якой падставе, каму іх перадаюць, як доўга захоўваюць і якія ў вас правы. Адказы ўдзельнікаў не з'яўляюцца рэпрэзентатыўнай статыстыкай усіх мігрантаў.",
+      "en": "Participation is voluntary. Email is optional: provide it only if you want follow-up about your submission. Do not enter your name, PESEL, account number, case reference or identity-document details. Do not upload scans. Before submitting, read who controls the data, the purposes, legal basis, recipients, retention and your rights. Participant reports are not representative statistics for all migrants."
+    },
+    "email_contact_opt_in_if_consent_is_selected": {
+      "pl": "Chcę, aby skontaktowano się ze mną na podany e-mail wyłącznie w sprawie tego zgłoszenia. Mogę wycofać zgodę w sposób wskazany w informacji o prywatności.",
+      "be": "Хачу, каб са мной звязаліся праз указаны e-mail толькі наконт гэтага паведамлення. Магу адклікаць згоду спосабам, апісаным у інфармацыі аб прыватнасці.",
+      "en": "I want to be contacted at this email only about this submission. I can withdraw consent as described in the privacy notice."
+    },
+    "collection_gate": ["Identify the actual controller and contact; joint-controller roles if applicable. Do not invent a legal identity or use the repository owner as a proxy without confirmation.", "Specify separate purposes: aggregate research, optional follow-up and any publication of individual accounts. Choose and document an Article 6 legal basis for each; consent is not automatically the only valid basis or a blanket solution.", "If consent is used for follow-up, make it specific, freely given, informed, affirmative and separately optional, with an equally easy withdrawal route. Do not pre-tick or bundle newsletter, campaigning or publication consent.", "Set a concrete retention period or defensible criteria, deletion workflow and contact channel; disclose them before collection. Do not publish an unimplemented deletion promise or arbitrary retention period.", "Disclose recipients/processors, actual hosting/form provider, international transfers and safeguards where relevant, rights and UODO complaint route; identify which fields are optional and consequences of omission. A short UI note is not the complete Article 13 notice.", "Collect broad categories only where needed: region, permit stage, approximate month, bank, restriction type, documents requested and complaint outcome. Prefer structured fields to open text.", "Do not request names, exact addresses, birth dates, passport/residence-card numbers, PESEL, account numbers, case identifiers, scans or private correspondence. Prevent special-category and criminal-offence disclosures; avoid free text encouraging these details.", "Store optional email separately with tightly restricted access; do not put responses, emails, server logs or individual records in Git or public JSON. Use only disclosure-reviewed aggregates and avoid identifying small combinations.", "Audit hosting/form-provider IP and other logs. A survey with optional email or linkable technical data is not automatically anonymous. Pseudonymised data remains personal data.", "Implement transport/access security, processor agreements where needed, deletion and incident procedures. Do not activate a submission endpoint until these operational facts and the notice are ready."],
+    "legal_limits": "This is a privacy design checklist and proposed wording, not a completed privacy notice or an established Article 6 basis. It authorises no collection. Truly anonymised aggregates and identifiable raw responses require different treatment. Raw participant evidence is outside the public repository scope."
+  },
+  "publication_limits": ["All translations are drafts; retain conditions and source links in each language.", "These are general routes, not personalised legal advice or a promise of restoration, residence status, court success, free representation or travel permission.", "No complaint or request was sent and no survey data was collected during this research."]
+}

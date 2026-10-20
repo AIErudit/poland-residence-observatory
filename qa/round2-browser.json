@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-20T13:40:03+00:00",
+  "method": "CUA in-app browser; native controls and DOM observations; no real survey submission",
+  "viewports": [
+    320,
+    360,
+    1440
+  ],
+  "languages": [
+    "pl",
+    "be",
+    "en"
+  ],
+  "passed": [
+    "320px Belarusian and Polish main page fits viewport after heading fix",
+    "320px survey and English privacy fit viewport",
+    "360px office filtering and completed-case date calculation (31 calendar days)",
+    "1440px charts, source-linked tables and office URL",
+    "Office=PL-MZ, pending, bar controls persist through language changes and in share URL",
+    "Eurostat Belarus group has five distinct dated rows",
+    "Legacy lang=ru maps to be",
+    "Fact page switches locale; citation text includes URL, version and caveat; UI reports copy success",
+    "Source register32/1483; bank cards include Millennium, PKO BP, Pekao and sanctions separately",
+    "Turnstile script absent before deliberate activation; submit disabled before verification",
+    "No browser console errors observed"
+  ],
+  "limits": [
+    "Positive browser Turnstile to production insert not exercised; no CAPTCHA solved",
+    "Clipboard integration returned a stale provider clipboard read; citation DOM and success status checked, actual cross-application paste not independently established",
+    "Visual and interaction checks do not constitute a security audit"
+  ],
+  "screenshots_retained_outside_repository": [
+    "observatory-v1.1-preview.png"
+  ]
+}

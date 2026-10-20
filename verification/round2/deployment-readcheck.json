@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-20T13:42:03.625145+00:00",
+  "endpoint": "https://poland-residence-observatory-survey.cursedmessiah-1ec.workers.dev",
+  "status": "pass_readonly_scope",
+  "results": [
+    {
+      "name": "health",
+      "status": 200,
+      "public_body": {
+        "status": "ok",
+        "schema_version": 1,
+        "collection_enabled": true,
+        "privacy_version": "2026-10-20"
+      },
+      "passed": true
+    },
+    {
+      "name": "admin_without_authorization",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "name": "disallowed_preflight",
+      "status": 403,
+      "passed": true
+    }
+  ],
+  "no_survey_post_performed": true,
+  "no_database_mutation_requested": true,
+  "limits": [
+    "These checks independently confirm only public health and access rejection at this time.",
+    "Deployment source bytes, private binding/secret configuration, EU-jurisdiction and synthetic deletion checks are separately reported by the operator in qa/backend-deployment.json and qa/backend-live.json.",
+    "A successful real-browser Turnstile-to-insert journey with a real human is not established by this read-only check; no real personal response was submitted."
+  ],
+  "release_approval": false
+}

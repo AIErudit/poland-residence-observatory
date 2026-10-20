@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "as_of": "2026-10-20",
   "observations": [
     {
@@ -62937,7 +62937,7 @@
     {
       "id": "concluded_duration",
       "label": "Reported mean duration of concluded proceedings",
-      "description": "Reported days from submission to first-instance resolution, grouped by year of resolution. Calendar-versus-working-day convention is not independently established for every source. Unfinished applications do not enter this average; a legal deadline or median is not being measured. Source reporting may include discontinuance and leaving an application unexamined. A reported mean does not establish a legal violation."
+      "description": "Reported administrative duration of concluded proceedings, grouped by year of resolution. Endpoints are submission to first-instance resolution only where expressly defined by the source (including the UdSC letter of28.08.2026); the exact starting event is not established for MSWiA18089. Calendar-versus-working-day convention is not independently established for every source. Unfinished applications do not enter this average; a legal deadline or median is not being measured. Source reporting may include discontinuance and leaving an application unexamined. A reported mean does not establish a legal violation."
     },
     {
       "id": "pending_stock",

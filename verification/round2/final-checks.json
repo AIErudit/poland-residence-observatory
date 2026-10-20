@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-20T13:43:19.105580+00:00",
+  "status": "passed",
+  "python_unittest": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 24,
+    "passed": 24
+  },
+  "independent_backend": {
+    "command": "node --test verification/round2/backend-check.mjs",
+    "synthetic_checks": 14,
+    "passed": 14,
+    "default_report_mutation": false
+  },
+  "public_artifacts": "verification/round2/public-check.json",
+  "eurostat": "verification/round2/eurostat-check.json",
+  "source_numeric": "verification/round2/numeric-recheck.json",
+  "public_readonly_deployment": "verification/round2/deployment-readcheck.json",
+  "utf8_lf": {
+    "command": "python scripts/normalize_text.py --check",
+    "files_needing_changes": 0
+  },
+  "manifest_stable_fields_checked": {
+    "site_version": "1.1.0",
+    "languages": [
+      "pl",
+      "be",
+      "en"
+    ],
+    "context_observations": 15,
+    "version": "1.1.0",
+    "as_of": "2026-10-20",
+    "dataset_sha256": "8d1f0c6b081b75ebfa24aebbfaccf234f0c51755a7f1faa11c40f6010bd1b995",
+    "claim_ids": [
+      "silesia-658",
+      "fifteen-regions",
+      "pending-803223",
+      "courts-merits-2025"
+    ],
+    "observations": 1780,
+    "sources": 1483
+  },
+  "not_done": [
+    "Positive real-browser production Turnstile-to-insert journey",
+    "Independent private-credential configuration audit",
+    "Actual cross-application clipboard paste",
+    "Real personal response collection or publication"
+  ],
+  "operator_additional_configuration_check": {
+    "independently_accessed_with_private_credentials": false,
+    "provider_widget_readback_reported_by_operator": true,
+    "public_sitekey_matches": true,
+    "domains": [
+      "aierudit.github.io"
+    ],
+    "mode": "managed",
+    "positive_production_insert_observed": false
+  }
+}

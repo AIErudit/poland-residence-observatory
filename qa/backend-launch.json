@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-20T13:38:31+00:00",
+  "production_bad_token_http_status": 400,
+  "production_bad_token_error": "verification_failed",
+  "siteverify_invalid_response_error_codes": [
+    "invalid-input-response"
+  ],
+  "response_count_after_bad_token": 0,
+  "retention_cron": [
+    "17 3 * * *"
+  ],
+  "collection_enabled": true,
+  "real_personal_answers_submitted": 0,
+  "positive_production_turnstile_insert_tested": false
+}
